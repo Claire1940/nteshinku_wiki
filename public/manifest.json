@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "NTE Shinku Wiki - Build, Banner & Outfits",
+  "short_name": "NTE Shinku",
+  "description": "NTE Shinku Wiki tracks the S-Class Cosmos character Shinku from Neverness to Everness: banner dates, best build basics, Arc choices, outfits, team ideas, and event rewards.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#e62f67",
   "background_color": "#0a0a0a",
   "icons": [
     {
