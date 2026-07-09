@@ -10,14 +10,7 @@
       "twitterDescription": "NTE Shinku Wiki covers Shinku's banner, build basics, Arc choices, outfits, team ideas, and event rewards in Neverness to Everness."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
