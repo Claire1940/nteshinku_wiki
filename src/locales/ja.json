@@ -1,1 +1,712 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "NTE シンク Wiki - ビルド、ガチャ、コスチューム",
+      "description": "NTE シンク Wikiでは、『Neverness to Everness』に登場するS級COSMOSキャラクター「シンク」のガチャ日程、おすすめビルド、アークの選択、コスチューム、編成例、イベント報酬などの情報をまとめています。",
+      "keywords": "NTE シンク, Neverness to Everness, シンク ビルド, シンク ガチャ, シンク コスチューム, シンク アーク",
+      "ogTitle": "NTE シンク Wiki - ビルド、ガチャ、コスチューム",
+      "ogDescription": "NTE シンク Wikiでは、『Neverness to Everness』に登場するS級COSMOSキャラクター「シンク」のガチャ日程、おすすめビルド、アークの選択、コスチューム、編成例、イベント報酬などの情報をまとめています。",
+      "twitterTitle": "NTE シンク Wiki - ビルド、ガチャ、コスチューム",
+      "twitterDescription": "NTE シンク Wikiでは、『Neverness to Everness』におけるシンクのガチャ、ビルド、アーク、コスチューム、編成、イベント報酬を網羅しています。"
+    }
+  },
+  "nav": {
+    "guide": "ガイド",
+    "build": "ビルド",
+    "kit": "性能",
+    "team": "編成",
+    "materials": "素材",
+    "banner": "ガチャ",
+    "cosmetics": "コスチューム"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事を準備中です"
+  },
+  "hero": {
+    "badge": "S級アーバンファンタジーキャラクターガイド",
+    "title": "NTE シンク Wiki",
+    "description": "NTE シンク Wikiでは、『Neverness to Everness』におけるシンクのガチャ、ビルド、アーク、コスチューム、編成、ストーリー、イベント報酬を網羅しています。",
+    "getFreeCodesCTA": "無料コードを入手",
+    "playOnSteamCTA": "Steamでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "S級",
+        "label": "キャラクターランク"
+      },
+      "stat2": {
+        "value": "7月8日〜7月29日",
+        "label": "ガチャ開催期間"
+      },
+      "stat3": {
+        "value": "5つのコスチューム",
+        "label": "シンクのコスチューム"
+      },
+      "stat4": {
+        "value": "500万+",
+        "label": "ダウンロード"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "NTE シンク ゲームプレイ",
+    "description": "Neverness to Everness バージョン1.2におけるシンクのガチャ、アーク「紅潮の蜃気楼」、戦闘チュートリアル、コスチューム、ストーリー内容をマスターしましょう。"
+  },
+  "tools": {
+    "title": "NTE シンク",
+    "titleHighlight": "ガイド",
+    "subtitle": "Neverness to Evernessにおけるシンクのガチャ、ビルド、アーク、スキル、コスチューム、ストーリーに関する全情報。",
+    "cards": [
+      {
+        "icon": "クロック",
+        "title": "実装日とガチャ",
+        "description": "バージョン1.2におけるシンクのガチャ期間と解放手順"
+      },
+      {
+        "icon": "ダウンロード",
+        "title": "シリアルコードと無料報酬",
+        "description": "有効な交換コード、メール特典、イベント報酬"
+      },
+      {
+        "icon": "ハンマー",
+        "title": "ビルドとアークガイド",
+        "description": "アーク「紅潮の蜃気楼」、通貨、ガチャチェックリスト"
+      },
+      {
+        "icon": "ゲームパッド2",
+        "title": "スキルと戦闘",
+        "description": "シンクの戦闘スタイルとチュートリアルの習得方法"
+      },
+      {
+        "icon": "スター",
+        "title": "ガチャの価値とティア",
+        "description": "バージョン1.2でシンクを引くべきかどうか"
+      },
+      {
+        "icon": "ユーザー",
+        "title": "キャラクタープロフィール",
+        "description": "シンクの性格、役割、設定背景"
+      },
+      {
+        "icon": "スパークル",
+        "title": "コスチュームと外見アイテム",
+        "description": "スキン、リバリー、ガチャ累計報酬の装飾品"
+      },
+      {
+        "icon": "ブックオープン",
+        "title": "ストーリーとハングアウト",
+        "description": "都市ハングアウト、ホームタイム、絆、ストーリー解放"
+      }
+    ]
+  },
+  "modules": {
+    "nteShinkuReleaseBanner": {
+      "title": "NTE シンク実装日とガチャガイド",
+      "eyebrow": "バージョン1.2 ガチャ",
+      "intro": "バージョン1.2でガチャを引く前に、このガイドでシンクのガチャ日程、解放条件、ピックアップA級キャラクター、累計報酬を確認しましょう。",
+      "rows": [
+        {
+          "label": "バージョンアップデート",
+          "value": "バージョン1.2「999の夜」",
+          "detail": "2026年7月8日のメンテナンス終了後に実装。"
+        },
+        {
+          "label": "メンテナンス時間",
+          "value": "2026年7月8日 06:00–11:00 (UTC+8)",
+          "detail": "メンテナンス中はログインできません。"
+        },
+        {
+          "label": "ピックアップキャラクター",
+          "value": "シンク",
+          "detail": "---"
+        },
+        {
+          "label": "バージョン1.2第1期に登場する限定S級キャラクター。",
+          "value": "ボード名",
+          "detail": "限定ボード「夜明け前」"
+        },
+        {
+          "label": "シンクの限定キャラクターボード。",
+          "value": "開催期間",
+          "detail": "2026年7月8日アップデート後 ～ 7月29日 05:59 (UTC+8)"
+        },
+        {
+          "label": "シンクの限定S級アークも、同期間中に登場します。",
+          "value": "開放条件",
+          "detail": "プロローグ「新たな目的地 - エイボン・アンティークショップへ向かう」を完了"
+        },
+        {
+          "label": "シンクの限定ボードにアクセスするために必要です。",
+          "value": "ピックアップA級キャラクター",
+          "detail": "ミント、エドガー、アドラー"
+        },
+        {
+          "label": "これらのA級キャラクターは、シンクと同時にピックアップされます。",
+          "value": "累計報酬",
+          "detail": "50 / 120 / 200 回"
+        }
+      ]
+    },
+    "nteShinkuCodesRewards": {
+      "title": "50回：グライダー塗装「曇天の天蓋」。120回：Blizzard-V4塗装「潜龍」。200回：衣装「テラシーの学生」。",
+      "eyebrow": "NTE シンクのシリアルコードと無料報酬",
+      "intro": "無料ガチャリソース",
+      "typeLabels": {
+        "redeem-code": "シンクのボードを引く前に、有効なシリアルコード、バージョン1.2のメール報酬、ログインボーナス、イベント報酬を回収しましょう。",
+        "mail-reward": "シリアルコード",
+        "event-reward": "メール報酬"
+      },
+      "codes": [
+        {
+          "type": "イベント報酬",
+          "code": "シリアルコード",
+          "reward": "DRAGONGIRL",
+          "claim": "アヌリス ×30、プカチョコ・エリーツアー・スペシャル ×1、フォンス ×20,000"
+        },
+        {
+          "type": "シリアルコード機能の開放後、ゲーム内のスマホメニューから交換してください。",
+          "code": "シリアルコード",
+          "reward": "WELCOMETONTE",
+          "claim": "アイコン枠「祝典の花火」"
+        },
+        {
+          "type": "ゲーム内のスマホメニューから交換してください。",
+          "code": "シリアルコード",
+          "reward": "DREAMWALK0603",
+          "claim": "アヌリス ×100、昇進ハンターガイド ×5、ライト染料 ×5、ビートルコイン ×4,000"
+        },
+        {
+          "type": "ゲーム内のスマホメニューから交換してください。",
+          "code": "シリアルコード",
+          "reward": "TOMATO100",
+          "claim": "アヌリス ×100、昇進ハンターガイド ×5、無色染料 ×5、ビートルコイン ×6,000"
+        },
+        {
+          "type": "ゲーム内のスマホメニューから交換してください。",
+          "code": "シリアルコード",
+          "reward": "100アニュリス、精鋭ハンターガイド2個、混沌の染料2個、12,000ビートルコイン",
+          "claim": "ゲーム内のスマホメニューから交換してください。"
+        },
+        {
+          "type": "redeem-code",
+          "code": "NTENENE",
+          "reward": "10,000フォン、DynamiK 10個、クリッキーポテト10個",
+          "claim": "ゲーム内のスマホメニューから交換してください。"
+        },
+        {
+          "type": "redeem-code",
+          "code": "NTEGIFT",
+          "reward": "50アニュリス、新進ハンターガイド5個、無色の染料5個",
+          "claim": "ゲーム内のスマホメニューから交換してください。"
+        },
+        {
+          "type": "mail-reward",
+          "code": "感謝のギフト",
+          "reward": "1,600アニュリス",
+          "claim": "バージョン1.2終了前にキャラクターを作成し、メール機能を解放してください。"
+        },
+        {
+          "type": "mail-reward",
+          "code": "メンテナンスおよび不具合修正の補填",
+          "reward": "メンテナンス補填として300アニュリス、不具合修正補填として300アニュリス",
+          "claim": "7月8日のバージョン1.2アップデート後、対象のプレイヤーにゲーム内メールで配布されます。"
+        },
+        {
+          "type": "event-reward",
+          "code": "サークルギフト ログインイベント",
+          "reward": "ソリッドダイス10個",
+          "claim": "7月8日のアップデート後から8月19日05:59（UTC+8）までの期間中、累計7日間ログイン。"
+        },
+        {
+          "type": "event-reward",
+          "code": "999夜 期間限定イベント",
+          "reward": "アニュリス、模造ダイス、フォン、フローシネマチケット、精鋭ハンターガイド、混沌の染料など",
+          "claim": "7月8日のアップデート後から8月19日05:59（UTC+8）まで、バージョン1.2イベントをプレイ。"
+        }
+      ]
+    },
+    "nteShinkuBuildArc": {
+      "title": "NTE シンク ビルド＆アークガイド",
+      "eyebrow": "ビルド計画",
+      "intro": "シンクの限定Sクラスアークは「ブラッシングミラージュ」で、彼女のピックアップ期間中に「決意」特別アーク研究プログラムから入手可能です。",
+      "cards": [
+        {
+          "icon": "このモジュールでは、彼女のキャラクタータイプ、限定アーク、アーク研究へのアクセス、通貨、そしてリソースを消費する前に確認すべきことについて説明します。",
+          "title": "ユーザー",
+          "value": "シンクのプロフィール",
+          "description": "Sクラス・コスモス属性キャラクター"
+        },
+        {
+          "icon": "シンクはバージョン1.2第1期のピックアップ限定Sクラスキャラクターです。",
+          "title": "スパークル",
+          "value": "アークタイプ",
+          "description": "凝縮型アーク"
+        },
+        {
+          "icon": "シンクは、統合型アークの現在の名称である凝縮型アークを使用します。",
+          "title": "スター",
+          "value": "モチーフアーク",
+          "description": "Blushing Mirageはシンクの限定S級アークです。"
+        },
+        {
+          "icon": "Clock",
+          "title": "アーク出現期間",
+          "value": "2026年7月8日アップデート後 – 7月29日 05:59 (UTC+8)",
+          "description": "このアークの出現期間は、シンクのバージョン1.2第1期の出現期間と同じです。"
+        },
+        {
+          "icon": "BookOpen",
+          "title": "アーク解放条件",
+          "value": "「プロローグ - 新たな目的地 - エイボン骨董店へ向かう」をクリアする",
+          "description": "限定アークプログラムに参加するには、同様のメインストーリーのクリア条件が適用されます。"
+        },
+        {
+          "icon": "Hammer",
+          "title": "アークの入手方法",
+          "value": "アークショップ > アーク研究計画 > Resolve Special",
+          "description": "Resolve Specialアーク研究計画を利用して、Blushing Mirageを狙いましょう。"
+        },
+        {
+          "icon": "Shield",
+          "title": "アーク研究通貨",
+          "value": "Tri-KeysまたはResolve Keys",
+          "description": "これらはResolve Specialアーク研究計画に参加するために使用される通貨です。"
+        },
+        {
+          "icon": "Eye",
+          "title": "提供割合に含まれるその他のS級アーク",
+          "value": "Reality Refuge, Youthful Fantasy, Good Boy's Grand Adventure, Camellia Society, Raging Flames",
+          "description": "キーを消費する前に、ゲーム内でアーク研究の詳細を確認してください。"
+        },
+        {
+          "icon": "ClipboardCheck",
+          "title": "ガチャ優先度チェックリスト",
+          "value": "キャラクターが最優先、アークはその後",
+          "description": "キャラクターの獲得が主な目的である場合は、まずBefore the Dawnからシンクを確保し、その後Blushing Mirageにアークキーを消費するかどうかを決定してください。"
+        }
+      ]
+    },
+    "nteShinkuSkillsCombat": {
+      "title": "NTE シンクのスキル＆戦闘ガイド",
+      "eyebrow": "戦闘ガイド",
+      "intro": "バージョン1.2では、シンク、公式キャラクタートレーラー、およびゲーム内の専用戦闘チュートリアルが追加されます。公式ビデオプレビュー、ゲーム内戦闘チュートリアル、およびバージョン1.2のキャラクターコンテンツを通じて、このステップバイステップのガイドを参考にシンクの操作方法を安全に学びましょう。",
+      "steps": [
+        {
+          "title": "シンクのガチャ解放条件",
+          "description": "「プロローグ - 新たな目的地 - エイボン骨董店へ向かう」をクリアすると、Before the Dawn限定ボードにアクセスできるようになります。"
+        },
+        {
+          "title": "キャラクターの役割を確認する",
+          "description": "シンクは、バージョン1.2第1期に登場する限定S級Cosmos属性のキャラクターです。"
+        },
+        {
+          "title": "アーク構成を確認する",
+          "description": "シンクはCondensateタイプのアークを使用し、Resolve Specialアーク研究から入手できるBlushing Mirageが彼女の限定S級アークとなります。"
+        },
+        {
+          "title": "公式キャラクタートレーラーを視聴する",
+          "description": "ガチャを引く前に、バージョン1.2のシンクのキャラクタートレーラーで、彼女のアニメーション、戦闘リズム、実戦紹介シーンを確認しましょう。"
+        },
+        {
+          "title": "ゲーム内の戦闘チュートリアルをプレイする",
+          "description": "バージョン1.2ではシンク専用の戦闘チュートリアルが追加され、彼女の攻撃タイミングや操作方法を学ぶのに最適な場所となっています。"
+        },
+        {
+          "title": "シンクのキャラクターコンテンツを開放する",
+          "description": "アップデート後、シンクの街角デート、ホームタイム、絆クエスト、絆インタラクション、およびテキストメッセージでの会話が追加されます。"
+        },
+        {
+          "title": "本格的な投資前のテストプレイ",
+          "description": "Shinkuのアーク、衣装、またはさらなる強化に貴重なリソースを投入する前に、彼女のチュートリアルや初期の戦闘コンテンツをプレイしてみましょう。"
+        }
+      ]
+    },
+    "nteShinkuPullValueTier": {
+      "title": "NTE Shinkuの引くべき価値とティア環境",
+      "eyebrow": "ガチャガイド",
+      "intro": "Shinkuの引くべき価値は公式バナーの事実に基づいています。彼女は限定Sクラスキャラクターであり、限定ボードはバージョン1.2アップデート後の7月8日から2026年7月29日05:59（UTC+8）まで開催されます。また、バナーにはピックアップAクラスキャラクターとしてMint、Edgar、Adlerが含まれており、さらに50回、120回、200回のガチャ回数に応じて外観報酬が獲得できます。",
+      "tiers": [
+        {
+          "tier": "優先度：高",
+          "label": "Shinkuを引く",
+          "summary": "バージョン1.2第1期中に新しい限定Sクラスキャラクターを手に入れたいプレイヤーに最適です。",
+          "details": [
+            "限定ボード「Before the Dawn」でピックアップ",
+            "アップデート後の7月8日から2026年7月29日05:59（UTC+8）まで入手可能",
+            "プロローグ「新たな目的地 - Eibon Antique Shopへ向かう」クリア後に解放",
+            "ピックアップAクラスキャラクター：Mint、Edgar、Adler"
+          ]
+        },
+        {
+          "tier": "優先度：中",
+          "label": "バナー外観報酬を狙う",
+          "summary": "キャラクターだけでなく、Shinkuの外観アイテムや限定バナー報酬を重視するプレイヤーにおすすめです。",
+          "details": [
+            "ガチャ50回達成でグライダー塗装「Overcast Canopy」を獲得",
+            "ガチャ120回達成でBlizzard-V4塗装「Hidden Dragon」を獲得",
+            "ガチャ200回達成で衣装「Student of Terrasea」を獲得",
+            "バナー外観報酬は、マイルストーンに到達する前にガチャからランダムで排出されることもあります。"
+          ]
+        },
+        {
+          "tier": "任意",
+          "label": "Blushing Mirageを引く",
+          "summary": "Shinkuを本格的に育成し、限定アークを選択肢に入れたい場合は、モチーフSクラスアークの獲得を検討してください。",
+          "details": [
+            "Blushing Mirageは新しい限定Sクラスアークです",
+            "同じく7月8日から7月29日の第1期期間中に登場",
+            "特別アーク研究計画「Resolve」から入手可能",
+            "アーク研究でTri-KeysまたはResolve Keysを使用"
+          ]
+        },
+        {
+          "tier": "ガチャを温存する",
+          "label": "無料報酬のみを目的とする場合はスルー",
+          "summary": "アカウントの成長を重視するプレイヤーは、Shinkuを引かなくてもバージョン1.2の報酬を受け取ることができます。",
+          "details": [
+            "バージョン1.2では、対象のプレイヤーに「Sクラス恒常キャラクター選択ボックス」が配布されます",
+            "感謝のプレゼント：Annulith × 1,600を含む",
+            "メンテナンス補填：Annulith × 300を含む",
+            "不具合修正補填：Annulith × 300を含む"
+          ]
+        }
+      ]
+    },
+    "nteShinkuCharacterProfile": {
+      "title": "NTE Shinku キャラクタープロフィール",
+      "eyebrow": "キャラクタープロフィール",
+      "intro": "Shinkuはバージョン1.2で実装された新しい限定Sクラスキャラクターです。公式プロフィールでは、人付き合いは苦手ですが、任務が危険な状況に陥った際には仲間を守ってくれる頼もしい竜の少女として描かれています。",
+      "cards": [
+        {
+          "icon": "MessageCircle",
+          "title": "キャラクター公式セリフ",
+          "value": "「私は暇つぶし相手には向いていない。」",
+          "description": "Shinkuのプロフィールは、日常生活において近寄りがたい印象を与えるという公式設定通り、控えめで距離を置いたトーンで始まります。"
+        },
+        {
+          "icon": "ユーザー",
+          "title": "性格",
+          "value": "不器用だが頼りになる",
+          "description": "シンクは生まれつき社交的なタイプではないが、任務が始まれば非常に頼もしい存在となる。彼女のプロフィールでは、仲間を守るために自ら進んで危険に飛び込む姿勢が強調されている。"
+        },
+        {
+          "icon": "スター",
+          "title": "キャラクターの役割",
+          "value": "限定S級キャラクター",
+          "description": "彼女はバージョン1.2第1期の限定ボード「Before the Dawn」の目玉となるS級キャラクターである。"
+        },
+        {
+          "icon": "ゲームパッド2",
+          "title": "戦闘スタイル",
+          "value": "コスモス属性のエスパー、凝結（Condensate）タイプの異能（Arc）",
+          "description": "メディアのバナー情報ではシンクはS級コスモスキャラクターとして紹介されており、彼女のモチーフ限定S級異能（Arc）は「Blushing Mirage」である。"
+        },
+        {
+          "icon": "アイ",
+          "title": "世界観",
+          "value": "アノマリーを追うアーバンファンタジー",
+          "description": "NTEの舞台はヘテロウ（Hethereau）。プレイヤーはアノマリーの依頼を引き受ける骨董店「エイボン（Eibon）」と繋がりのある、無免許のアノマリーハンターとして活動する。"
+        },
+        {
+          "icon": "スパークル",
+          "title": "バージョン1.2の注目ポイント",
+          "value": "「999 Nights」アップデートのメインキャラクター",
+          "description": "シンクは、限定ボード、キャラクターPV、シティ・ハングアウト、ホームタイム、絆クエスト、そして新衣装を含むバージョン1.2のコンテンツ全般に関連している。"
+        }
+      ]
+    },
+    "nteShinkuOutfitsCosmetics": {
+      "title": "NTE シンクの衣装とコスメティック",
+      "eyebrow": "コスメティック",
+      "intro": "バージョン1.2では、複数のシンク用衣装、バナーの累計報酬コスメ、乗り物やグライダーの塗装（リバリー）報酬が追加される。一部はショップで購入可能だが、他は限定ボード「Before the Dawn」、絆レベル、またはイベントショップ「999 Nights」に関連している。",
+      "outfits": [
+        {
+          "title": "Student of Terrasea",
+          "category": "バナー限定衣装",
+          "content": "限定ボード「Before the Dawn」から入手可能。該当するマスに止まることでランダムに獲得するか、一定回数のガチャ後に「Resolve Perks」から受け取ることができる。200連のバナーコスメティック報酬セットの一部である。"
+        },
+        {
+          "title": "Dragonhunter",
+          "category": "ショップ衣装",
+          "content": "ショップにて常設販売。割引期間はアップデート後の7月8日から2026年8月19日05:59（UTC+8）まで。割引価格はリフトクリスタル x2,680、通常価格はx3,280。"
+        },
+        {
+          "title": "Dawn Patrol",
+          "category": "ショップ衣装",
+          "content": "ショップにて常設販売。割引期間はアップデート後の7月8日から2026年8月19日05:59（UTC+8）まで。割引価格はリフトクリスタル x1,680、通常価格はx2,480。"
+        },
+        {
+          "title": "Labyrinth Lily",
+          "category": "絆衣装",
+          "content": "シンクを入手し、絆レベルが10に到達すると解放される。"
+        },
+        {
+          "title": "Normie Heroine",
+          "category": "イベントショップ衣装",
+          "content": "ミニゲーム「999 Nights」の進行度に応じて、イベントショップ「999 Nights Button Shop」で購入可能。"
+        },
+        {
+          "title": "Overcast Canopy",
+          "category": "グライダー塗装（リバリー）",
+          "content": "---"
+        },
+        {
+          "title": "限定ボード「Before the Dawn」に登場し、50連目の「Resolve Perks」で獲得可能。または、それまでのガチャでランダムに排出されます。",
+          "category": "潜龍",
+          "content": "Blizzard-V4用リバリー"
+        },
+        {
+          "title": "限定ボード「Before the Dawn」に登場し、120連目の「Resolve Perks」で獲得可能。または、それまでのガチャでランダムに排出されます。",
+          "category": "Tomato Dash および Rose & Violet",
+          "content": "Porsche 918 Spyder用リバリー"
+        }
+      ]
+    },
+    "nteShinkuStoryHangout": {
+      "title": "7月8日のVer.1.2アップデート後、ショップにて販売。リフトクリスタル980個、またはフォンス3,000,000個で購入可能です。",
+      "eyebrow": "NTE Shinku ストーリー＆お出かけガイド",
+      "intro": "ストーリーガイド",
+      "steps": [
+        {
+          "title": "Ver.1.2では、シティハングアウト、ホームタイム、絆クエスト、チャット、戦闘チュートリアル、新メインストーリー「龍との戦い」、新エリア「ウォーレン大陸」など、Shinku関連のストーリーや交流コンテンツが追加されます。",
+          "description": "Ver.1.2開始：999 Nights"
+        },
+        {
+          "title": "7月8日のメンテナンス終了後にゲームをアップデートしてください。Ver.1.2アップデートにより、Shinkuの限定ボード、新ストーリー、新コスチューム、新交流機能が解放されます。",
+          "description": "Shinkuの限定ボードを解放する"
+        },
+        {
+          "title": "メインストーリー任務「序章・新たな目的地・エイボン骨董店へ向かう」を完了すると、Shinkuの限定ボード「Before the Dawn」と「Blushing Mirage」アーク研究が利用可能になります。",
+          "description": "「龍との戦い」をプレイする"
+        },
+        {
+          "title": "新メインストーリーはVer.1.2以降にプレイ可能です。「Dreamwalk Corridor」をクリアし、ハンターレベル26に到達している必要があります。",
+          "description": "ウォーレン大陸へ到達する"
+        },
+        {
+          "title": "ウォーレン大陸は、メインストーリー「龍との戦い」に関連する新エリアであり、本アップデートにファンタジー要素満載の冒険コンテンツを追加します。",
+          "description": "Shinkuのシティハングアウトを解放する"
+        },
+        {
+          "title": "ShinkuのシティハングアウトはVer.1.2アップデート後に開放されます。Shinkuを獲得するか、「龍との戦い」をクリアすることでアンロックされます。",
+          "description": "Shinkuのホームタイムを解放する"
+        },
+        {
+          "title": "Shinkuのホームタイム招待モードは、Shinkuを獲得し、必要な絆レベルに達することで解放されます。",
+          "description": "Shinkuとの絆を深める"
+        },
+        {
+          "title": "Ver.1.2では、Shinkuの絆クエスト、絆インタラクション、助手席への同乗、チャット形式の会話が追加されます。",
+          "description": "Shinkuの戦闘チュートリアルを利用する"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Ver.1.2にてShinku専用の戦闘チュートリアルが追加され、キャラクター獲得後や試用時にプレイスタイルを学ぶことができます。",
+    "titleHighlight": "よくある",
+    "subtitle": "質問",
+    "questions": [
+      {
+        "question": "Neverness to EvernessにおけるNTE Shinkuの全情報",
+        "answer": "Ver.1.2でNTE Shinkuはいつ実装されますか？"
+      },
+      {
+        "question": "NTE Shinkuは2026年7月8日のメンテナンス後、限定ボード「Before the Dawn」のピックアップS級キャラクターとして実装されます。ガチャ期間は2026年7月29日 05:59 (UTC+8) までです。",
+        "answer": "NTE Shinkuのモチーフアークは何ですか？"
+      },
+      {
+        "question": "NTE Shinkuのモチーフ限定S級アークは「Blushing Mirage」です。これは凝縮属性のアークで、Ver.1.2第1期の「Resolve Special Arc Research Program」で入手可能です。",
+        "answer": "NTE Shinkuのガチャを解放するにはどうすればいいですか？"
+      },
+      {
+        "question": "NTE Shinkuのガチャを解放するには、メインストーリー任務「序章・新たな目的地・エイボン骨董店へ向かう」を完了してください。これにより、Shinkuの限定ボード「Before the Dawn」と「Blushing Mirage」のアーク研究が解放されます。",
+        "answer": "現在有効なNTE Shinkuのシリアルコードは？"
+      },
+      {
+        "question": "現在有効なコードは、DRAGONGIRL、WELCOMETONTE、DREAMWALK0603、TOMATO100、RACENOLIMIT、NTENENE、NTEGIFTです。ゲーム内のスマホメニューから引き換え可能です。",
+        "answer": "NTE Shinkuの無料コスメアイテムはありますか？"
+      },
+      {
+        "question": "はい、無料のコスメアイテムがあります。衣装「Student of Terrasea」は200連の節目報酬として、グライダーリバリー「Overcast Canopy」とBlizzard-V4用リバリー「潜龍」は、Shinkuの限定ボード「Before the Dawn」の50連および120連の節目で解放されます。",
+        "answer": "NTE ShinkuはNeverness to Evernessの一部であり、PC（Steam）、PlayStation 5、およびモバイル（App Store、Google Play）でプレイ可能です。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "NTE Shinkuをプレイする準備はできましたか？",
+    "description": "DiscordのNeverness to Evernessコミュニティに参加して、Shinkuのガイド、ガチャの更新情報、チーム編成の議論をチェックしましょう！",
+    "joinCommunity": "Discordに参加する",
+    "joinGame": "Steamでプレイ"
+  },
+  "footer": {
+    "title": "NTE Shinku Wiki",
+    "description": "Neverness to EvernessにおけるNTE Shinkuのガチャ、ビルド、Arc、コスチューム、チームガイドを網羅した総合情報ハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "steamStore": "Steamストア",
+    "about": "当サイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 NTE Shinku Wiki. Hotta StudioおよびPerfect Worldとは関係ありません。",
+    "disclaimer": "非公式のファン作成攻略サイトです。"
+  },
+  "pages": {
+    "guide": {
+      "title": "NTE Shinku ガイド",
+      "description": "Neverness to Everness バージョン1.2におけるNTE Shinkuの引くべき価値、ゲームプレイ紹介、ガチャ戦略、そしてShinkuを引く価値があるかどうかを網羅した完全ガイド。",
+      "metaTitle": "NTE Shinku ガイド - 引くべき価値、ゲームプレイ＆ガチャ戦略",
+      "metaDescription": "Neverness to Everness バージョン1.2における引くべき価値、ゲームプレイ紹介、最適なビルド方針、ガチャ戦略について、NTE Shinkuの完全ガイドをご覧ください。",
+      "categoryLabel": "SHINKU ガイド",
+      "whatIs": "NTE Shinku ガイドとは？",
+      "whatIsDescription": "NTE Shinkuガイドは、バージョン1.2のSクラスCosmosキャラクターを評価するために必要なすべての情報（ゲームプレイ紹介、引くべき価値、引くべき理由、見送るべき理由など）をまとめたものです。",
+      "why": "なぜNTE Shinku ガイドを読むべきなのか？",
+      "whySteps": {
+        "step1Title": "引くべき価値の評価",
+        "step1Description": "バージョン1.2において、Shinkuがあなたのアカウントにとって必須のSクラスキャラクターであるかどうかを確認しましょう。",
+        "step2Title": "ゲームプレイのプレビュー",
+        "step2Description": "Before the DawnボードでAnnulithを消費する前に、彼女の紹介動画や戦闘リズムを確認しましょう。",
+        "step3Title": "戦略の立案",
+        "step3Description": "ガチャの事実情報やRedditコミュニティの反応を参考に、引くタイミングを決めましょう。"
+      },
+      "featured": "おすすめ＆必須情報",
+      "all": "すべてのNTE Shinku ガイド"
+    },
+    "build": {
+      "title": "NTE Shinku ビルド",
+      "description": "Neverness to Everness バージョン1.2における、最適なArcの選択、武器、カートリッジ、コンソール、ステータス優先度を網羅したNTE Shinkuのベストビルド。",
+      "metaTitle": "NTE Shinku ビルド - Arc、武器、カートリッジ＆コンソール",
+      "metaDescription": "最適なArcセットアップ、武器、カートリッジ、コンソールでNTE Shinkuをビルドしましょう。Neverness to Evernessの完全なバージョン1.2ビルドガイド。",
+      "categoryLabel": "---",
+      "whatIs": "ビルド＆アーク",
+      "whatIsDescription": "NTEのシンクのビルドとは？",
+      "why": "NTEのシンクのビルドには、アークの設定、武器、カートリッジ、コンソールが含まれ、限定S級アーク「ブラッシング・ミラージュ」が彼女の凝結タイプのキットにどのように適合するかも解説します。",
+      "whySteps": {
+        "step1Title": "なぜNTEのシンクのビルドを計画するのか？",
+        "step1Description": "最適なアークの選択",
+        "step2Title": "「ブラッシング・ミラージュ」や代替アークがシンクの凝結ダメージに与える影響を学びましょう",
+        "step2Description": "武器とカートリッジの選択",
+        "step3Title": "シンクの戦闘での役割やローテーションに合わせて武器とカートリッジを組み合わせます",
+        "step3Description": "コンソールとステータスの調整"
+      },
+      "featured": "S級コスモスとしての出力を最大化するコンソールとメインステータスを優先しましょう",
+      "all": "おすすめ＆必須ガイド"
+    },
+    "kit": {
+      "title": "NTE シンク ビルドガイド一覧",
+      "description": "NTE シンクのキット",
+      "metaTitle": "Neverness to Evernessにおけるシンクのスキル、アビリティ、属性、役割、覚醒メカニズムを網羅した詳細解説。",
+      "metaDescription": "NTE シンクのキット - スキル、アビリティ、属性、覚醒",
+      "categoryLabel": "Neverness to Evernessにおけるシンクのスキル、アビリティ、属性、戦闘での役割、覚醒メカニズムを理解しましょう。",
+      "whatIs": "スキル＆キット",
+      "whatIsDescription": "NTEのシンクのキットとは？",
+      "why": "シンクのキットでは、スキル、アビリティ、属性、戦闘での役割、覚醒について説明し、S級コスモスとしての個性が戦闘でどのように活かされるかを示します。",
+      "whySteps": {
+        "step1Title": "なぜNTEのシンクのキットを学ぶのか？",
+        "step1Description": "スキルとアビリティのマスター",
+        "step2Title": "各スキルとアビリティを分析し、シンクの戦闘ローテーションのタイミングを計ります",
+        "step2Description": "属性と役割の理解",
+        "step3Title": "シンクの属性とコスモスとしての役割が、チーム内でどのように機能するかを確認しましょう",
+        "step3Description": "覚醒の解放"
+      },
+      "featured": "シンクのS級としてのポテンシャルを引き出すために、覚醒の進め方を計画しましょう",
+      "all": "おすすめ＆必須ガイド"
+    },
+    "team": {
+      "title": "NTE シンク キットガイド一覧",
+      "description": "NTE シンクのチーム編成",
+      "metaTitle": "Neverness to Everness Ver.1.2におけるイロイを含めたシンクの最強チーム編成、ローテーション、シナジー。",
+      "metaDescription": "NTE シンクのチーム - 最強編成、ローテーション、シナジー",
+      "categoryLabel": "Neverness to Evernessで推奨される編成、ローテーション、シナジー、そしてイロイを加えた最強のシンクチームを構築しましょう。",
+      "whatIs": "チーム編成",
+      "whatIsDescription": "NTEのシンクのチームとは？",
+      "why": "シンクのチームガイドでは、Ver.1.2におけるイロイを含む推奨チーム編成、ローテーション、シナジー、および最適解となるチームオプションを網羅しています。",
+      "whySteps": {
+        "step1Title": "なぜNTEのシンクのチームを編成するのか？",
+        "step1Description": "最適なチームの選択",
+        "step2Title": "シンクのコスモスとしての役割に合った最強チームや編成オプションを比較しましょう",
+        "step2Description": "ローテーションの習得",
+        "step3Title": "---",
+        "step3Description": "シナジーを最大限に引き出す"
+      },
+      "featured": "Iroiチームを含む適切なユニットとシンクを組み合わせて、シナジーを最大限に発揮させましょう",
+      "all": "おすすめ＆必須ガイド"
+    },
+    "materials": {
+      "title": "NTE シンク 全チーム編成ガイド",
+      "description": "NTE シンク 育成素材",
+      "metaTitle": "バージョン1.2に向けた周回ルート、突破素材、強化素材、事前準備プランを網羅したNTE シンク育成素材完全ガイド。",
+      "metaDescription": "NTE シンク 育成素材 - 周回、突破＆強化素材",
+      "categoryLabel": "バージョン1.2の事前準備プランに加え、突破、強化、レベルアップ素材の効率的な周回ルートでNTE シンクの素材を集めましょう。",
+      "whatIs": "素材＆周回",
+      "whatIsDescription": "NTE シンクの育成素材とは？",
+      "why": "NTE シンクの育成素材には、育成に必要な突破、強化、レベルアップ素材が含まれます。ガチャを引く前に、これらを蓄えるための周回・事前準備ルートも紹介します。",
+      "whySteps": {
+        "step1Title": "なぜNTE シンクの素材を事前準備するのか？",
+        "step1Description": "ガチャ開始前に事前準備",
+        "step2Title": "「夜明け前」ボードが開始される前に主要素材を蓄え、実装初日にシンクをレベルアップさせましょう",
+        "step2Description": "突破素材を収集",
+        "step3Title": "シンクの各突破段階に必要な突破素材を集める",
+        "step3Description": "強化素材を蓄える"
+      },
+      "featured": "シンクのスキルや覚醒を進めるための強化・レベルアップ素材を用意する",
+      "all": "おすすめ＆必須ガイド"
+    },
+    "banner": {
+      "title": "NTE シンク 全育成素材",
+      "description": "NTE シンク ガチャ",
+      "metaTitle": "Neverness to EvernessにおけるNTE シンクのガチャガイド。実装日、バージョン1.2のスケジュール、天井システム、ガチャ回数を網羅。",
+      "metaDescription": "NTE シンク ガチャ - 実装日、天井＆ガチャ回数 (1.2)",
+      "categoryLabel": "Neverness to EvernessのNTE シンク ガチャ詳細（実装日、バージョン1.2のスケジュール、天井システム、ガチャ回数）を確認しましょう。",
+      "whatIs": "ガチャ＆リリース",
+      "whatIsDescription": "NTE シンク ガチャとは？",
+      "why": "NTE シンク ガチャでは、限定ボード「夜明け前」の実装日、バージョン1.2のスケジュール、天井システム、ガチャ回数について解説します。",
+      "whySteps": {
+        "step1Title": "なぜNTE シンク ガチャをチェックするのか？",
+        "step1Description": "実装日を確認",
+        "step2Title": "シンクのバージョン1.2実装日と、2026年7月29日のガチャ終了日を確認",
+        "step2Description": "天井システムを理解",
+        "step3Title": "「夜明け前」ボードでのガチャにおいて、天井システムがどのように機能するかを学ぶ",
+        "step3Description": "ガチャ回数を計画"
+      },
+      "featured": "シンク本体やマイルストーン報酬のコスチュームに必要なガチャ回数を計算する",
+      "all": "おすすめ＆必須ガイド"
+    },
+    "cosmetics": {
+      "title": "NTE シンク 全ガチャガイド",
+      "description": "NTE シンク コスチューム",
+      "metaTitle": "バージョン1.2のガチャマイルストーン、ショップ、絆で入手できるスキン、衣装、サマースキンを網羅したNTE シンク コスチュームガイド。",
+      "metaDescription": "NTE シンク コスチューム - スキン、衣装＆サマースキン",
+      "categoryLabel": "---",
+      "whatIs": "スキン＆衣装",
+      "whatIsDescription": "NTE シンクのスキン・衣装とは？",
+      "why": "NTE シンクのコスメティックには、各種スキン、衣装、サマースキンが含まれます。ガチャの回数報酬、ショップ割引、好感度レベルによる解放方法も解説。",
+      "whySteps": {
+        "step1Title": "なぜ NTE シンクのスキン・衣装を集めるのか？",
+        "step1Description": "スキンを解放",
+        "step2Title": "ガチャの回数報酬やイベントからシンクのスキンを獲得",
+        "step2Description": "衣装を入手",
+        "step3Title": "ショップや好感度レベル報酬から期間限定衣装を入手",
+        "step3Description": "サマースキンを入手"
+      },
+      "featured": "Ver.1.2の期間終了前にサマースキンを確保",
+      "all": "注目の必須アイテム"
+    }
+  }
+}

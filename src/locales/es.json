@@ -1,1 +1,712 @@
-{}
+{
+  "seo": {
+    "home": {
+      "title": "Wiki de NTE Shinku - Build, Banner y Atuendos",
+      "description": "La Wiki de NTE Shinku sigue al personaje de clase S COSMOS Shinku de Neverness to Everness: fechas del banner, conceptos básicos de la mejor build, opciones de Arc, atuendos, ideas de equipos y recompensas de eventos para los jugadores.",
+      "keywords": "NTE Shinku, Neverness to Everness, Shinku build, banner de Shinku, atuendos de Shinku, Arc de Shinku",
+      "ogTitle": "Wiki de NTE Shinku - Build, Banner y Atuendos",
+      "ogDescription": "La Wiki de NTE Shinku sigue al personaje de clase S COSMOS Shinku de Neverness to Everness: fechas del banner, conceptos básicos de la mejor build, opciones de Arc, atuendos, ideas de equipos y recompensas de eventos para los jugadores.",
+      "twitterTitle": "Wiki de NTE Shinku - Build, Banner y Atuendos",
+      "twitterDescription": "La Wiki de NTE Shinku cubre el banner de Shinku, conceptos básicos de la build, opciones de Arc, atuendos, ideas de equipos y recompensas de eventos en Neverness to Everness."
+    }
+  },
+  "nav": {
+    "guide": "Guía",
+    "build": "Build",
+    "kit": "Kit",
+    "team": "Equipo",
+    "materials": "Materiales",
+    "banner": "Banner",
+    "cosmetics": "Cosméticos"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente nuevos artículos"
+  },
+  "hero": {
+    "badge": "Guía de personaje de fantasía urbana de clase S",
+    "title": "Wiki de NTE Shinku",
+    "description": "La Wiki de NTE Shinku cubre el banner de Shinku, conceptos básicos de la build, opciones de Arc, atuendos, ideas de equipos, desbloqueos de historia y recompensas de eventos en Neverness to Everness.",
+    "getFreeCodesCTA": "Obtener códigos gratuitos",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "Clase S",
+        "label": "Rango de personaje"
+      },
+      "stat2": {
+        "value": "8 de julio - 29 de julio",
+        "label": "Periodo del banner"
+      },
+      "stat3": {
+        "value": "5 Atuendos",
+        "label": "Atuendos de Shinku"
+      },
+      "stat4": {
+        "value": "5M+",
+        "label": "Descargas"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de NTE Shinku",
+    "description": "Domina las tiradas del banner de Shinku, el Arc Blushing Mirage, el tutorial de combate, los atuendos y el contenido de la historia en la versión 1.2 de Neverness to Everness."
+  },
+  "tools": {
+    "title": "NTE Shinku",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para el banner, build, Arc, habilidades, atuendos e historia de Shinku en Neverness to Everness.",
+    "cards": [
+      {
+        "icon": "Clock",
+        "title": "Fecha de lanzamiento y banner",
+        "description": "Periodo del banner de Shinku en la versión 1.2 y pasos de desbloqueo"
+      },
+      {
+        "icon": "Download",
+        "title": "Códigos y recompensas gratuitas",
+        "description": "Códigos de canje activos, regalos del correo y recompensas de eventos"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Guía de build y Arc",
+        "description": "Arc Blushing Mirage, moneda y lista de tiradas"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Habilidades y combate",
+        "description": "Cómo aprender el estilo de combate de Shinku y tutorial"
+      },
+      {
+        "icon": "Star",
+        "title": "Valor de tiradas y tier",
+        "description": "Si vale la pena tirar por Shinku en la versión 1.2"
+      },
+      {
+        "icon": "Users",
+        "title": "Perfil de personaje",
+        "description": "Personalidad, rol y trasfondo de Shinku"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Atuendos y cosméticos",
+        "description": "Aspectos, diseños y cosméticos por hitos del banner"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Historia y encuentros",
+        "description": "Encuentros urbanos, tiempo en casa, vínculo y desbloqueos de historia"
+      }
+    ]
+  },
+  "modules": {
+    "nteShinkuReleaseBanner": {
+      "title": "Guía de fecha de lanzamiento y banner de NTE Shinku",
+      "eyebrow": "Banner de la versión 1.2",
+      "intro": "Usa esta guía para consultar los horarios del banner de Shinku, los requisitos de desbloqueo, los personajes destacados de clase A y los cosméticos por hitos antes de gastar tus tiradas en la versión 1.2.",
+      "rows": [
+        {
+          "label": "Actualización de versión",
+          "value": "Versión 1.2 \"999 Nights\"",
+          "detail": "Estará disponible después del mantenimiento del 8 de julio de 2026."
+        },
+        {
+          "label": "Horario de mantenimiento",
+          "value": "8 de julio de 2026, 06:00–11:00 UTC+8",
+          "detail": "El inicio de sesión no estará disponible durante el mantenimiento."
+        },
+        {
+          "label": "Personaje destacado",
+          "value": "Shinku",
+          "detail": "---"
+        },
+        {
+          "label": "Personaje de Clase S exclusivo disponible en la Versión 1.2 Fase 1.",
+          "value": "Nombre del banner",
+          "detail": "Panel limitado: Antes del amanecer"
+        },
+        {
+          "label": "Panel de personaje limitado de Shinku.",
+          "value": "Periodo del banner",
+          "detail": "8 de julio tras la actualización – 29 de julio de 2026, 05:59 UTC+8"
+        },
+        {
+          "label": "El mismo periodo de disponibilidad se aplica al Arca de Clase S limitada de Shinku.",
+          "value": "Requisito de desbloqueo",
+          "detail": "Completa \"Prólogo - Un nuevo destino - Ve a la Tienda de antigüedades Eibon\""
+        },
+        {
+          "label": "Requerido antes de acceder al panel limitado de Shinku.",
+          "value": "Personajes de Clase A destacados",
+          "detail": "Mint, Edgar, Adler"
+        },
+        {
+          "label": "Estos personajes de Clase A aparecen destacados junto a Shinku.",
+          "value": "Recompensas por hitos",
+          "detail": "50 / 120 / 200 tiradas"
+        }
+      ]
+    },
+    "nteShinkuCodesRewards": {
+      "title": "50 tiradas: Apariencia de planeador Overcast Canopy. 120 tiradas: Apariencia Hidden Dragon Blizzard-V4. 200 tiradas: Atuendo Student of Terrasea.",
+      "eyebrow": "Códigos de NTE Shinku y recompensas gratuitas",
+      "intro": "Recursos de tiradas gratuitas",
+      "typeLabels": {
+        "redeem-code": "Reclama los códigos de canje activos, recompensas de correo de la Versión 1.2, regalos de inicio de sesión y recompensas de eventos antes de tirar en el banner de Shinku.",
+        "mail-reward": "Código de canje",
+        "event-reward": "Recompensa de correo"
+      },
+      "codes": [
+        {
+          "type": "Recompensa de evento",
+          "code": "código-de-canje",
+          "reward": "DRAGONGIRL",
+          "claim": "30 Annulith, 1 Puka Chocoa Ellie Tour Special, 20,000 Fons"
+        },
+        {
+          "type": "Canjéalo en el menú del teléfono dentro del juego tras desbloquear la función de códigos de canje.",
+          "code": "código-de-canje",
+          "reward": "WELCOMETONTE",
+          "claim": "Marco de avatar Celebration Fireworks"
+        },
+        {
+          "type": "Canjéalo en el menú del teléfono dentro del juego.",
+          "code": "código-de-canje",
+          "reward": "DREAMWALK0603",
+          "claim": "100 Annulith, 5 Rising Hunter Guides, 5 Light Dye, 4,000 Beetle Coins"
+        },
+        {
+          "type": "Canjéalo en el menú del teléfono dentro del juego.",
+          "code": "código-de-canje",
+          "reward": "TOMATO100",
+          "claim": "100 Annulith, 5 Rising Hunter Guides, 5 Colorless Dye, 6,000 Beetle Coins"
+        },
+        {
+          "type": "Canjéalo en el menú del teléfono dentro del juego.",
+          "code": "código-de-canje",
+          "reward": "100 Annulith, 2 Guías de cazador de élite, 2 Tintes caóticos, 12.000 Monedas Beetle",
+          "claim": "Canjea desde el menú del teléfono dentro del juego."
+        },
+        {
+          "type": "código-de-canje",
+          "code": "NTENENE",
+          "reward": "10.000 Fons, 10 DynamiK, 10 Clicky Fries",
+          "claim": "Canjea desde el menú del teléfono dentro del juego."
+        },
+        {
+          "type": "código-de-canje",
+          "code": "NTEGIFT",
+          "reward": "50 Annulith, 5 Guías de cazador principiante, 5 Tintes incoloros",
+          "claim": "Canjea desde el menú del teléfono dentro del juego."
+        },
+        {
+          "type": "recompensa-de-correo",
+          "code": "Regalo de agradecimiento",
+          "reward": "1.600 Annulith",
+          "claim": "Crea un personaje y desbloquea el correo antes de que termine la Versión 1.2."
+        },
+        {
+          "type": "recompensa-de-correo",
+          "code": "Compensación por mantenimiento y corrección de errores",
+          "reward": "300 Annulith por mantenimiento y 300 Annulith por corrección de errores",
+          "claim": "Enviado por correo interno tras la actualización de la Versión 1.2 el 8 de julio para los jugadores elegibles."
+        },
+        {
+          "type": "recompensa-de-evento",
+          "code": "Evento de inicio de sesión: Regalos del círculo",
+          "reward": "10 Dados sólidos",
+          "claim": "Inicia sesión un total de 7 días entre el 8 de julio tras la actualización y el 19 de agosto a las 05:59 UTC+8."
+        },
+        {
+          "type": "recompensa-de-evento",
+          "code": "Evento de tiempo limitado: 999 Noches",
+          "reward": "Annulith, Dados fabricados, Fons, Boletos de Floe Cinema, Guías de cazador de élite, Tintes caóticos y más",
+          "claim": "Juega el evento de la Versión 1.2 desde el 8 de julio tras la actualización hasta el 19 de agosto a las 05:59 UTC+8."
+        }
+      ]
+    },
+    "nteShinkuBuildArc": {
+      "title": "Guía de Shinku en NTE: Build y Arcos",
+      "eyebrow": "Planificación de la Build",
+      "intro": "El Arco de Clase S limitado de Shinku es Blushing Mirage, disponible a través del Programa Especial de Investigación de Arcos: Determinación durante el periodo de su banner. Este módulo cubre su tipo de personaje, Arco limitado, acceso a la Investigación de Arcos, divisas y qué revisar antes de gastar recursos.",
+      "cards": [
+        {
+          "icon": "Usuarios",
+          "title": "Perfil de Shinku",
+          "value": "Personaje Cosmos de Clase S",
+          "description": "Shinku es el personaje destacado de Clase S limitado para la Fase 1 de la Versión 1.2."
+        },
+        {
+          "icon": "Destellos",
+          "title": "Tipo de Arco",
+          "value": "Arco de tipo Condensado",
+          "description": "Shinku utiliza un Arco de tipo Condensado, el nombre actual de los Arcos de tipo Síntesis."
+        },
+        {
+          "icon": "Estrella",
+          "title": "Arco insignia",
+          "value": "Blushing Mirage",
+          "description": "Blushing Mirage es el Arc de Clase S limitado de Shinku."
+        },
+        {
+          "icon": "Reloj",
+          "title": "Disponibilidad del Arc",
+          "value": "8 de julio tras la actualización – 29 de julio de 2026, 05:59 UTC+8",
+          "description": "El Arc comparte el periodo de disponibilidad de la Fase 1 de la Versión 1.2 de Shinku."
+        },
+        {
+          "icon": "LibroAbierto",
+          "title": "Requisito de desbloqueo del Arc",
+          "value": "Completa \"Prólogo - Un nuevo destino - Ve a la tienda de antigüedades Eibon\"",
+          "description": "Se aplica el mismo requisito de la historia principal antes de acceder al programa de Arc limitado."
+        },
+        {
+          "icon": "Martillo",
+          "title": "Dónde obtener el Arc",
+          "value": "Tienda de Arcs > Programa de investigación de Arcs > Resolve Special",
+          "description": "Usa el programa de investigación de Arcs \"Resolve Special\" para ir a por Blushing Mirage."
+        },
+        {
+          "icon": "Escudo",
+          "title": "Divisa de investigación de Arcs",
+          "value": "Tri-Keys o Resolve Keys",
+          "description": "Estas son las divisas utilizadas para participar en el programa de investigación de Arcs \"Resolve Special\"."
+        },
+        {
+          "icon": "Ojo",
+          "title": "Otros Arcs de Clase S en la reserva",
+          "value": "Reality Refuge, Youthful Fantasy, Good Boy's Grand Adventure, Camellia Society, Raging Flames",
+          "description": "Consulta los detalles de investigación de Arcs en el juego antes de gastar llaves."
+        },
+        {
+          "icon": "PortapapelesListo",
+          "title": "Lista de prioridades de obtención",
+          "value": "Primero el personaje, después el Arc",
+          "description": "Asegura primero a Shinku en Before the Dawn si tu objetivo principal es el personaje, y luego decide si gastar llaves de Arc en Blushing Mirage."
+        }
+      ]
+    },
+    "nteShinkuSkillsCombat": {
+      "title": "Guía de combate y habilidades de Shinku en NTE",
+      "eyebrow": "Guía de combate",
+      "intro": "La Versión 1.2 añade a Shinku, su tráiler oficial de personaje y un tutorial de combate dedicado en el juego. Usa esta guía paso a paso para aprender a usar a Shinku de forma segura mediante los avances en vídeo oficiales, el tutorial de combate del juego y el contenido de personaje de la Versión 1.2.",
+      "steps": [
+        {
+          "title": "Desbloquea el acceso al banner de Shinku",
+          "description": "Completa \"Prólogo - Un nuevo destino - Ve a la tienda de antigüedades Eibon\" para acceder al panel limitado de Before the Dawn."
+        },
+        {
+          "title": "Consulta su rol de personaje",
+          "description": "Shinku es un personaje exclusivo de Clase S de tipo Cosmos que aparece en la Fase 1 de la Versión 1.2."
+        },
+        {
+          "title": "Revisa su configuración de Arc",
+          "description": "Shinku utiliza un Arc de tipo Condensate, siendo Blushing Mirage su Arc de Clase S limitado a través de la investigación de Arcs Resolve Special."
+        },
+        {
+          "title": "Mira el tráiler oficial del personaje",
+          "description": "Usa el tráiler de personaje de Shinku de la Versión 1.2 para ver sus animaciones, ritmo de combate y escenas de exhibición antes de intentar obtenerla."
+        },
+        {
+          "title": "Juega al tutorial de combate en el juego",
+          "description": "La Versión 1.2 añade un tutorial de combate dedicado para Shinku, convirtiéndolo en el mejor lugar para aprender sus tiempos y controles."
+        },
+        {
+          "title": "Abre el contenido de personaje de Shinku",
+          "description": "Tras la actualización, Shinku recibirá Encuentros en la ciudad, Tiempo en casa, misiones de Vínculo, interacciones de Vínculo y conversaciones por mensajes de texto."
+        },
+        {
+          "title": "---",
+          "description": "Prueba antes de realizar una gran inversión"
+        }
+      ]
+    },
+    "nteShinkuPullValueTier": {
+      "title": "Practica el tutorial de Shinku y el contenido de combate inicial antes de destinar recursos adicionales a su Arc, atuendos o mejoras más profundas.",
+      "eyebrow": "Valor de obtención de Shinku en NTE y contexto de tier",
+      "intro": "Guía de obtención",
+      "tiers": [
+        {
+          "tier": "El valor de obtención de Shinku proviene de datos oficiales del banner: es una de personaje exclusiva de clase S, su Tablero Limitado está disponible desde el 8 de julio tras la actualización de la versión 1.2 hasta el 29 de julio de 2026 a las 05:59 UTC+8, y su banner incluye a Mint, Edgar y Adler como personajes destacados de clase A, además de hitos estéticos a las 50, 120 y 200 tiradas.",
+          "label": "Prioridad alta",
+          "summary": "Obtener a Shinku",
+          "details": [
+            "Ideal para jugadores que quieren al nuevo personaje exclusivo de clase S durante la Fase 1 de la Versión 1.2.",
+            "Destacada en el Tablero Limitado \"Before the Dawn\"",
+            "Disponible desde el 8 de julio tras la actualización hasta el 29 de julio de 2026 a las 05:59 UTC+8",
+            "Se desbloquea tras completar el Prólogo - Un nuevo destino - Ve a la tienda de antigüedades Eibon"
+          ]
+        },
+        {
+          "tier": "Personajes destacados de clase A: Mint, Edgar y Adler",
+          "label": "Prioridad media",
+          "summary": "Obtener cosméticos del banner",
+          "details": [
+            "Útil para jugadores que se interesan por los cosméticos de Shinku y las recompensas limitadas del banner, no solo por el personaje.",
+            "Diseño de planeador \"Overcast Canopy\" en el hito de 50 tiradas",
+            "Diseño \"Hidden Dragon Blizzard-V4\" en el hito de 120 tiradas",
+            "Atuendo \"Student of Terrasea\" en el hito de 200 tiradas"
+          ]
+        },
+        {
+          "tier": "Los cosméticos del banner también se pueden obtener de forma aleatoria mediante tiradas antes de alcanzar los hitos",
+          "label": "Opcional",
+          "summary": "Obtener \"Blushing Mirage\"",
+          "details": [
+            "Considera el Arc insignia de clase S si vas a equipar a Shinku a fondo y quieres su opción de Arc limitado.",
+            "\"Blushing Mirage\" es el nuevo Arc limitado de clase S",
+            "Disponible durante el mismo periodo de la Fase 1, del 8 al 29 de julio",
+            "Se obtiene a través del Programa de Investigación de Arc Especial \"Resolve\""
+          ]
+        },
+        {
+          "tier": "Usa Tri-Keys o Resolve Keys en la investigación de Arc",
+          "label": "Ahorrar tiradas",
+          "summary": "Omitir si solo quieres las recompensas gratuitas",
+          "details": [
+            "Los jugadores enfocados en el progreso de su cuenta aún pueden reclamar las recompensas de la Versión 1.2 sin necesidad de buscar a Shinku.",
+            "La Versión 1.2 otorga una Caja de Selección de Personaje Estándar de clase S a los jugadores elegibles",
+            "El regalo de agradecimiento incluye Annulith x1,600",
+            "La compensación por mantenimiento incluye Annulith x300"
+          ]
+        }
+      ]
+    },
+    "nteShinkuCharacterProfile": {
+      "title": "La compensación por corrección de errores incluye Annulith x300",
+      "eyebrow": "Perfil de personaje de Shinku en NTE",
+      "intro": "Perfil de personaje",
+      "cards": [
+        {
+          "icon": "Shinku es una nueva personaje exclusiva de clase S introducida en la Versión 1.2. Su perfil oficial la presenta como una chica dragón tímida pero confiable que protege a sus compañeros cuando las misiones se vuelven peligrosas.",
+          "title": "MessageCircle",
+          "value": "Línea de voz oficial del personaje",
+          "description": "\"No soy una buena persona para pasar el rato.\""
+        },
+        {
+          "icon": "---",
+          "title": "Usuarios",
+          "value": "Personalidad",
+          "description": "Torpe pero confiable"
+        },
+        {
+          "icon": "Shinku no se muestra como alguien sociable por naturaleza, pero se vuelve confiable una vez que comienza una misión. Su perfil destaca que es la primera en enfrentarse al peligro cuando sus compañeros necesitan protección.",
+          "title": "Estrella",
+          "value": "Rol de personaje",
+          "description": "Personaje exclusivo de Clase S"
+        },
+        {
+          "icon": "Es el personaje principal de Clase S del Tablero Limitado Before the Dawn en la Fase 1 de la Versión 1.2.",
+          "title": "Gamepad2",
+          "value": "Identidad de combate",
+          "description": "Esper de Cosmos con un Arc tipo Condensate"
+        },
+        {
+          "icon": "La cobertura de los banners en medios lista a Shinku como un personaje de Cosmos de Clase S, mientras que su Arc de Clase S limitado característico es Blushing Mirage.",
+          "title": "Ojo",
+          "value": "Contexto del mundo",
+          "description": "Fantasía urbana de caza de Anomalías"
+        },
+        {
+          "icon": "NTE se desarrolla en Hethereau, donde el jugador trabaja como un Anomaly Hunter sin licencia conectado a Eibon, una tienda de antigüedades que acepta encargos de Anomalías.",
+          "title": "Destellos",
+          "value": "Enfoque de la Versión 1.2",
+          "description": "Personaje de la actualización 999 Nights"
+        }
+      ]
+    },
+    "nteShinkuOutfitsCosmetics": {
+      "title": "Shinku está vinculada al contenido de la Versión 1.2, incluyendo su Tablero Limitado, tráiler de personaje, City Hangout, Home Time, misiones de Bond y nuevos atuendos.",
+      "eyebrow": "Atuendos y cosméticos de NTE Shinku",
+      "intro": "Cosméticos",
+      "outfits": [
+        {
+          "title": "La Versión 1.2 añade múltiples atuendos para Shinku, cosméticos por hitos del banner y recompensas de diseños para vehículos o planeadores. Algunos se compran en la tienda, mientras que otros están vinculados al Tablero Limitado Before the Dawn, al Nivel de Bond o a la tienda del evento 999 Nights.",
+          "category": "Student of Terrasea",
+          "content": "Atuendo de banner"
+        },
+        {
+          "title": "Disponible a través del Tablero Limitado Before the Dawn. Los jugadores pueden obtenerlo al azar al caer en la casilla correspondiente o reclamarlo en Resolve Perks tras acumular suficientes tiradas. Forma parte del conjunto de hitos cosméticos del banner de 200 tiradas.",
+          "category": "Dragonhunter",
+          "content": "Atuendo de la tienda"
+        },
+        {
+          "title": "Disponible en la tienda de forma permanente. El periodo de descuento va desde el 8 de julio tras la actualización hasta el 19 de agosto de 2026 a las 05:59 UTC+8. El precio con descuento es de Riftcrystal x2,680, con el precio original listado como Riftcrystal x3,280.",
+          "category": "Dawn Patrol",
+          "content": "Atuendo de la tienda"
+        },
+        {
+          "title": "Disponible en la tienda de forma permanente. El periodo de descuento va desde el 8 de julio tras la actualización hasta el 19 de agosto de 2026 a las 05:59 UTC+8. El precio con descuento es de Riftcrystal x1,680, con el precio original listado como Riftcrystal x2,480.",
+          "category": "Labyrinth Lily",
+          "content": "Atuendo de Bond"
+        },
+        {
+          "title": "Se desbloquea tras obtener a Shinku y alcanzar el Nivel de Bond 10.",
+          "category": "Normie Heroine",
+          "content": "Atuendo de la tienda del evento"
+        },
+        {
+          "title": "Se compra en la Tienda de Botones de 999 Nights usando el progreso del minijuego de 999 Nights.",
+          "category": "Overcast Canopy",
+          "content": "Destacado en el Before the Dawn Limited Board y reclamable en los Resolve Perks en el hito de 50 tiradas, o disponible de forma aleatoria mediante tiradas antes de dicho hito."
+        },
+        {
+          "title": "Dragón Oculto",
+          "category": "Diseño para el Blizzard-V4",
+          "content": "Destacado en el Before the Dawn Limited Board y reclamable en los Resolve Perks en el hito de 120 tiradas, o disponible de forma aleatoria mediante tiradas antes de dicho hito."
+        },
+        {
+          "title": "Tomato Dash y Rose & Violet",
+          "category": "Diseños para el Porsche 918 Spyder",
+          "content": "Disponible en la Tienda tras la actualización de la versión 1.2 del 8 de julio. Cada compra cuesta Riftcrystal x980 o Fons x3,000,000."
+        }
+      ]
+    },
+    "nteShinkuStoryHangout": {
+      "title": "Guía de historia y City Hangouts de NTE Shinku",
+      "eyebrow": "Guía de historia",
+      "intro": "La versión 1.2 añade contenido de historia e interacción relacionado con Shinku, incluyendo City Hangouts, Home Time, misiones de Vínculo, conversaciones de texto, un tutorial de combate, el nuevo episodio de la historia principal \"Fighting with a Dragon\" y la ubicación del continente de Warren.",
+      "steps": [
+        {
+          "title": "Inicio de la versión 1.2: 999 Nights",
+          "description": "Actualiza el juego tras el mantenimiento del 8 de julio. La actualización de la versión 1.2 desbloquea el banner de Shinku, nuevo contenido de historia, nuevos atuendos y nuevas funciones de interacción."
+        },
+        {
+          "title": "Desbloquear el Limited Board de Shinku",
+          "description": "Completa la misión de la historia principal \"Prólogo - Un nuevo destino - Dirígete a la Tienda de Antigüedades Eibon\" para acceder al Before the Dawn Limited Board de Shinku y al Blushing Mirage Arc Research."
+        },
+        {
+          "title": "Jugar Fighting with a Dragon",
+          "description": "El nuevo episodio de la historia principal estará disponible tras la versión 1.2. Requiere completar Dreamwalk Corridor y alcanzar el nivel de cazador 26."
+        },
+        {
+          "title": "Llegar al continente de Warren",
+          "description": "El continente de Warren es la nueva ubicación conectada con el episodio de la historia \"Fighting with a Dragon\", lo que añade contenido de aventura de temática fantástica a la actualización."
+        },
+        {
+          "title": "Desbloquear los City Hangouts de Shinku",
+          "description": "Desbloquear el Home Time de Shinku"
+        },
+        {
+          "title": "La historia de los City Hangouts de Shinku estará disponible tras la actualización de la versión 1.2. Se desbloquea al obtener a Shinku o al completar Fighting with a Dragon.",
+          "description": "El modo de invitación de Home Time de Shinku se desbloquea tras obtener a Shinku y alcanzar el nivel de Vínculo requerido."
+        },
+        {
+          "title": "Aumentar el Vínculo con Shinku",
+          "description": "La versión 1.2 añade misiones de Vínculo, interacciones de Vínculo, la interacción para viajar de copiloto y conversaciones por mensaje de texto para Shinku."
+        },
+        {
+          "title": "Usar el tutorial de combate de Shinku",
+          "description": "En la versión 1.2 se añade un tutorial de combate dedicado para Shinku, lo que ayuda a los jugadores a aprender su estilo de juego tras desbloquear o probar al personaje."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre NTE Shinku en Neverness to Everness",
+    "questions": [
+      {
+        "question": "¿Cuándo se lanza NTE Shinku en la versión 1.2?",
+        "answer": "NTE Shinku se lanzará tras el mantenimiento del 8 de julio de 2026 como el personaje de clase S destacado en el Before the Dawn Limited Board. Su banner estará disponible hasta el 29 de julio de 2026 a las 05:59 UTC+8."
+      },
+      {
+        "question": "¿Cuál es el Arc insignia de NTE Shinku?",
+        "answer": "El Arc limitado de clase S insignia de NTE Shinku es Blushing Mirage, un Arc de tipo Condensate disponible a través del Resolve Special Arc Research Program durante la fase 1 de la versión 1.2."
+      },
+      {
+        "question": "¿Cómo desbloqueo el banner de NTE Shinku?",
+        "answer": "Para desbloquear el banner de NTE Shinku, completa la misión de la historia principal \"Prólogo - Un nuevo destino - Dirígete a la Tienda de Antigüedades Eibon\". Esto desbloqueará el Before the Dawn Limited Board de Shinku y su Blushing Mirage Arc Research."
+      },
+      {
+        "question": "¿Qué códigos de NTE Shinku están activos?",
+        "answer": "Los códigos activos de NTE Shinku incluyen DRAGONGIRL, WELCOMETONTE, DREAMWALK0603, TOMATO100, RACENOLIMIT, NTENENE y NTEGIFT. Canjéalos desde el menú del teléfono dentro del juego."
+      },
+      {
+        "question": "¿Hay cosméticos gratuitos para NTE Shinku?",
+        "answer": "Sí, NTE Shinku ofrece cosméticos gratuitos. El atuendo Student of Terrasea es una recompensa del hito de 200 tiradas, mientras que el diseño de planeador Overcast Canopy y el diseño Dragón Oculto para el Blizzard-V4 se desbloquean en los hitos de 50 y 120 tiradas en el Before the Dawn Limited Board de Shinku."
+      },
+      {
+        "question": "¿En qué plataformas está disponible NTE Shinku?",
+        "answer": "NTE Shinku es parte de Neverness to Everness, disponible en PC a través de Steam, PlayStation 5 y dispositivos móviles a través de App Store y Google Play."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para jugar NTE Shinku?",
+    "description": "¡Únete a la comunidad de Neverness to Everness en Discord para obtener guías de Shinku, actualizaciones de banners y discusiones sobre equipos!",
+    "joinCommunity": "Únete a Discord",
+    "joinGame": "Juega en Steam"
+  },
+  "footer": {
+    "title": "NTE Shinku Wiki",
+    "description": "Tu centro de recursos completo para guías de banners, builds, Arc, atuendos y equipos de NTE Shinku en Neverness to Everness.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "reddit": "Reddit",
+    "steamStore": "Steam Store",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 NTE Shinku Wiki. No afiliado con Hotta Studio ni Perfect World.",
+    "disclaimer": "Sitio web de recursos no oficial hecho por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guía de NTE Shinku",
+      "description": "Guía completa de NTE Shinku que cubre el valor de obtención, la muestra de jugabilidad, la estrategia del banner y si vale la pena tirar por Shinku en la Versión 1.2 de Neverness to Everness.",
+      "metaTitle": "Guía de NTE Shinku - Valor de obtención, jugabilidad y estrategia del banner",
+      "metaDescription": "Lee la guía completa de NTE Shinku para conocer el valor de obtención, la muestra de jugabilidad, la mejor dirección de la build y la estrategia del banner en la Versión 1.2 de Neverness to Everness.",
+      "categoryLabel": "GUÍA DE SHINKU",
+      "whatIs": "¿Qué es la guía de NTE Shinku?",
+      "whatIsDescription": "La guía de NTE Shinku reúne todo lo que necesitas para evaluar al personaje de Cosmos de Clase S de la Versión 1.2, incluyendo su muestra de jugabilidad, valor de obtención, razones para tirar por ella y consideraciones para omitirla.",
+      "why": "¿Por qué leer la guía de NTE Shinku?",
+      "whySteps": {
+        "step1Title": "Evalúa el valor de obtención",
+        "step1Description": "Descubre si Shinku es un personaje de Clase S imprescindible para tu cuenta en la Versión 1.2",
+        "step2Title": "Previsualiza la jugabilidad",
+        "step2Description": "Revisa su demostración y ritmo de combate antes de gastar Annulith en el tablero Before the Dawn",
+        "step3Title": "Planifica tu estrategia",
+        "step3Description": "Utiliza los datos del banner y las conclusiones de la comunidad de Reddit para programar tus tiradas"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de NTE Shinku"
+    },
+    "build": {
+      "title": "Build de NTE Shinku",
+      "description": "La mejor build de NTE Shinku que cubre las opciones de Arc, armas, cartuchos, consolas y prioridades de estadísticas para la Versión 1.2 de Neverness to Everness.",
+      "metaTitle": "Build de NTE Shinku - Arc, armas, cartuchos y consolas",
+      "metaDescription": "Arma a NTE Shinku con la mejor configuración de Arc, armas, cartuchos y consolas. Una guía de build completa de la Versión 1.2 para Neverness to Everness.",
+      "categoryLabel": "BUILD Y ARC",
+      "whatIs": "¿Qué es una build de NTE Shinku?",
+      "whatIsDescription": "Una build de NTE Shinku cubre su configuración de Arc, armas, cartuchos y consolas, incluyendo cómo el Arc de Clase S limitado Blushing Mirage se adapta a su kit de tipo Condensado.",
+      "why": "¿Por qué planificar una build de NTE Shinku?",
+      "whySteps": {
+        "step1Title": "Elige el Arc correcto",
+        "step1Description": "Aprende cómo Blushing Mirage y los Arcs alternativos definen el daño de tipo Condensado de Shinku",
+        "step2Title": "Elige armas y cartuchos",
+        "step2Description": "Combina armas y cartuchos con el rol de combate y las rotaciones de Shinku",
+        "step3Title": "Ajusta consolas y estadísticas",
+        "step3Description": "Prioriza las consolas y estadísticas principales que amplifican su rendimiento de Cosmos de Clase S"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de build de NTE Shinku"
+    },
+    "kit": {
+      "title": "Kit de NTE Shinku",
+      "description": "Desglose completo del kit de NTE Shinku que cubre habilidades, destrezas, elemento, rol y mecánicas de despertar en Neverness to Everness.",
+      "metaTitle": "Kit de NTE Shinku: habilidades, destrezas, elemento y despertar",
+      "metaDescription": "Comprende el kit de NTE Shinku, incluyendo habilidades, destrezas, elemento, rol de combate y mecánicas de despertar en Neverness to Everness.",
+      "categoryLabel": "HABILIDADES Y KIT",
+      "whatIs": "¿Qué es el kit de NTE Shinku?",
+      "whatIsDescription": "El kit de NTE Shinku explica sus habilidades, destrezas, elemento, rol de combate y despertar, mostrando cómo se desempeña en batalla su identidad de Cosmos de Clase S.",
+      "why": "¿Por qué aprender el kit de NTE Shinku?",
+      "whySteps": {
+        "step1Title": "Domina habilidades y destrezas",
+        "step1Description": "Desglosa cada habilidad y destreza para sincronizar las rotaciones de combate de Shinku",
+        "step2Title": "Comprende el elemento y el rol",
+        "step2Description": "Mira cómo el elemento y el rol de Cosmos de Shinku definen su función en el equipo",
+        "step3Title": "Desbloquea el despertar",
+        "step3Description": "Planifica la progresión del despertar para maximizar el potencial de Clase S de Shinku"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías del kit de NTE Shinku"
+    },
+    "team": {
+      "title": "Equipo de NTE Shinku",
+      "description": "Las mejores composiciones de equipo, rotaciones y sinergias para NTE Shinku, incluyendo el equipo de Iroi para la versión 1.2 de Neverness to Everness.",
+      "metaTitle": "Equipo de NTE Shinku: mejores composiciones, rotaciones y sinergia",
+      "metaDescription": "Arma el mejor equipo para NTE Shinku con las composiciones, rotaciones y sinergias recomendadas, además del equipo de Iroi para Neverness to Everness.",
+      "categoryLabel": "COMPOSICIONES DE EQUIPO",
+      "whatIs": "¿Qué es un equipo de NTE Shinku?",
+      "whatIsDescription": "Una guía de equipo de NTE Shinku cubre las composiciones de equipo recomendadas, rotaciones y sinergia, incluyendo el equipo de Iroi y las mejores opciones de equipo para la versión 1.2.",
+      "why": "¿Por qué armar un equipo de NTE Shinku?",
+      "whySteps": {
+        "step1Title": "Elige el mejor equipo",
+        "step1Description": "Compara las mejores opciones de equipos y composiciones que se adapten al rol de Cosmos de Shinku",
+        "step2Title": "Aprende las rotaciones",
+        "step2Description": "Practica los tiempos de rotación para encadenar las habilidades de Shinku con sus compañeros de equipo",
+        "step3Title": "Maximiza la sinergia",
+        "step3Description": "Empareja a Shinku con las unidades adecuadas, incluido el equipo de Iroi, para una sinergia total"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de equipos de NTE Shinku"
+    },
+    "materials": {
+      "title": "Materiales de NTE Shinku",
+      "description": "Guía completa de materiales de NTE Shinku que cubre rutas de farmeo, materiales de ascensión, materiales de mejora y planificación de pre-farmeo para la Versión 1.2.",
+      "metaTitle": "Materiales de NTE Shinku - Farmeo, ascensión y mejora",
+      "metaDescription": "Farmea materiales de NTE Shinku eficientemente con rutas de materiales de ascensión, mejora y nivel, además de planificación de pre-farmeo para la Versión 1.2.",
+      "categoryLabel": "MATERIALES Y FARMEO",
+      "whatIs": "¿Qué son los materiales de NTE Shinku?",
+      "whatIsDescription": "Los materiales de NTE Shinku incluyen los objetos de ascensión, mejora y nivel necesarios para subirla, además de rutas de farmeo y pre-farmeo para acumularlos antes de obtenerla.",
+      "why": "¿Por qué hacer pre-farmeo de los materiales de NTE Shinku?",
+      "whySteps": {
+        "step1Title": "Pre-farmeo antes del banner",
+        "step1Description": "Acumula materiales esenciales antes de que el panel Before the Dawn esté disponible para que Shinku pueda subir de nivel desde el primer día",
+        "step2Title": "Reúne materiales de ascensión",
+        "step2Description": "Reúne los materiales de ascensión necesarios para cada rango de ascensión de Shinku",
+        "step3Title": "Acumula materiales de mejora",
+        "step3Description": "Prepara materiales de mejora y nivel para potenciar las habilidades y el despertar de Shinku"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los materiales de NTE Shinku"
+    },
+    "banner": {
+      "title": "Banner de NTE Shinku",
+      "description": "Guía del banner de NTE Shinku con fecha de lanzamiento, cronograma de la Versión 1.2, sistema de pity y conteo de pulls para Neverness to Everness.",
+      "metaTitle": "Banner de NTE Shinku - Fecha de lanzamiento, pity y pulls (1.2)",
+      "metaDescription": "Obtén detalles del banner de NTE Shinku, incluyendo fecha de lanzamiento, cronograma de la Versión 1.2, sistema de pity y conteo de pulls para Neverness to Everness.",
+      "categoryLabel": "BANNER Y LANZAMIENTO",
+      "whatIs": "¿Qué es el banner de NTE Shinku?",
+      "whatIsDescription": "El banner de NTE Shinku incluye la fecha de lanzamiento de su panel limitado Before the Dawn, el cronograma de la Versión 1.2, el sistema de pity y el conteo de pulls.",
+      "why": "¿Por qué seguir el banner de NTE Shinku?",
+      "whySteps": {
+        "step1Title": "Consulta la fecha de lanzamiento",
+        "step1Description": "Confirma la fecha de lanzamiento de Shinku en la Versión 1.2 y el fin del banner el 29 de julio de 2026",
+        "step2Title": "Entiende el pity",
+        "step2Description": "Aprende cómo el sistema de pity protege tus tiradas en el panel Before the Dawn",
+        "step3Title": "Planifica el conteo de pulls",
+        "step3Description": "Calcula el número de pulls necesarios para Shinku y sus cosméticos por hitos"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías del banner de NTE Shinku"
+    },
+    "cosmetics": {
+      "title": "Cosméticos de NTE Shinku",
+      "description": "Guía de cosméticos de NTE Shinku que cubre skins, atuendos y la skin de verano de los hitos del banner, la tienda y el vínculo en la Versión 1.2.",
+      "metaTitle": "Cosméticos de NTE Shinku - Skins, atuendos y skin de verano",
+      "metaDescription": "Colecciona cosméticos de NTE Shinku, incluyendo skins, atuendos y la skin de verano de los hitos del banner, descuentos de la tienda y el vínculo en la Versión 1.2.",
+      "categoryLabel": "ASPECTOS Y ATUENDOS",
+      "whatIs": "¿Qué son los cosméticos de NTE Shinku?",
+      "whatIsDescription": "Los cosméticos de NTE Shinku abarcan sus aspectos, atuendos y el aspecto de verano, incluyendo cómo desbloquearlos mediante hitos del banner, descuentos de la tienda y Nivel de Vínculo.",
+      "why": "¿Por qué coleccionar los cosméticos de NTE Shinku?",
+      "whySteps": {
+        "step1Title": "Desbloquea aspectos",
+        "step1Description": "Reclama los aspectos de Shinku en los hitos del banner y fuentes de eventos",
+        "step2Title": "Consigue atuendos",
+        "step2Description": "Obtén atuendos por tiempo limitado en la tienda y recompensas de Nivel de Vínculo",
+        "step3Title": "Consigue el aspecto de verano",
+        "step3Description": "Asegura el aspecto de verano antes de que termine el plazo de la Versión 1.2"
+      },
+      "featured": "Destacados y esenciales",
+      "all": "Todos los cosméticos de NTE Shinku"
+    }
+  }
+}
