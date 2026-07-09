@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "NTE Shinku Wiki - Build, Banner & Outfits",
+      "description": "NTE Shinku Wiki tracks the S-Class COSMOS character Shinku from Neverness to Everness: banner dates, best build basics, Arc choices, outfits, team ideas, and event rewards for players.",
+      "keywords": "NTE Shinku, Neverness to Everness, Shinku build, Shinku banner, Shinku outfits, Shinku Arc",
+      "ogTitle": "NTE Shinku Wiki - Build, Banner & Outfits",
+      "ogDescription": "NTE Shinku Wiki tracks the S-Class COSMOS character Shinku from Neverness to Everness: banner dates, best build basics, Arc choices, outfits, team ideas, and event rewards for players.",
+      "twitterTitle": "NTE Shinku Wiki - Build, Banner & Outfits",
+      "twitterDescription": "NTE Shinku Wiki covers Shinku's banner, build basics, Arc choices, outfits, team ideas, and event rewards in Neverness to Everness."
     }
   },
   "nav": {
@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "S-Class Urban Fantasy Character Guide",
+    "title": "NTE Shinku Wiki",
+    "description": "NTE Shinku Wiki covers Shinku's banner, build basics, Arc choices, outfits, team ideas, story unlocks, and event rewards in Neverness to Everness.",
+    "getFreeCodesCTA": "Get Free Codes",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "S-Class",
+        "label": "Character Rank"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "July 8-Jul 29",
+        "label": "Banner Window"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "5 Outfits",
+        "label": "Shinku Outfits"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "5M+",
+        "label": "Downloads"
       }
     }
   },
@@ -785,26 +785,26 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
+    "title": "Ready to Play NTE Shinku?",
+    "description": "Join the Neverness to Everness community on Discord for Shinku guides, banner updates, and team discussions!",
     "joinCommunity": "Join Discord",
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "NTE Shinku Wiki",
+    "description": "Your complete resource hub for NTE Shinku banner, build, Arc, outfits, and team guides in Neverness to Everness.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "reddit": "Reddit",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 NTE Shinku Wiki. Not affiliated with Hotta Studio or Perfect World.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
