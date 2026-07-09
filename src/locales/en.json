@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "NTE Shinku Wiki - Build, Banner & Outfits",
-      "description": "NTE Shinku Wiki tracks the S-Class COSMOS character Shinku from Neverness to Everness: banner dates, best build basics, Arc choices, outfits, team ideas, and event rewards for players.",
+      "title": "NTE Shinku - Build, Banner & Outfits",
+      "description": "NTE Shinku tracks the S-Class COSMOS character Shinku from Neverness to Everness: banner dates, best build basics, Arc choices, outfits, team ideas, and event rewards for players.",
       "keywords": "NTE Shinku, Neverness to Everness, Shinku build, Shinku banner, Shinku outfits, Shinku Arc",
-      "ogTitle": "NTE Shinku Wiki - Build, Banner & Outfits",
-      "ogDescription": "NTE Shinku Wiki tracks the S-Class COSMOS character Shinku from Neverness to Everness: banner dates, best build basics, Arc choices, outfits, team ideas, and event rewards for players.",
-      "twitterTitle": "NTE Shinku Wiki - Build, Banner & Outfits",
-      "twitterDescription": "NTE Shinku Wiki covers Shinku's banner, build basics, Arc choices, outfits, team ideas, and event rewards in Neverness to Everness."
+      "ogTitle": "NTE Shinku - Build, Banner & Outfits",
+      "ogDescription": "NTE Shinku tracks the S-Class COSMOS character Shinku from Neverness to Everness: banner dates, best build basics, Arc choices, outfits, team ideas, and event rewards for players.",
+      "twitterTitle": "NTE Shinku - Build, Banner & Outfits",
+      "twitterDescription": "NTE Shinku covers Shinku's banner, build basics, Arc choices, outfits, team ideas, and event rewards in Neverness to Everness."
     }
   },
   "nav": {
@@ -36,8 +36,8 @@
   },
   "hero": {
     "badge": "S-Class Urban Fantasy Character Guide",
-    "title": "NTE Shinku Wiki",
-    "description": "NTE Shinku Wiki covers Shinku's banner, build basics, Arc choices, outfits, team ideas, story unlocks, and event rewards in Neverness to Everness.",
+    "title": "NTE Shinku",
+    "description": "NTE Shinku covers Shinku's banner, build basics, Arc choices, outfits, team ideas, story unlocks, and event rewards in Neverness to Everness.",
     "getFreeCodesCTA": "Get Free Codes",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
@@ -551,7 +551,7 @@
     "joinGame": "Play on Steam"
   },
   "footer": {
-    "title": "NTE Shinku Wiki",
+    "title": "NTE Shinku",
     "description": "Your complete resource hub for NTE Shinku banner, build, Arc, outfits, and team guides in Neverness to Everness.",
     "resources": "Resources",
     "community": "Community",
@@ -564,8 +564,8 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 NTE Shinku Wiki. Not affiliated with Hotta Studio or Perfect World.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 NTE Shinku. Not affiliated with Hotta Studio or Perfect World.",
+    "disclaimer": "This is an unofficial fan wiki, not affiliated with, endorsed by, or sponsored by Hotta Studio or Perfect World. All game content and trademarks belong to their respective owners."
   },
   "pages": {
     "guide": {

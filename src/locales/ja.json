@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "NTE シンク Wiki - ビルド、ガチャ、コスチューム",
-      "description": "NTE シンク Wikiでは、『Neverness to Everness』に登場するS級COSMOSキャラクター「シンク」のガチャ日程、おすすめビルド、アークの選択、コスチューム、編成例、イベント報酬などの情報をまとめています。",
+      "title": "NTE シンク - ビルド、ガチャ、コスチューム",
+      "description": "NTE シンクでは、『Neverness to Everness』に登場するS級COSMOSキャラクター「シンク」のガチャ日程、おすすめビルド、アークの選択、コスチューム、編成例、イベント報酬などの情報をまとめています。",
       "keywords": "NTE シンク, Neverness to Everness, シンク ビルド, シンク ガチャ, シンク コスチューム, シンク アーク",
-      "ogTitle": "NTE シンク Wiki - ビルド、ガチャ、コスチューム",
-      "ogDescription": "NTE シンク Wikiでは、『Neverness to Everness』に登場するS級COSMOSキャラクター「シンク」のガチャ日程、おすすめビルド、アークの選択、コスチューム、編成例、イベント報酬などの情報をまとめています。",
-      "twitterTitle": "NTE シンク Wiki - ビルド、ガチャ、コスチューム",
-      "twitterDescription": "NTE シンク Wikiでは、『Neverness to Everness』におけるシンクのガチャ、ビルド、アーク、コスチューム、編成、イベント報酬を網羅しています。"
+      "ogTitle": "NTE シンク - ビルド、ガチャ、コスチューム",
+      "ogDescription": "NTE シンクでは、『Neverness to Everness』に登場するS級COSMOSキャラクター「シンク」のガチャ日程、おすすめビルド、アークの選択、コスチューム、編成例、イベント報酬などの情報をまとめています。",
+      "twitterTitle": "NTE シンク - ビルド、ガチャ、コスチューム",
+      "twitterDescription": "NTE シンクでは、『Neverness to Everness』におけるシンクのガチャ、ビルド、アーク、コスチューム、編成、イベント報酬を網羅しています。"
     }
   },
   "nav": {
@@ -36,8 +36,8 @@
   },
   "hero": {
     "badge": "S級アーバンファンタジーキャラクターガイド",
-    "title": "NTE シンク Wiki",
-    "description": "NTE シンク Wikiでは、『Neverness to Everness』におけるシンクのガチャ、ビルド、アーク、コスチューム、編成、ストーリー、イベント報酬を網羅しています。",
+    "title": "NTE シンク",
+    "description": "NTE シンクでは、『Neverness to Everness』におけるシンクのガチャ、ビルド、アーク、コスチューム、編成、ストーリー、イベント報酬を網羅しています。",
     "getFreeCodesCTA": "無料コードを入手",
     "playOnSteamCTA": "Steamでプレイ",
     "stats": {
@@ -551,7 +551,7 @@
     "joinGame": "Steamでプレイ"
   },
   "footer": {
-    "title": "NTE Shinku Wiki",
+    "title": "NTE Shinku",
     "description": "Neverness to EvernessにおけるNTE Shinkuのガチャ、ビルド、Arc、コスチューム、チームガイドを網羅した総合情報ハブです。",
     "resources": "リソース",
     "community": "コミュニティ",
@@ -564,8 +564,8 @@
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "copyrightNotice": "著作権",
-    "copyright": "© 2026 NTE Shinku Wiki. Hotta StudioおよびPerfect Worldとは関係ありません。",
-    "disclaimer": "非公式のファン作成攻略サイトです。"
+    "copyright": "© 2026 NTE Shinku. Hotta StudioおよびPerfect Worldとは関係ありません。",
+    "disclaimer": "本サイトは非公式のファンwikiであり、Hotta StudioおよびPerfect Worldとは提携、推奨、スポンサーの関係にはありません。すべてのゲームコンテンツおよび商標はそれぞれの権利者に帰属します。"
   },
   "pages": {
     "guide": {

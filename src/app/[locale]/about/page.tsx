@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const path = '/about'
 
   return {
-    title: 'About NTE Shinku Wiki - Your Ultimate Steam Game Resource',
-    description: 'Learn about NTE Shinku Wiki, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Neverness to Everness Steam game.',
+    title: 'About NTE Shinku - Your Ultimate Steam Game Resource',
+    description: 'Learn about NTE Shinku, a community-driven resource hub providing comprehensive guides, crafting tips, creature info, and strategies for the Neverness to Everness Steam game.',
     robots: {
       index: false,
       follow: true,
@@ -30,21 +30,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'NTE Shinku Wiki',
-      title: 'About NTE Shinku Wiki',
+      siteName: 'NTE Shinku',
+      title: 'About NTE Shinku',
       description: 'Learn about our mission to provide the best Neverness to Everness game resources and guides.',
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          alt: 'NTE Shinku Wiki',
+          alt: 'NTE Shinku',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'About NTE Shinku Wiki',
+      title: 'About NTE Shinku',
       description: 'Learn about our mission to provide the best Neverness to Everness game resources.',
       images: [`${siteUrl}/images/hero.webp`],
     },
@@ -59,7 +59,7 @@ export default function About() {
       <section className="relative py-20 px-4 border-b border-border">
         <div className="container mx-auto max-w-4xl text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            About NTE Shinku Wiki
+            About NTE Shinku
           </h1>
           <p className="text-slate-300 text-lg mb-2">
             Your community-driven resource center for Neverness to Everness
@@ -71,15 +71,15 @@ export default function About() {
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="prose prose-invert prose-slate max-w-none">
-            <h2>Welcome to NTE Shinku Wiki</h2>
+            <h2>Welcome to NTE Shinku</h2>
             <p>
-              NTE Shinku Wiki is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
+              NTE Shinku is an <strong>unofficial, fan-made resource website</strong> dedicated to helping players
               master the S-Class COSMOS character Shinku in Neverness to Everness. We are a community-driven platform that provides comprehensive guides,
               build tips, banner info, Arc choices, outfit details, and team strategies to enhance your gameplay.
             </p>
             <p>
               Whether you're a new player deciding whether to pull Shinku or a veteran optimizing her build and team comps,
-              NTE Shinku Wiki is here to support you every step of the way.
+              NTE Shinku is here to support you every step of the way.
             </p>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function About() {
 
             <h2>Our Vision</h2>
             <p>
-              We envision NTE Shinku Wiki as the <strong>go-to destination</strong> for every Neverness to Everness player seeking
+              We envision NTE Shinku as the <strong>go-to destination</strong> for every Neverness to Everness player seeking
               to improve their gameplay. We want to be the resource that players trust and rely on, whether they need
               build guides, want to check banner dates, or are looking for the best team comps.
             </p>
@@ -185,7 +185,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Community-Driven</h2>
             <p>
-              NTE Shinku Wiki is built <strong>by the community, for the community</strong>. We welcome contributions,
+              NTE Shinku is built <strong>by the community, for the community</strong>. We welcome contributions,
               feedback, and suggestions from players of all skill levels. Our content is constantly evolving based on:
             </p>
             <ul>
@@ -208,7 +208,7 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>About the Team</h2>
             <p>
-              NTE Shinku Wiki is maintained by a dedicated team of passionate gamers and developers who love
+              NTE Shinku is maintained by a dedicated team of passionate gamers and developers who love
               Neverness to Everness as much as you do. We're players first, constantly testing strategies, exploring game
               mechanics, and staying updated with the latest discoveries.
             </p>
@@ -234,15 +234,16 @@ export default function About() {
           <div className="prose prose-invert prose-slate max-w-none">
             <h2>Important Disclaimer</h2>
             <p className="text-yellow-400/90">
-              <strong>NTE Shinku Wiki is an unofficial fan-made website.</strong> We are NOT affiliated with,
-              endorsed by, or associated with the developers of Neverness to Everness or any official entities.
+              <strong>NTE Shinku is an unofficial fan-made website.</strong> We are NOT affiliated with,
+              endorsed by, or associated with Hotta Studio or Perfect World (the developer and publisher of
+              Neverness to Everness) or any official entities.
             </p>
             <p>
               All game content, trademarks, characters, and assets are the property of their respective owners.
               We use game-related content under fair use principles for informational and educational purposes only.
             </p>
             <p>
-              NTE Shinku Wiki is a non-profit, community resource created by fans, for fans.
+              NTE Shinku is a non-profit, community resource created by fans, for fans.
             </p>
           </div>
         </div>

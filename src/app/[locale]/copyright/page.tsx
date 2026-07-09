@@ -13,8 +13,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const path = '/copyright'
 
   return {
-    title: 'Copyright Notice - NTE Shinku Wiki',
-    description: 'Copyright and intellectual property information for NTE Shinku Wiki. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
+    title: 'Copyright Notice - NTE Shinku',
+    description: 'Copyright and intellectual property information for NTE Shinku. Learn about content ownership, fair use, DMCA policy, and how to report copyright infringement.',
     robots: {
       index: false,
       follow: true,
@@ -30,21 +30,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       locale: locale,
       url: locale === 'en' ? `${siteUrl}${path}` : `${siteUrl}/${locale}${path}`,
-      siteName: 'NTE Shinku Wiki',
-      title: 'Copyright Notice - NTE Shinku Wiki',
-      description: 'Copyright and intellectual property information for NTE Shinku Wiki.',
+      siteName: 'NTE Shinku',
+      title: 'Copyright Notice - NTE Shinku',
+      description: 'Copyright and intellectual property information for NTE Shinku.',
       images: [
         {
           url: `${siteUrl}/images/hero.webp`,
           width: 1200,
           height: 630,
-          alt: 'NTE Shinku Wiki',
+          alt: 'NTE Shinku',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Copyright Notice - NTE Shinku Wiki',
+      title: 'Copyright Notice - NTE Shinku',
       description: 'Copyright and intellectual property information.',
       images: [`${siteUrl}/images/hero.webp`],
     },
@@ -77,22 +77,23 @@ export default function Copyright() {
             <h2>1. Copyright Ownership</h2>
             <h3>1.1 Website Content</h3>
             <p>
-              © 2025-2026 NTE Shinku Wiki. All rights reserved.
+              © 2025-2026 NTE Shinku. All rights reserved.
             </p>
             <p>
               Unless otherwise noted, all original content on this website, including but not limited to text,
-              graphics, logos, guides, articles, and compilations, is the property of NTE Shinku Wiki and is
+              graphics, logos, guides, articles, and compilations, is the property of NTE Shinku and is
               protected by international copyright laws.
             </p>
 
             <h3>1.2 Game Assets and Trademarks</h3>
             <p>
-              NTE Shinku Wiki is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
+              NTE Shinku is an <strong>unofficial fan-made website</strong> and is NOT affiliated with,
               endorsed by, or associated with:
             </p>
             <ul>
               <li><strong>Steam</strong> - Owner of the Steam platform</li>
-              <li><strong>Neverness to Everness Developers</strong> - Creators of the Neverness to Everness game</li>
+              <li><strong>Hotta Studio</strong> - Developer of Neverness to Everness</li>
+              <li><strong>Perfect World Games (Perfect World Co., Ltd.)</strong> - Publisher of Neverness to Everness</li>
             </ul>
             <p>
               All game-related content, including but not limited to:
@@ -153,13 +154,13 @@ export default function Copyright() {
             </p>
             <ul>
               <li><strong>STEAM</strong> - Trademark of Valve Corporation</li>
-              <li><strong>Neverness to Everness</strong> - Trademark of the game developers</li>
-              <li><strong>NTE Shinku Wiki</strong> - Our own branding (not affiliated with the game)</li>
+              <li><strong>Neverness to Everness</strong> - Trademark of Hotta Studio / Perfect World</li>
+              <li><strong>NTE Shinku</strong> - Our own branding (not affiliated with the game)</li>
             </ul>
             <p>
               All other trademarks, service marks, and trade names referenced on this website are the property of
               their respective owners. The use of any trademark on this website does not imply endorsement or
-              affiliation with NTE Shinku Wiki.
+              affiliation with NTE Shinku.
             </p>
 
             <h2>5. DMCA Policy</h2>
@@ -201,7 +202,7 @@ export default function Copyright() {
             </p>
             <p>
               <strong>DMCA Agent</strong><br />
-              NTE Shinku Wiki<br />
+              NTE Shinku<br />
               Email: <a href="mailto:dmca@nteshinku.wiki" className="text-[hsl(var(--nav-theme-light))] hover:underline">dmca@nteshinku.wiki</a>
             </p>
             <p>
@@ -238,12 +239,12 @@ export default function Copyright() {
               If you wish to use or reference our original content (guides, articles, data compilations), please:
             </p>
             <ul>
-              <li>Provide clear attribution to "NTE Shinku Wiki"</li>
+              <li>Provide clear attribution to "NTE Shinku"</li>
               <li>Include a link back to the original page (if digital)</li>
               <li>Do not imply endorsement or affiliation</li>
             </ul>
             <p>
-              Example attribution: <em>"Source: NTE Shinku Wiki (nteshinku.wiki)"</em>
+              Example attribution: <em>"Source: NTE Shinku (nteshinku.wiki)"</em>
             </p>
 
             <h2>8. Repeat Infringer Policy</h2>
