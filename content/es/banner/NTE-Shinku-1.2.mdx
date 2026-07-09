@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de NTE Shinku 1.2: Mejor Build, Banner y Atuendos",
+  description: "Domina a NTE Shinku en la Versión 1.2. Obtén la mejor build, configuraciones de Arcos de firma, composiciones de equipo, calendarios de banners, atuendos y consejos de combate para la DPS de Cosmos de Clase S.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/e62f67/fff?text=Shinku+Build+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de NTE Shinku",
+  keywords: "NTE Shinku, build, banner, atuendos, guía, Neverness to Everness"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Lanzamiento de NTE Shinku 1.2**: Debuta en la Versión 1.2 "999 Nights" el 8 de julio de 2026, como una DPS de Cosmos de Clase S exclusiva.
+- **Arco de Firma**: Blushing Mirage es su mejor Arco de arma de tipo Condensado, maximizando su CRIT y daño de Cosmos.
+- **Ciclo de Combate**: Acumula Espíritu Desafiante con ataques básicos, activa su estado definitivo Carmesí Oleante (Surging Crimson) y ejecuta ataques masivos en área (AoE).
+- **Cinco Atuendos**: La Versión 1.2 introduce 5 skins distintos, incluyendo el exclusivo de gacha Estudiante de Terrasea y el premium Cazadora de Dragones.
+</Callout>
+
+<Section icon={Map} title="Calendario de Banners y Recompensas de NTE Shinku 1.2">
+
+La actualización de la Versión 1.2 "999 Nights" presenta a **NTE Shinku** como el personaje de Clase S destacado en el **Tablón Limitado Antes del Amanecer (Before the Dawn)**. Para acceder a su banner, los jugadores deben completar primero la misión de la historia principal *Prólogo - Un Nuevo Destino - Dirígete a la Tienda de Antigüedades Eibon*.
+
+**Puntos Destacados del Vídeo:**
+- **Exhibición Visual**: Una vista previa detallada de las animaciones de Shinku, su estética de dragón carmesí y posturas de combate.
+- **Mecánicas de la Forma Rampage**: Desglose visual de cómo se transforma su cadena de ataques básicos durante su Habilidad Definitiva.
+- **Ejecución de la Explosión Final**: Consejos de tiempo sobre cómo acumular Razón Desvaneciente y activar su remate final de combate.
+
+<YouTubeEmbed videoId="FVhLNdcAVyI" title="NTE Shinku Character PV丨The Edge of Dreams" />
+
+### Calendario del Banner y Detalles Clave
+
+El banner de tiempo limitado estará disponible durante la Fase 1 de la Versión 1.2, ofreciendo a los jugadores una ventana de tres semanas para asegurar a Shinku y sus cosméticos exclusivos.
+
+| Detalle del Banner | Calendario y Requisitos | Recompensas Clave e Hitos |
+| :--- | :--- | :--- |
+| **Periodo Activo** | 8 de julio tras el mantenimiento – 29 de julio de 2026, 05:59 UTC+8 | Personaje de Clase S garantizado a las 90 tiradas sin 50/50 |
+| **Clase A Destacados** | Mint, Edgar, Adler | Personajes de Clase A con probabilidad aumentada en el mismo tablón |
+| **Hito de 50 Tiradas** | Progresión acumulada del banner | Recompensa de diseño de planeador **Overcast Canopy** |
+| **Hito de 120 Tiradas** | Progresión acumulada del banner | Diseño de vehículo Blizzard-V4 **Hidden Dragon** |
+| **Hito de 200 Tiradas** | Progresión acumulada del banner | Atuendo exclusivo **Estudiante de Terrasea** |
+
+<Callout type="tip" title="Ventaja del Sistema de Piedad (Pity)">
+Neverness to Everness cuenta con un sistema de gacha muy amigable para el jugador sin el tradicional 50/50. Una vez que alcanzas la piedad de 90 tiradas, tienes garantizado recibir a Shinku en su tablón activo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejor Build de Shinku y Selección de Arcos">
+
+Shinku funciona como una DPS de Cosmos de Clase S de primer nivel que utiliza un sistema de combate cuerpo a cuerpo de artes marciales. Su kit escala fuertemente con estadísticas ofensivas, haciendo que la Probabilidad de CRIT, el Daño CRIT y el Daño de Cosmos sean sus atributos de mayor prioridad.
+
+### Mejores Arcos de Arma para Shinku
+
+Shinku depende de los Arcos de tipo Condensado (el nombre actualizado para los Arcos de tipo Síntesis) para canalizar sus habilidades de Esper de Cosmos.
+
+| Nombre del Arco | Rareza | Grado | Sinergia Clave y Efectos de Combate |
+| :--- | :--- | :--- | :--- |
+| **Blushing Mirage** | Clase S | **S+ (BiS)** | Arma de firma; proporciona un enorme daño de Cosmos y escalado de CRIT. |
+| **Fluff of Ferocity** | Clase S | **S** | Fuerte opción secundaria; sinergiza fuertemente con builds centradas en CRIT. |
+| **Camellia Society** | Clase S | **A** | Alternativa fiable; ofrece estadísticas ofensivas consistentes para DPS de Cosmos. |
+| **What's Desired** | Clase A | **A (Mejor F2P)** | Opción F2P de gran valor; incluye una subestadística crucial de Prob. CRIT. |
+| **A Time Will Come** | Clase A | **B (F2P)** | Muy accesible; cubre los requisitos básicos de estadísticas ofensivas. |
+
+<CardGrid cols={3}>
+  <Card title="Blushing Mirage (BiS)">
+    - **Arco Condensado Clase S**
+    - Diseñado para el kit de Shinku
+    - Obtener mediante Resolve Special
+  </Card>
+  <Card title="What's Desired (F2P)">
+    - **Opción económica Clase A**
+    - Subestadística de Prob. CRIT integrada
+    - Muy accesible al principio
+  </Card>
+  <Card title="Prioridad de Stats">
+    - **Daño de Cosmos %**
+    - Prob. CRIT / Daño CRIT
+    - ATK % y Recarga de Energía
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Reglas del Banner de Arcos">
+El Arco de firma, Blushing Mirage, se obtiene a través del **Programa de Investigación de Arcos Especiales Resolve** utilizando Tri-Keys o Resolve Keys. ¡Asegúrate de conseguir a Shinku en su banner de personaje antes de invertir en su banner de arma!
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mecánicas de Combate y Rotación de Habilidades">
+
+Shinku presenta un estilo de combate de forma dual que transiciona entre la acumulación de recursos en su forma base y el despliegue de ataques AoE de alto daño en su forma potenciada.
+
+### Recursos Centrales de Combate
+
+1. **Medidor de Espíritu Desafiante**: Se llena usando ataques básicos y contraataques tras esquiva en su forma normal. A diferencia de otros personajes, Shinku no puede lanzar su Habilidad Definitiva solo con Energía Definitiva estándar; primero debe cargar completamente este medidor.
+2. **Medidor de Razón Desvaneciente**: Se acumula al asestar ataques básicos durante su estado Carmesí Oleante (Rampage).
+
+### Rotación de Combate Paso a Paso
+
+<Steps>
+  <Step num="1" title="Acumular Espíritu Desafiante">
+    Ejecuta su combo de ataque básico estándar de 5 golpes, manteniendo presionado el botón de ataque durante los últimos tres golpes para activar ataques extendidos y cargar su Espíritu Desafiante.
+  </Step>
+  <Step num="2" title="Activar Carmesí Oleante">
+    Una vez que el medidor de Espíritu Desafiante esté lleno, activa su Habilidad Definitiva para entrar en la forma Carmesí Oleante (Rampage), alterando sus ataques básicos para infligir daño AoE de alta velocidad.
+  </Step>
+  <Step num="3" title="Acumular Razón Desvaneciente">
+    Realiza sus ataques básicos potenciados durante el estado Rampage para acumular rápidamente Razón Desvaneciente.
+  </Step>
+  <Step num="4" title="Desatar la Explosión Final">
+    Cerca del final de su estado Carmesí Oleante, activa la nueva habilidad de carga-explosiva desbloqueada para consumir toda la Razón Desvaneciente y ejecutar un golpe final masivo.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Habilidad de Vida de Exploración">
+Más allá del combate, Shinku posee Habilidades de Vida únicas de gestión empresarial. Desplegarla en sistemas de comida y bebida aumenta los precios de los platos y reduce el uso de ingredientes, lo que la hace muy eficiente para farmear Fons.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mejores Composiciones de Equipo para Shinku">
+
+Para maximizar el potencial de DPS de Cosmos de Shinku, emparéjala con personajes que puedan activar la **reacción de Carga** para acelerar su regeneración de energía definitiva.
+
+| Posición | Equipo Meta | Equipo de Caos | Equipo Económico |
+| :--- | :--- | :--- | :--- |
+| **DPS Principal** | **Shinku** (Cosmos DPS) | **Shinku** (Cosmos DPS) | **Shinku** (Cosmos DPS) |
+| **DPS de Ráfaga** | **Hathor** (Sub-DPS) | **Chaos** (Sub-DPS / Co-DPS) | **Jiuyuan** (F2P Burst) |
+| **Soporte** | **Sakiri** (Energía/Utilidad) | **Sakiri** (Buffer de Energía) | **Mint** (Utilidad Clase A) |
+| **Flex** | **Iroi** (Daño/Escudo) | **Iroi** o **Adler** | **Edgar** (Utilidad Clase A) |
+
+### Puntos Clave de Sinergia de Equipo
+
+- **La Reacción de Carga**: El talento pasivo de Shinku permite que todos los aliados reciban energía definitiva de la reacción de Carga en lugar de solo el personaje activo. Cuando Shinku está activa, gana un buff de ATK acumulable del 5% (hasta 10 acumulaciones) cada vez que Carga le restaura energía.
+- **Selector de Clase S F2P**: En la Versión 1.2, crear un personaje antes del 19 de agosto de 2026 te recompensa con una Caja de Selección de Personaje Estándar de Clase S gratuita. Úsala para elegir a **Sakiri** o **Hathor** y construir instantáneamente un equipo de nivel meta para Shinku.
+
+<Callout type="info" title="Advertencia para el Equipo de Caos">
+Si usas a Shinku junto a Chaos, asegúrate de activar la reacción de Carga mientras Shinku esté activa en el campo. Esto dirige la regeneración de energía crítica hacia ella, manteniendo fluida su rotación de Habilidad Definitiva de alto coste.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Todos los Atuendos y Skins de Shinku en la Versión 1.2">
+
+La Versión 1.2 introduce **cinco atuendos distintos** para Shinku, ofreciendo tanto efectos visuales premium como recompensas basadas en la progresión.
+
+| Nombre del Atuendo | Método de Desbloqueo | Coste / Requisitos | Características Clave |
+| :--- | :--- | :--- | :--- |
+| **Estudiante de Terrasea** | Tablón de Gacha Limitado | Garantizado a las 200 tiradas | Traje exclusivo de temática escolar. |
+| **Cazadora de Dragones** | Tienda de Moda del juego | 2,680 Cristales abisales (con descuento) | Skin premium con efectos visuales personalizados para ella y la moto Draco. |
+| **Patrulla del Alba** | Tienda de Moda del juego | 1,680 Cristales abisales (con descuento) | Atuendo casual permanente; el precio sube tras la 1.2. |
+| **Lirio del Laberinto** | Nivel de Vínculo de Personaje | Alcanzar Nivel de Vínculo 10 con Shinku | Recompensa de progresión completamente gratuita. |
+| **Heroína Normie** | Tienda del Evento 999 Nights | Comprar con moneda de progresión del evento | Recompensa gratuita limitada del evento. |
+
+<Checklist
+  id="shinku-progression-goals"
+  title="Lista de Verificación de Shinku Versión 1.2:"
+  items={[
+    "Completa el Prólogo para desbloquear el banner Antes del Amanecer de Shinku [1.1.1].",
+    "Reclama la Caja de Selección de Personaje Clase S gratuita de tu correo interno.",
+    "Canjea los códigos promocionales activos para acumular Anulitos y materiales de mejora.",
+    "Juega al minijuego 999 Nights para desbloquear el atuendo gratuito Heroína Normie.",
+    "Completa los Encuentros en la Ciudad de Shinku y sube su Nivel de Vínculo para desbloquear Lirio del Laberinto."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes de NTE Shinku">
+
+<FAQ items={[
+  {
+    question: "¿Cuándo termina el banner de NTE Shinku 1.2?",
+    answer: "El banner limitado de Shinku, Antes del Amanecer, está activo desde el lanzamiento de la Versión 1.2 el 8 de julio hasta el 29 de julio de 2026, a las 05:59 UTC+8."
+  },
+  {
+    question: "¿Cuál es la mejor arma de Shinku en Neverness to Everness?",
+    answer: "Su mejor arma es su Arco Condensado de Clase S de firma, Blushing Mirage, que se puede obtener en el Programa de Investigación de Arcos Especiales Resolve."
+  },
+  {
+    question: "¿Puedo conseguir alguno de los atuendos de Shinku gratis?",
+    answer: "Sí. El atuendo Lirio del Laberinto es gratuito al alcanzar el Nivel de Vínculo 10, y el atuendo Heroína Normie se puede reclamar gratis en la Tienda del Evento 999 Nights."
+  },
+  {
+    question: "¿Cómo funciona la Habilidad Definitiva de Shinku?",
+    answer: "Shinku primero debe acumular Espíritu Desafiante mediante sus ataques básicos. Una vez lleno, al lanzar su Definitiva se activa el estado Carmesí Oleante, otorgándole ataques básicos AoE potenciados que acumulan Razón Desvaneciente para una explosión final masiva."
+  }
+]} />
+
+</Section>

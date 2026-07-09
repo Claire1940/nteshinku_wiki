@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Rotaciones de NTE Shinku: Guía de Combate y Mejores Equipos",
+  description: "Domina las rotaciones de NTE Shinku en Neverness to Everness 1.2. Aprende su flujo de combate de doble forma, la gestión del Espíritu Desafiante y las mejores composiciones de equipo para el máximo DPS.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/991b1b/fff?text=NTE+Shinku+Rotations+Guide",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de NTE Shinku"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánica Principal**: Shinku es un personaje DPS de categoría S, de elemento Cosmos y tipo Condensado, cuya fuerza radica en sus mecánicas de doble forma.
+- **Bucle Principal**: Genera **Espíritu Desafiante** en su forma normal para activar su Definitiva, entrando en el estado de **Carmesí Desbordante** para un daño de ráfaga explosivo.
+- **Juego en Tiempo de Espera**: Utiliza su **Mirada Amenazante** fuera del campo y las **Esquivas Perfectas** para acumular enormes multiplicadores de daño para su próximo ataque de entrada.
+- **Sinergia Óptima**: Emparéjala con personajes que permitan activar las reacciones de **Rémora**, **Florecimiento** y **Carga** para recuperar energía de la Definitiva rápidamente.
+</Callout>
+
+<Section icon={Swords} title="Comprendiendo el Kit de Combate de Doble Forma de Shinku">
+
+Para ejecutar las **rotaciones óptimas de NTE Shinku**, los jugadores deben entender que ella opera con dos kits de combate completamente diferentes. En su forma normal, su objetivo principal es llenar su indicador de **Espíritu Desafiante**. Una vez que este indicador está completamente cargado, puede activar su Definitiva, **Furia Carmesí**, para entrar en el estado de **Carmesí Desbordante** (también conocido como Ascensión Carmesí) durante 13 segundos. Durante esta ventana de transformación, sus ataques básicos y habilidades son reemplazados por variantes significativamente más fuertes y con altos multiplicadores.
+
+| Nombre de la Habilidad | Forma | Función de Combate Principal | Ganancia de Espíritu Desafiante |
+| :--- | :--- | :--- | :--- |
+| **Artes de Combate Especiales** | Normal | Cadena de ataques básicos de artes marciales de 5 golpes; mantener pulsado desata combos alterados | Media-Alta |
+| **Brecha de Alta Velocidad** | Normal | Habilidad de Redirección; se desliza hacia adelante infligiendo Daño de Cosmos | Moderada |
+| **Mirada Amenazante** | Normal | Pasiva; se acumula hasta 8 veces al estar fuera del campo o sin atacar | Ninguna (Otorga mejora de daño) |
+| **Furia Carmesí (Definitiva)** | Normal | Consume Espíritu Desafiante para entrar en el estado **Carmesí Desbordante** por 13s | Lo consume todo |
+| **Ataques Básicos Alterados** | Carmesí Desbordante | Garras de alta velocidad; genera energía de Filo Lúcido | N/A (Consume Razón Desvanecida) |
+| **Juicio Carmesí** | Carmesí Desbordante | Ataques de deslizamiento rápido activados mediante el botón de la Definitiva | N/A (Remate Definitivo) |
+
+<Callout type="tip" title="Consejo Pro: La Regla de Acumulación de Mirada Amenazante">
+Si Shinku está en el campo y no ataca durante más de 2 segundos, entra en el estado de **Mirada Amenazante**, ganando 1 acumulación por segundo (y 1 acumulación extra por cada Esquiva Perfecta) hasta un límite de 8 acumulaciones. Cada acumulación aumenta el daño de bonificación de su próximo ataque en un 100%. En el Despertar base, cambiar de personaje elimina estas acumulaciones. Sin embargo, en el **Despertar 3**, ¡ella conserva estas acumulaciones fuera del campo e incluso puede acumularlas mientras está en la reserva, lo que cambia por completo la forma de estructurar a tus soportes!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación de Combate de Shinku Paso a Paso">
+
+Ejecutar las rotaciones de Shinku requiere cambiar con fluidez entre su fase de acumulación de recursos y su ventana de ráfaga definitiva. En general, se recomienda pasar el menor tiempo posible con los personajes de soporte para asegurar que Shinku no pierda sus acumulaciones de mejora de ataque.
+
+<Steps>
+  <Step num="1" title="Acumular Espíritu Desafiante">
+    Comienza el combate con Shinku. Usa repetidamente su cadena de ataques básicos de **Artes de Combate Especiales**. Intercala su habilidad de redirección **Brecha de Alta Velocidad**. Asegúrate de asestar el 3.º o 5.º golpe, o mantén pulsado el ataque básico durante el 3.º, 4.º o 5.º golpe para activar la variante de combo Alterado y obtener la máxima generación de Espíritu Desafiante.
+  </Step>
+  <Step num="2" title="Ciclar las Mejoras de los Soportes">
+    Una vez que el indicador de Espíritu Desafiante de Shinku esté lleno, cambia a tus personajes de soporte. Activa sus habilidades elementales, definitivas y habilidades fuera del campo para preparar reacciones como **Rémora** y **Florecimiento**. No pases más de 5 o 6 segundos en la preparación de los soportes.
+  </Step>
+  <Step num="3" title="Desatar Furia Carmesí">
+    Vuelve a cambiar a Shinku e inmediatamente presiona su Definitiva para activar **Furia Carmesí**. Esto inicia su transformación al estado de **Carmesí Desbordante**, aumentando su resistencia a la interrupción, velocidad de movimiento y daño de Cosmos.
+  </Step>
+  <Step num="4" title="Ejecutar el Combo de Ráfaga">
+    Mientras esté en su estado transformado, ejecuta su bucle de daño potenciado: usa repetidamente los **Ataques Básicos Potenciados** para infligir un daño masivo y generar energía de Filo Lúcido, luego usa su **Habilidad de Redirección Potenciada**. Intenta realizar al menos dos lanzamientos de la habilidad potenciada durante esta ventana.
+  </Step>
+  <Step num="5" title="Desatar el Remate">
+    Cuando el temporizador de su transformación esté cerca de terminar, presiona continuamente el botón de la Definitiva para activar **Juicio Carmesí**. Shinku se deslizará entre los objetivos a una velocidad cegadora. Termina el combo con su ráfaga final, **Veredicto Definitivo de Flama de Dragón**, para infligir un daño de Cosmos masivo en área (AoE).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de Rotación">
+Evita quedarte demasiado tiempo con tus personajes de soporte. Si Shinku permanece fuera del campo durante un periodo prolongado, podría perder sus acumulaciones de mejora de ataque, o podrías no lograr encajar todos los lanzamientos de su habilidad potenciada dentro de la ventana de su definitiva.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Composiciones de Equipo y Ciclos de Reacciones">
+
+Las pasivas de Shinku incluyen la **Mejora del Ciclo de Carga**, que permite a los personajes fuera del campo ganar energía de Definitiva cada vez que el personaje activo realiza una carga. Por lo tanto, sus mejores composiciones de equipo aprovechan reacciones elementales rápidas para mantener el flujo de energía del equipo en constante movimiento.
+
+<CardGrid cols={3}>
+  <Card title="Equipo Premium de Caos">
+    - **DPS Principal**: Shinku
+    - **Sub-DPS**: Hathor
+    - **Soporte de Reacción**: Zero
+    - **Curador/Amortiguador**: Iroi
+    - *Enfoque*: Combina Doble Cosmos con Lakshana y Anima para activar las reacciones de **Rémora**, **Florecimiento** y **Carga**.
+  </Card>
+  <Card title="Variante de Confort">
+    - **DPS Principal**: Shinku
+    - **Sub-DPS**: Hathor
+    - **Curador/Cosmos**: Edgar
+    - **Agrupación/Anima**: Jiuyuan
+    - *Enfoque*: Edgar proporciona una fuente secundaria de Cosmos y curación segura, haciendo que los combates largos de juego tardío sean muy permisivos.
+  </Card>
+  <Card title="Equipo F2P Amigable">
+    - **DPS Principal**: Shinku
+    - **Sub-DPS**: Personaje Principal (MC)
+    - **Soporte**: Mint
+    - **Utilidad**: Skia
+    - *Enfoque*: Utiliza personajes accesibles para mantener un ciclo de alta frecuencia, aprovechando las mejoras de Skia y los cambios rápidos de Mint.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Guía de Reacciones Elementales">
+- **Rémora (Lakshana + Cosmos)**: Reduce el ataque y la velocidad de movimiento del enemigo.
+- **Florecimiento (Cosmos + Anima)**: Genera un capullo de vida que explota en proyectiles teledirigidos en área (AoE).
+- **Carga (Lakshana + Cosmos + Anima)**: Otorga al personaje activo 10 de energía de Definitiva cada vez que explota un Florecimiento, manteniendo la Definitiva de Shinku completamente cargada.
+</Callout>
+
+### La Secuencia de Rotación de Equipo Óptima
+
+Para maximizar la sinergia del Equipo Premium de Shinku (Shinku, Hathor, Zero e Iroi), utiliza la siguiente rotación estructurada:
+
+| Secuencia | Personaje | Acción a Realizar | Reacción Activada / Mejora Otorgada |
+| :--- | :--- | :--- | :--- |
+| **Paso 1** | **Shinku** | Asestar Ataques Básicos y Habilidad de Redirección | Acumular Espíritu Desafiante y llenar el Ciclo de Esper |
+| **Paso 2** | **Hathor** | Entrar, lanzar Definitiva, luego usar Habilidad | Aplica Lakshana, activa **Rémora** |
+| **Paso 3** | **Zero** | Entrar, lanzar Definitiva, luego usar Habilidad | Genera energía de Carga fuera del campo |
+| **Paso 4** | **Iroi** | Entrar, lanzar Habilidad, Definitiva, luego ataque básico | Aplica Anima, activa **Florecimiento** y **Carga** |
+| **Paso 5** | **Shinku** | Volver a entrar, lanzar Definitiva, ejecutar ráfaga completa | Entra en **Carmesí Desbordante** con mejoras al máximo |
+
+</Section>
+
+<Section icon={Trophy} title="Hitos de Construcción y Rotación de Shinku">
+
+Para que las rotaciones de Shinku se sientan fluidas, debes equiparla con el equipo correcto para evitar cuellos de botella de energía. Su arma insignia, **Espejismo Sonrojado**, es altamente recomendada ya que otorga un enorme 32% de bonificación de daño de Cosmos e ignora un 12% de la defensa enemiga durante la ventana de su Definitiva.
+
+<Checklist
+  id="shinku-rotation-prep"
+  title="Lista de Verificación para la Optimización de la Rotación:"
+  items={[
+    "Equipa Espejismo Sonrojado (Arco Insignia) o Pelusa de Ferocidad (alternativa del Pase de Batalla) para escalar el daño Crítico y de la Definitiva [1.1.4].",
+    "Consigue el conjunto de 4 piezas de Cartucho de Radiancia Perdida para ignorar el 25% de la DEF enemiga después de lanzar su Definitiva.",
+    "Prioriza las estadísticas en este orden: Bonificación de Daño Cosmos > Probabilidad de Crítico > Daño Crítico > ATQ% > Recarga de Energía.",
+    "Sube de nivel las habilidades de Shinku en este orden de prioridad: Ataque Básico > Definitiva > Habilidad > Habilidad de Soporte.",
+    "Practica el tiempo de su esquiva perfecta en el tutorial de combate del juego para dominar la acumulación instantánea de Mirada Amenazante."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué la Definitiva de Shinku no está lista aunque mi energía de Definitiva esté llena?",
+    answer: "A diferencia de otros personajes en Neverness to Everness, Shinku no puede activar su Definitiva únicamente acumulando energía de Definitiva. Primero debe cargar por completo su indicador único de Espíritu Desafiante asestando Ataques Básicos, Esquivas Perfectas o Habilidades de Redirección."
+  },
+  {
+    question: "¿Cuál es la prioridad de mejora de habilidades de Shinku para el máximo daño de rotación?",
+    answer: "Tras sus ajustes posteriores al lanzamiento, la prioridad de mejora de habilidades de Shinku es: Ataque Básico > Definitiva > Habilidad > Habilidad de Soporte. Sus Ataques Básicos aumentan en gran medida su generación de recursos y el daño en el campo, mientras que su Definitiva escala sus enormes multiplicadores de ráfaga en Carmesí Desbordante."
+  },
+  {
+    question: "¿Cómo mantengo las acumulaciones de Mirada Amenazante de Shinku al cambiar de personaje?",
+    answer: "De forma predeterminada, cambiar de personaje elimina todas las acumulaciones de Mirada Amenazante de Shinku. Para mantener sus acumulaciones activas fuera del campo y permitirle generarlas mientras está en la reserva, debes desbloquear su hito de duplicado del Despertar 3."
+  },
+  {
+    question: "¿Cuál es el mejor Arco gratuito (F2P) para la rotación de Shinku?",
+    answer: "El Arco de Llamas Furiosas (el arma insignia de Hathor) funciona como una excelente opción gratuita para aportar estadísticas a Shinku, proporcionando una sólida bonificación de daño de Habilidad de Redirección cuando activa su Definitiva."
+  }
+]} />
+
+</Section>

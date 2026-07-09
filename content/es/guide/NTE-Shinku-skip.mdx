@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Omitir a Shinku en NTE: Valor de Obtención, Análisis de Banner y Veredicto del Meta",
+  description: "¿Deberías obtener u omitir a Shinku en la versión 1.2 de Neverness to Everness? Revisa sus mecánicas de combate, su Arco insignia y el valor de su banner para tomar la decisión correcta.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/991b1b/fff?text=NTE+Shinku+Skip+Guide",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de NTE Shinku"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Decisión Principal**: Decidir si **omitir a Shinku en NTE** depende en gran medida de las necesidades de tu plantilla actual y de si ya posees un DPS Principal completamente desarrollado.
+- **Identidad de Combate**: Shinku es una DPS Principal de clase S de atributo Cosmos que domina el campo de batalla utilizando un estilo de artes marciales de doble forma.
+- **Mecánica Clave**: Depende de su **indicador de Espíritu Desafiante** para activar su devastador estado de transformación **Carmesí Desbordante**.
+- **Periodo del Banner**: Su panel limitado, *Antes del amanecer*, estará disponible desde el **8 de julio después de la actualización hasta el 29 de julio de 2026 a las 05:59 UTC+8** [00首页信息-1.md].
+- **Accesibilidad F2P**: Aunque es muy móvil y poderosa, requiere mecánicas específicas de calidad de vida que podrían hacer que los jugadores con presupuesto limitado consideren omitirla.
+</Callout>
+
+<Section icon={Target} title="Omitir a Shinku en NTE: Matriz de Decisión Principal">
+
+Decidir si ir a por Shinku o comprometerse a **omitir a Shinku en NTE** es la pregunta más urgente para los jugadores que entran en la versión 1.2 de Neverness to Everness (NTE) "999 Noches". Como el primer personaje de clase S destacado del parche, Shinku aporta un agresivo estilo de combate cuerpo a cuerpo Cosmos que luce increíblemente vistoso. Sin embargo, con la llegada en la Fase 2 de Iroi, la muy esperada sanadora y potenciadora de atributo Ánima, gestionar tu limitada moneda de gacha es absolutamente vital.
+
+Para ayudarte a decidir si tirar por ella u omitirla, hemos recopilado una comparación rápida de lo que ganas al obtenerla frente a lo que ahorras al omitirla.
+
+| Obtener a Shinku | Omitir a Shinku |
+| :--- | :--- |
+| **DPS Principal Cosmos de primer nivel** con un alto daño de ráfaga en el campo. | **Ahorra valiosas Llaves Triples y Anulita** para la Fase 2 o futuros banners. |
+| **Desbloquea desplazamiento a alta velocidad en el mundo abierto** mediante su mecánica única de esprint. | **Evita el agotamiento de recursos** si tus ranuras de DPS Principal ya están cubiertas. |
+| **Acceso a cosméticos exclusivos de banner** en hitos específicos de tiradas [00首页信息-1.md]. | **Te permite concentrarte en unidades de apoyo** como Iroi, que encajan en más equipos. |
+
+<Callout type="tip" title="Consejo Profesional">
+Si eres un jugador gratuito (F2P) y ya tienes un personaje DPS Principal confiable y completamente desarrollado que cubra tus necesidades de combate, omitir a Shinku es un movimiento estratégico muy viable. Esto te permite ahorrar valiosas tiradas para futuros personajes de apoyo universal.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Análisis de Estilo de Juego de Shinku">
+
+Para comprender si Shinku encaja en tu equipo, debes analizar su ciclo de combate único de doble forma. Shinku no genera energía definitiva como los personajes estándar; en su lugar, funciona con un sistema de indicador especializado.
+
+### El Ciclo de Doble Forma: Normal vs. Carmesí Desbordante
+En su estado normal, Shinku utiliza artes marciales rápidas cuerpo a cuerpo para acumular su **indicador de Espíritu Desafiante**. Una vez que este indicador está lleno, puede activar su Habilidad Definitiva, *Furia Carmesí*, para consumir el indicador y entrar en su legendario estado **Carmesí Desbordante** (Frenesí).
+
+```
+[Forma Normal: Ataques Básicos] ➔ [Acumular Espíritu Desafiante] ➔ [Lanzar Definitiva: Furia Carmesí] ➔ [Entrar en Forma Carmesí Desbordante]
+```
+
+Durante su estado Carmesí Desbordante, todo su conjunto de habilidades se reemplaza con variantes mejoradas de altos multiplicadores. Obtiene capacidades masivas de daño en área (AoE), mayor velocidad de ataque y una mayor resistencia a la interrupción.
+
+### La Mecánica de la Mirada Amenazante
+Fuera del ataque activo, Shinku acumula acumulaciones de **Mirada Disuasoria** (o Mirada Amenazante) cuando se abstiene de atacar durante 2 segundos mientras está en combate. Puede acumular hasta 8 cargas, que se consumen por completo en su siguiente golpe para desatar un **Golpe Instantáneo**. Este ataque inflige un daño masivo y restaura instantáneamente energía Definitiva, energía de Habilidad y energía del Medidor de Ciclo.
+
+### Utilidad en el Mundo Abierto
+En el mundo abierto, Shinku puede mantener pulsado el botón de esquivar para activar su esprint de Frenesí, lo que le permite correr a velocidades increíblemente altas por Hethereau sin necesidad de invocar un vehículo.
+
+<Callout type="warning" title="Advertencia de Estilo de Juego">
+Las cargas de mirada de Shinku se pierden por completo si la retiras del campo antes de consumirlas. Sus primeros nodos de Despertar resuelven esta incomodidad, permitiéndole conservar las cargas fuera del campo. Sin este Despertar, su rotación puede resultar restrictiva para los jugadores que disfrutan de estilos de juego con cambios rápidos de personajes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Valor del Banner: Detalles de Antes del Amanecer">
+
+El panel limitado *Antes del amanecer* presenta varias recompensas valiosas y personajes con probabilidad aumentada junto a Shinku [00首页信息-1.md]. Comprender estos hitos es clave para planificar tus tiradas.
+
+### Calendario y Condiciones del Banner
+- **Disponibilidad**: Del 8 de julio de 2026 (después del mantenimiento) al 29 de julio de 2026 a las 05:59 UTC+8 [00首页信息-1.md].
+- **Requisito de Desbloqueo**: Completar *Prólogo - Un nuevo destino - Dirígete a la tienda de antigüedades Eibon* [00首页信息-1.md].
+- **Personajes de Clase A Destacados**: Mint, Edgar, Adler [00首页信息-1.md].
+
+### Recompensas por Hitos de Tiradas en el Banner
+A diferencia de los banners estándar, *Antes del amanecer* recompensa a los jugadores con artículos cosméticos exclusivos al alcanzar ciertos umbrales de tiradas [00首页信息-1.md]:
+
+| Hito de Tiradas | Tipo de Recompensa | Nombre de la Recompensa y Detalles de Personalización |
+| :--- | :--- | :--- |
+| **50 Tiradas** | Diseño de Planeador | **Dosel Nublado**: Un elegante diseño personalizado para tu planeador [00首页信息-1.md]. |
+| **120 Tiradas** | Diseño de Vehículo | **Dragón Oculto**: Un diseño premium para el vehículo Blizzard-V4 [00首页信息-1.md]. |
+| **200 Tiradas** | Atuendo de Personaje | **Estudiante de Terrasea**: El atuendo exclusivo de Shinku con temática académica [00首页信息-1.md]. |
+
+<Callout type="info" title="Nota sobre Cosméticos">
+Estas recompensas por hitos también se pueden obtener de forma aleatoria como recompensas de aparición mientras realizas tiradas en el banner antes de llegar a los hitos garantizados [00首页信息-2.md].
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Aspectos Básicos de la Configuración e Inversión en el Arco Insignia">
+
+Si decides obtener a Shinku, maximizar su daño requiere invertir en su arma insignia, conocida en NTE como Arco. Shinku utiliza un Arco de tipo Condensado, y su mejor opción absoluta en esa ranura es el Arco limitado de clase S, **Espejismo Sonrojado**.
+
+### Arco Insignia: Espejismo Sonrojado
+- **Origen**: Programa de Investigación Especial de Arcos: Determinación (se ejecuta en paralelo al banner de Shinku) [00首页信息-1.md].
+- **Moneda**: Llaves Triples o Llaves de Determinación [00首页信息-1.md].
+- **Efecto Principal**: Aumenta el Daño Crítico en un 4% cada vez que asestas un Golpe Crítico, acumulándose hasta 10 veces para un aumento masivo del 40% de Daño Crítico.
+
+### Alternativas de Arcos F2P y Económicas
+Si decides tirar por Shinku pero prefieres omitir el banner de su arma para ahorrar recursos, puedes utilizar estas alternativas altamente competitivas:
+
+<CardGrid cols={3}>
+  <Card title="Pelusa de Ferocidad">
+    - **Origen**: Pase de Batalla
+    - **Tipo**: Soporte de Clase S
+    - **Veredicto**: Una alternativa muy confiable y rentable para jugadores de bajo gasto.
+  </Card>
+  <Card title="Llamas Furiosas">
+    - **Origen**: Banner Estándar
+    - **Tipo**: Estándar de Clase S
+    - **Veredicto**: El Arco insignia de Hathor, pero funciona increíblemente bien con Shinku.
+  </Card>
+  <Card title="Cartucho Estándar">
+    - **Origen**: Obtenible en el juego
+    - **Tipo**: Conjunto de Equipo
+    - **Veredicto**: Concéntrate en conjuntos que ignoren la DEF enemiga en un 25% al lanzar una Definitiva.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Prioridad de Configuración">
+Prioriza siempre desbloquear primero al personaje de Shinku [00首页信息-1.md]. Solo procede a realizar tiradas en la *Investigación Especial de Arcos: Determinación* para obtener Espejismo Sonrojado si tienes suficientes llaves de sobra y planeas convertir a Shinku en tu atacante principal en el campo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Cómo Evaluar tu Decisión de Tirar">
+
+Para simplificar tu decisión final, sigue estos pasos para evaluar el estado actual de tu cuenta en la versión 1.2 de Neverness to Everness.
+
+<Steps>
+  <Step num="1" title="Evalúa tu Plantilla de DPS Principal">
+    Revisa tu lista actual de personajes. Si ya cuentas con atacantes activos en el campo consolidados como Caos o Lacrimosa, añadir a otro DPS Principal egoísta como Shinku no es una necesidad.
+  </Step>
+  <Step num="2" title="Evalúa tus Necesidades de Soporte">
+    Mira hacia la Fase 2. Iroi es una sanadora Ánima de clase S que puede revivir a sus compañeros de equipo y proporcionar enormes mejoras ofensivas. Los soportes suelen tener una vida útil mucho más larga en el meta que los personajes de daño.
+  </Step>
+  <Step num="3" title="Revisa tus Monedas para Tiradas">
+    Calcula tu Anulita y Llaves Triples disponibles. Recuerda que la versión 1.2 ofrece recompensas gratuitas como el Regalo de Agradecimiento (1,600 Anulitas) y compensaciones por mantenimiento para ayudar a amortiguar tus ahorros [00首页信息-1.md].
+  </Step>
+  <Step num="4" title="Pruébala en la Fase de Prueba">
+    Juega el tutorial de combate dedicado de Shinku en el juego una vez que la versión 1.2 esté disponible [00首页信息-1.md]. Presta mucha atención a sus animaciones de ataque, la gestión de las cargas de mirada y la sensación mecánica general antes de gastar cualquier moneda.
+  </Step>
+</Steps>
+
+<Checklist
+  id="shinku-pull-checklist"
+  title="Tira por Shinku si cumples con estos criterios:"
+  items={[
+    "Disfrutas de mecánicas de combate cuerpo a cuerpo de doble forma y ritmo rápido.",
+    "Quieres su esprint de desplazamiento a alta velocidad por el mundo abierto.",
+    "Tienes suficientes recursos para asegurar sus primeros nodos de Despertar para un estilo de juego más fluido.",
+    "Valoras enormemente las recompensas cosméticas exclusivas por hitos, como el atuendo Estudiante de Terrasea [00首页信息-1.md]."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Se recomienda omitir a Shinku en NTE a los jugadores F2P?",
+    answer: "Sí, omitir a Shinku en NTE es muy recomendable para los jugadores F2P que ya tienen un DPS Principal funcional. Guardar tus tiradas para unidades de soporte versátiles como Iroi en la Fase 2 generalmente ofrece un valor de cuenta a largo plazo mucho mayor."
+  },
+  {
+    question: "¿Puedo usar a Shinku eficazmente sin su Arco insignia?",
+    answer: "Por supuesto. Aunque Espejismo Sonrojado es su mejor arma, puedes usar fácilmente excelentes opciones F2P y estándar como Pelusa de Ferocidad (del Pase de Batalla) o el Arco Llamas Furiosas."
+  },
+  {
+    question: "¿Se transfieren las recompensas cosméticas por hitos de Shinku a otros banners?",
+    answer: "No. Los hitos del planeador, el diseño de vehículo y el atuendo Estudiante de Terrasea son exclusivos del panel limitado Antes del amanecer y deben reclamarse durante el periodo de su banner, del 8 al 29 de julio de 2026."
+  },
+  {
+    question: "¿Pierde Shinku sus cargas de Mirada Disuasoria al cambiar de personaje?",
+    answer: "Sí, por defecto, retirar a Shinku del campo eliminará todas sus cargas de mirada acumuladas. Esta incomodidad se puede solucionar desbloqueando sus nodos específicos de Despertar de calidad de vida."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,167 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Habilidades de NTE Shinku: Guía Completa de Combate y Mecánicas de Forma",
+  description: "Domina las habilidades de NTE Shinku con nuestra guía de combate exhaustiva. Aprende sobre su forma de Carmesí Oleante, Espíritu Desafiante, acumulaciones de Mirada Amenazante y combos óptimos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Shinku+Skills+Guide",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de NTE Shinku",
+  keywords: "habilidades, combate, Shinku, guía, NTE"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Identidad Principal**: Shinku es una DPS principal de Cosmos de Clase S especializada en combate cuerpo a cuerpo agresivo y cambio de posturas.
+- **Transformación de Postura**: Su jugabilidad gira en torno a acumular **Espíritu Desafiante** para activar su forma definitiva, **Carmesí Oleante**.
+- **Mecánica de Mirada Amenazante**: Quedarse quieto o esquivar genera acumulaciones que desatan un contraataque devastador de **Golpe Instantáneo**.
+- **Prioridad de Habilidades**: Centra tus mejoras primero en su **Definitiva**, seguida de su **Ataque Básico** y su **Habilidad de Redirección**.
+- **Sinergia Característica**: Alcanza su máximo potencial cuando se combina con su Arc de Clase S característico, **Espejismo Sonrojado**.
+</Callout>
+
+<Section icon={Swords} title="Habilidades de NTE Shinku y Mecánicas de Combate Principales">
+
+Shinku es una poderosa Esper de atributo Cosmos que domina el campo de batalla a través de un ciclo de combate de forma dual. Su conjunto de habilidades básico se centra en acumular recursos mediante golpes de artes marciales antes de transformarse en un estado berserker imparable.
+
+**Puntos Destacados del Video:**
+- **Exhibición de Forma Dual**: Visualización de la transición de los golpes cuerpo a cuerpo normales a su estado transformado similar a un dragón.
+- **Sincronización de Mirada Amenazante**: Cómo acumular y aprovechar las acumulaciones pasivas para un daño de ráfaga inicial masivo.
+- **Cadena de Combo Definitiva**: La secuencia exacta requerida para maximizar el daño durante su ventana de transformación de 13 segundos.
+
+<YouTubeEmbed videoId="FVhLNdcAVyI" title="NTE Shinku Character PV丨The Edge of Dreams" />
+
+### Desglose de Habilidades en Forma Normal
+
+En su estado estándar, Shinku actúa como un motor en el campo, acumulando energía para alimentar su transformación. Sus ataques básicos son golpes de artes marciales rápidos y de apariencia física que infligen daño de Cosmos.
+
+| Nombre de Habilidad | Tipo de Habilidad | Descripción de Combate | Recurso Generado |
+| :--- | :--- | :--- | :--- |
+| **Artes de Combate Especiales** | Ataque Básico | Realiza hasta 5 golpes físicos/marciales consecutivos que infligen daño de Cosmos. | Genera **Espíritu Desafiante**. |
+| **Artes de Combate Especiales — Alteradas** | Ataque de Rama | Mantén pulsado el Ataque Básico durante el 3er, 4to o 5to golpe de su cadena normal. | Genera una gran cantidad de **Espíritu Desafiante**. |
+| **Brecha de Alta Velocidad** | Habilidad de Redirección | Shinku se lanza hacia adelante, realizando una rápida ráfaga de múltiples golpes de daño de Cosmos. | Genera **Espíritu Desafiante**. |
+| **Victoria Instantánea** | Contraataque de Esquiva | Se activa al pulsar Ataque Básico después de una Esquiva Perfecta, ejecutando una feroz patada voladora. | Otorga **Espíritu Desafiante** y drena el Indicador de Ruptura enemigo. |
+
+<Callout type="tip" title="Consejo Pro: El Bucle de Preparación de Postura">
+No te limites a pulsar ataques normales sin pensar. Activa siempre **Artes de Combate Especiales — Alteradas** manteniendo pulsado el botón de ataque durante el 3er o 5to golpe. Esta es la forma más rápida de llenar al máximo tu medidor de Espíritu Desafiante y preparar tu transformación.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Carmesí Oleante: El Estado de Transformación">
+
+Cuando Shinku consume su Espíritu Desafiante acumulado, lanza **Furia Carmesí** para entrar en el estado de **Carmesí Oleante**. Este estado dura **13 segundos** y reemplaza por completo sus habilidades normales con variantes potenciadas de alto multiplicador.
+
+<CardGrid cols={2}>
+  <Card title="Asalto de Marea (Básico Potenciado)">
+    Reemplaza Artes de Combate Especiales. Shinku ataca con un aura intimidante, ejecutando golpes de alta intensidad que infligen un daño masivo de Cosmos y acumulan **Razón Desvanecida**.
+  </Card>
+  <Card title="Hoja Carmesí de los Cielos">
+    Reemplaza Brecha de Alta Velocidad. Consume toda la Razón Desvanecida acumulada para saltar al punto ciego del enemigo y asestar un devastador golpe de garra descendente.
+  </Card>
+  <Card title="Juicio Carmesí (Definitiva de Múltiples Etapas)">
+    Se activa pulsando el botón de la Definitiva cerca del final de Carmesí Oleante. Shinku se desplaza entre los objetivos a velocidades cegadoras, infligiendo daño rápido de Cosmos.
+  </Card>
+  <Card title="Veredicto de Llama de Dragón (Remate Definitivo)">
+    La etapa final de su Definitiva. Pulsa el botón de la Definitiva una última vez para desatar una enorme explosión de llama de dragón que cubre un área amplia.
+  </Card>
+</CardGrid>
+
+### Comparación de Habilidades: Normal vs. Transformada
+
+| Característica | Forma Normal (Estándar) | Forma Carmesí Oleante (Transformada) |
+| :--- | :--- | :--- |
+| **Recurso Principal** | Acumula **Espíritu Desafiante** | Acumula y gasta **Razón Desvanecida** |
+| **Estilo de Ataque Básico** | Artes Marciales de 5 golpes (Artes de Combate Especiales) | Golpes Infundidos con Garras de 5 golpes (Asalto de Marea) |
+| **Habilidad de Redirección** | Brecha de Alta Velocidad (Ráfaga de Deslizamiento Frontal) | Hoja Carmesí de los Cielos (Golpe de Garra Descendente) |
+| **Resistencia a la Interrupción** | Estándar | Significativamente Aumentada |
+| **Contraataque de Evasión** | Victoria Instantánea (Patada Voladora) | Sin Tregua (Patada Pesada con Empuje) |
+
+<Callout type="warning" title="Reglas de Transformación">
+Cambiar de personaje termina inmediatamente el estado de **Carmesí Oleante**. Completa siempre la rotación completa de ráfaga de 13 segundos de Shinku y ejecuta su remate final **Veredicto de Llama de Dragón** antes de retirarla del campo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo jugar con Shinku: Rotación Paso a Paso">
+
+Para maximizar el daño de Shinku, debes integrar su preparación fuera del campo, la acumulación de recursos en el campo y su ventana de transformación en una rotación fluida.
+
+<Steps>
+  <Step num="1" title="Acumulación fuera del campo (Mirada Amenazante)">
+    Mantén a Shinku fuera del campo o evita atacar durante 2 segundos para activar **Mirada Amenazante**. Ella acumulará pasivamente hasta 8 cargas (o 16 cargas con Despertares superiores).
+  </Step>
+  <Step num="2" title="Iniciar con Golpe Instantáneo">
+    Cambia a Shinku al campo y ejecuta su primer Ataque Básico. Esto consume todas las cargas de Mirada Amenazante para desatar un enorme **Golpe Instantáneo**, generando instantáneamente una gran cantidad de Espíritu Desafiante.
+  </Step>
+  <Step num="3" title="Acumular Espíritu Desafiante">
+    Realiza su cadena básica estándar de 5 golpes, asegurándote de mantener el botón en el 3er o 5to golpe para ejecutar su ataque de rama **Alterado**. Mezcla su Habilidad de Redirección, **Brecha de Alta Velocidad**, para llenar el medidor.
+  </Step>
+  <Step num="4" title="Entrar en Carmesí Oleante">
+    Una vez que tu medidor de Espíritu Desafiante esté lleno, lanza su Definitiva, **Furia Carmesí**, para transformarte.
+  </Step>
+  <Step num="5" title="Ventana de Ráfaga Sostenida">
+    Usa repetidamente **Asalto de Marea** (Ataques Básicos Potenciados) para acumular Razón Desvanecida, luego gástala inmediatamente en su habilidad potenciada, **Hoja Carmesí de los Cielos**.
+  </Step>
+  <Step num="6" title="Ejecutar el Remate Carmesí">
+    Justo antes de que termine su transformación de 13 segundos, pulsa continuamente su botón de Definitiva para ejecutar **Juicio Carmesí** y culminar con el masivo **Veredicto de Llama de Dragón**.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Prioridad de Mejora de Habilidades y Progresión">
+
+Mejorar las habilidades de NTE Shinku requiere un enfoque equilibrado, pero priorizar sus herramientas principales de daño proporcionará el mayor retorno de inversión.
+
+### Guía de Prioridad de Nivel de Habilidades
+
+1. **Definitiva: Furia Carmesí (Prioridad 1)**: Aumenta directamente el multiplicador de su daño de transformación, Juicio Carmesí y Veredicto de Llama de Dragón.
+2. **Ataque Básico: Artes de Combate Especiales (Prioridad 2)**: Mejora sus ataques cuerpo a cuerpo estándar y sus golpes de Asalto de Marea transformados, que constituyen una parte masiva de su tiempo activo en el campo.
+3. **Habilidad de Redirección: Brecha de Alta Velocidad (Prioridad 3)**: Mejora su capacidad de cierre de brechas y el golpe de garra descendente durante su estado transformado.
+4. **Habilidad de Apoyo: Golpe de Rodilla Feroz (Prioridad 4)**: Puede dejarse en niveles bajos, ya que solo se usa durante los Ciclos de Esper de cambio rápido.
+
+<Checklist
+  id="shinku-materials-checklist"
+  title="Materiales de Mejora de Habilidad de Shinku (Por Habilidad):"
+  items={[
+    "Mangas de Vestido de la Vanidad (Material de Jefe) [1.1.2]",
+    "Susurros Paradójicos / Susurros Oscuros / Susurros Perdidos",
+    "La Rama de Olivo / Aleteo de Paloma / Anhelo de Pajarillo",
+    "Monedas Escarabajo (Aproximadamente 437,000 por habilidad para el máximo)"
+  ]}
+/>
+
+<Callout type="success" title="Utilidad en Mundo Abierto">
+¡No olvides la increíble pasiva de exploración de Shinku! Mantener pulsado su botón de esquiva en el mundo abierto activa su **Esprint de Frenesí**. Le brotan alas de energía púrpura, lo que le permite correr a velocidades extremas y esprintar directamente por paredes verticales mientras consume resistencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la diferencia entre Espíritu Desafiante y Razón Desvanecida?",
+    answer: "El Espíritu Desafiante es el recurso que Shinku acumula en su forma normal para activar su transformación Definitiva. La Razón Desvanecida es el recurso que acumula en su estado transformado de Carmesí Oleante para lanzar su habilidad de garra potenciada."
+  },
+  {
+    question: "¿Cómo activo la mecánica de Mirada Amenazante de Shinku?",
+    answer: "Mirada Amenazante se acumula pasivamente cuando Shinku está en el campo en combate pero no atacando activamente, o cuando está fuera del campo (desbloqueado mediante su Despertar A3). Se acumula hasta 8 veces (16 en A4) y convierte su siguiente ataque en un Golpe Instantáneo masivo."
+  },
+  {
+    question: "¿Debería subir de nivel la Habilidad de Apoyo de Shinku?",
+    answer: "No, su Habilidad de Apoyo es su prioridad más baja. La mayor parte del daño de Shinku proviene de su transformación Definitiva en el campo y de sus Ataques Básicos, por lo que deberías centrar tus materiales allí primero."
+  },
+  {
+    question: "¿Puede Shinku escalar paredes en Neverness to Everness?",
+    answer: "¡Sí! Al mantener pulsado su botón de esprint/esquiva en el mundo abierto, Shinku entra en su forma de dragón, brotándole alas púrpuras que le permiten esprintar excepcionalmente rápido y correr directamente por las paredes."
+  }
+]} />
+
+</Section>

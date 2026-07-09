@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Despertar de NTE Shinku: Guía Completa de Prioridad y Análisis de Kit",
+  description: "Desbloquea el verdadero potencial de NTE Shinku. Descubre la mejor prioridad de despertar para Shinku, los efectos detallados de sus duplicados y cómo optimizar su build de DPS de Cosmos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Shinku+Awakening+Guide",
+  date: "2026-07-09",
+  author: "Equipo de Wiki de NTE Shinku"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Despertar de NTE Shinku**: Desbloquear duplicados mejora directamente sus capacidades de DPS de Cosmos en su forma dual, resolviendo problemas mecánicos y aumentando el daño de ráfaga.
+- **Hitos Clave**: **A3** y **A6** destacan como las mejoras más transformadoras, alterando drásticamente la comodidad de su rotación y su techo de daño.
+- **Punto Óptimo para F2P**: Detenerse en **A1** proporciona un ignorar DEF del 12% muy rentable, mientras que **A3** es el punto de parada perfecto para quienes realizan compras ligeras.
+- **Bucle de Combate**: Shinku depende de acumular Espíritu Desafiante para activar su estado de Ascensión Carmesí, desatando devastadores combos mejorados.
+</Callout>
+
+<Section icon={Swords} title="Despertar de NTE Shinku: Prioridad Central">
+
+Shinku llega a la versión 1.2 "999 Nights" de *Neverness to Everness* (NTE) como una DPS principal de Cosmos de rango S excepcionalmente poderosa. Aunque su kit base es muy funcional, sus **Despertares** (desbloqueos de duplicados) resuelven restricciones de rotación clave y desbloquean un enorme escalado de multiplicadores.
+
+Para optimizar la asignación de tus recursos en el banner limitado *Before the Dawn* (disponible del 8 de julio al 29 de julio de 2026), es esencial entender qué niveles de duplicados ofrecen el mayor retorno de inversión.
+
+| Nivel de Despertar | Nombre | Efecto Central | Calificación de Prioridad |
+| :--- | :--- | :--- | :--- |
+| **A1** | Crimson Piercer | Todo el daño ignora el 12% de la DEF del objetivo. | **Alta (Valor F2P)** |
+| **A2** | Pre-Dawn Training Grounds | Reduce la Resistencia a Cosmos del objetivo en un 10% durante 20s después de golpear con la Definitiva. | **Moderada** |
+| **A3** | Sunset Beach | Mantiene activa la Mirada Amenazante fuera del campo; se acumula instantáneamente al entrar al combate. | **La Más Alta (Transformadora)** |
+| **A4** | Intimidating Focus | Aumenta el límite de acumulaciones de Mirada Amenazante a 16; mejora el Ataque Instantáneo. | **Alta (Sinergia con A3)** |
+| **A5** | Crimson Fortitude | Aumenta la DEF en un 50% y la Resistencia a la Interrupción en un 15% durante la Definitiva. | **Baja (Utilidad)** |
+| **A6** | Unruly Execution | Aumenta los multiplicadores de habilidad/Definitiva en un 30% durante la Definitiva; atrae a los objetivos. | **La Más Alta (Techo para Ballenas)** |
+
+<Callout type="success" title="El Punto de Parada Dorado">
+Para la mayoría de los jugadores que buscan invertir más allá de una sola copia, **A3 es el mejor punto de parada absoluto**. Permite a Shinku acumular cargas de Mirada Amenazante mientras está fuera del campo, simplificando por completo su rotación de ráfaga al entrar al combate y eliminando su principal inconveniente mecánico.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Análisis Profundo: Explicación de Cada Nivel de Despertar">
+
+Para entender por qué se priorizan ciertos hitos, debemos observar cómo altera cada nivel su flujo de combate y su rendimiento de daño.
+
+### A1: Crimson Piercer (Ignorar DEF)
+*Efecto: El daño de Shinku ignora el 12% de la DEF del objetivo.*
+Este es un multiplicador pasivo directo y altamente eficiente. Dado que las mecánicas de ignorar DEF escalan excepcionalmente bien contra jefes de alto nivel en el contenido final, el A1 representa un aumento sustancial de poder temprano con una inversión mínima.
+
+### A2: Pre-Dawn Training Grounds (Reducción de Resistencia)
+*Efecto: Reduce la Resistencia a Cosmos del objetivo en un 10% durante 20s después de golpear con la Definitiva.*
+A2 actúa como un debuff que se activa a sí mismo. Dado que Shinku inflige puro daño de Cosmos durante su ventana de ráfaga posterior a la Definitiva, reducir la resistencia del enemigo se traduce directamente en un aumento del daño general del equipo y de ella misma durante su ventana de DPS principal.
+
+### A3: Sunset Beach (Mecánicas Fuera del Campo)
+*Efecto: Mantiene activa la Mirada Amenazante después de cambiar de personaje y permite a Shinku obtener acumulaciones de Mirada Amenazante mientras está fuera del campo.*
+Esta es la mejora de calidad de vida más crítica para Shinku. En su estado base, Shinku debe permanecer en el campo sin atacar para acumular cargas de Mirada Amenazante, lo que ralentiza el combate. A3 elimina por completo esta restricción, permitiéndole generar acumulaciones mientras tus personajes de soporte preparan las reacciones, preparándola para realizar ataques de ráfaga masivos al entrar al campo.
+
+<CardGrid cols={3}>
+  <Card title="Valor de A1">
+    - **12% de Ignorar DEF**
+    - Escalado pasivo
+    - Excelente para jugadores F2P
+  </Card>
+  <Card title="Valor de A3">
+    - **Acumulación fuera del campo**
+    - Rotaciones fluidas
+    - Enorme mejora de calidad de vida
+  </Card>
+  <Card title="Valor de A6">
+    - **+30% en Multiplicadores de Daño**
+    - Atracción de control de masas
+    - Techo de daño definitivo
+  </Card>
+</CardGrid>
+
+### A4: Intimidating Focus (Límite de Cargas y Aturdimiento)
+*Efecto: Aumenta el límite de acumulaciones de Mirada Amenazante a 16. Mejora el Ataque Instantáneo para infligir Retroceso Forzado, un breve aturdimiento y una instancia de daño adicional del 20%.*
+A4 funciona en perfecta sinergia con A3. Dado que ahora generas acumulaciones fuera del campo sin esfuerzo, elevar el límite a 16 le permite a Shinku ejecutar un contraataque increíblemente poderoso con control de masas inmediatamente al entrar al campo.
+
+### A5: Crimson Fortitude (Interrupción y Curación)
+*Efecto: Aumenta la DEF en un 50% y la Resistencia a la Interrupción en un 15% en el estado de la Definitiva. Cura a Shinku en función de su ATQ al usar Habilidades Mejoradas.*
+Aunque esto hace que Shinku sea increíblemente resistente y cómoda de jugar, no contribuye a su techo ofensivo. Los jugadores experimentados que utilicen sus mecánicas de Esquiva Perfecta y parry encontrarán menos valor aquí, lo que lo convierte en un nivel de baja prioridad.
+
+### A6: Unruly Execution (El Remate Definitivo)
+*Efecto: Aumenta los multiplicadores de daño de la Habilidad Mejorada y la Definitiva en un 30% durante el estado de su Definitiva, y permite que estas habilidades atraigan a los objetivos dentro del alcance.*
+Esta es la cúspide de la build de Shinku. La convierte en un torbellino de destrucción autosuficiente, combinando multiplicadores de daño bruto masivos con una mecánica de agrupación integrada que junta a los enemigos automáticamente.
+
+<Callout type="warning" title="Advertencia de Presupuesto">
+Aunque A6 es increíblemente poderoso, es sumamente costoso. Solo busca el A6 si estás totalmente comprometido a hacer de Shinku tu carry principal en el futuro previsible.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Paso a Paso: Rotación de Combate Óptima de Shinku">
+
+Para aprovechar al máximo los Despertares de Shinku, debes ejecutar correctamente su bucle de combate de forma dual. Sigue esta guía paso a paso para maximizar su tiempo activo en el campo.
+
+<Steps>
+  <Step num="1" title="Preparar Buffs de Soporte Fuera del Campo">
+    Comienza la batalla con tus personajes de soporte (como Hathor y Jiuyuan) para activar elementos de reacción como Lakshana y Anima. Si tienes el **A3 desbloqueado**, Shinku estará acumulando activamente cargas de Mirada Amenazante en segundo plano durante este tiempo.
+  </Step>
+  <Step num="2" title="Entrar al Campo y Activar Ataque Instantáneo">
+    Cambia a Shinku. Ejecuta inmediatamente su Ataque Básico para consumir sus acumulaciones de Mirada Amenazante, desatando un Ataque Instantáneo de alto daño y alta energía que llena rápidamente su medidor de Espíritu Desafiante.
+  </Step>
+  <Step num="3" title="Acumular Espíritu Desafiante">
+    Usa sus secuencias rápidas de artes marciales, parries y Habilidades de Redirección para completar su Espíritu Desafiante. Las Esquivas Perfectas otorgarán acumulaciones adicionales y activarán poderosas patadas de contraataque.
+  </Step>
+  <Step num="4" title="Activar Ascensión Carmesí">
+    Una vez que su Espíritu Desafiante esté completamente cargado, activa su Definitiva para entrar en su estado transformado. Obtiene ataques básicos mejorados, mayor velocidad de movimiento y elimina el tiempo de reutilización de su habilidad.
+  </Step>
+  <Step num="5" title="Ejecutar la Cadena de Ráfaga Mejorada">
+    Usa repetidamente sus ataques básicos mejorados para cargar su habilidad, luego desata su Habilidad Mejorada. Repite este bucle hasta 5 veces, y finaliza con los desplazamientos de su Definitiva y la ráfaga de energía final de alto daño antes de cambiar de personaje.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Build y Progresión de Shinku">
+
+Antes de llevar a Shinku al contenido de alto nivel del juego final, asegúrate de haber completado estos objetivos esenciales de progresión:
+
+<Checklist
+  id="shinku-progression"
+  title="Objetivos de Progresión:"
+  items={[
+    "Desbloquear a Shinku en el banner Before the Dawn (del 8 de julio al 29 de julio de 2026) [1.1.5].",
+    "Apuntar al hito de Despertar A1 o A3 dependiendo de tu presupuesto.",
+    "Equipar su Arc de clase S exclusivo de tipo Condensado: Blushing Mirage.",
+    "Priorizar estadísticas: Daño Cosmos% > Prob. CRIT > Daño CRIT > ATQ%.",
+    "Subir de nivel las habilidades en orden de prioridad: Ataque Básico > Definitiva > Habilidad.",
+    "Armar su composición de equipo insignia con Hathor, Jiuyuan e Iroi."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Vale la pena conseguir a NTE Shinku si soy completamente F2P?",
+    answer: "Sí. Shinku es una DPS principal de Cosmos excepcional incluso en A0. Si logras tener suerte o ahorrar lo suficiente, detenerse en A1 proporciona un ignorar DEF del 12% muy eficiente que aumenta drásticamente su daño base contra los jefes del juego final."
+  },
+  {
+    question: "¿Cómo se compara la prioridad de Despertar de Shinku con obtener su Arc exclusivo?",
+    answer: "Por lo general, se prefiere asegurar a Shinku (A0) y luego tirar por su Arc exclusivo (Blushing Mirage) antes que buscar los primeros Despertares. El Arc exclusivo ofrece un perfil de estadísticas a medida que eleva significativamente su ventana de ráfaga transformada."
+  },
+  {
+    question: "¿El Despertar A5 de Shinku la hace invencible?",
+    answer: "No, pero aumenta su DEF en un 50% y otorga un 15% de Resistencia a la Interrupción junto con curación activa durante su Definitiva. Aunque la hace muy permisiva de jugar, se considera una mejora de utilidad de baja prioridad en comparación con sus Despertares enfocados en el daño."
+  },
+  {
+    question: "¿Por qué se considera al A3 el Despertar más transformador para Shinku?",
+    answer: "En su estado base, Shinku debe quedarse quieta en el campo para obtener acumulaciones de Mirada Amenazante. El A3 le permite generar estas acumulaciones mientras está fuera del campo. Esto significa que puede entrar al combate con el máximo de acumulaciones listas para disparar, optimizando por completo los tiempos de rotación del equipo."
+  }
+]} />
+
+</Section>

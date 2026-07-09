@@ -10,7 +10,15 @@
       "twitterDescription": "NTE Shinku Wiki covers Shinku's banner, build basics, Arc choices, outfits, team ideas, and event rewards in Neverness to Everness."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "build": "Build",
+    "kit": "Kit",
+    "team": "Team",
+    "materials": "Materials",
+    "banner": "Banner",
+    "cosmetics": "Cosmetics"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -560,125 +568,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "NTE Shinku Guides",
-      "description": "Complete NTE Shinku guides covering banner timing, build basics, Arc choices, skills, and story content for Neverness to Everness players.",
-      "metaTitle": "NTE Shinku Guides - Build, Banner & Arc Strategies",
-      "metaDescription": "Browse NTE Shinku guides for banner dates, build basics, Blushing Mirage Arc, combat skills, outfits, and story walkthroughs in Neverness to Everness.",
-      "categoryLabel": "SHINKU GUIDES",
-      "whatIs": "What are NTE Shinku Guides?",
-      "whatIsDescription": "Comprehensive guides covering Shinku's banner, build, Arc, skills, outfits, and story. Learn everything from pull planning to combat mastery.",
-      "why": "Why read NTE Shinku guides?",
+    "guide": {
+      "title": "NTE Shinku Guide",
+      "description": "Complete NTE Shinku guide covering pull value, gameplay showcase, banner strategy, and whether Shinku is worth pulling in Neverness to Everness Version 1.2.",
+      "metaTitle": "NTE Shinku Guide - Pull Value, Gameplay & Banner Strategy",
+      "metaDescription": "Read the full NTE Shinku guide for pull value, gameplay showcase, best build direction, and banner strategy in Neverness to Everness Version 1.2.",
+      "categoryLabel": "SHINKU GUIDE",
+      "whatIs": "What is the NTE Shinku Guide?",
+      "whatIsDescription": "The NTE Shinku guide pulls together everything you need to evaluate the Version 1.2 S-Class Cosmos character, including her gameplay showcase, pull value, must-pull reasons, and skip considerations.",
+      "why": "Why read the NTE Shinku guide?",
       "whySteps": {
-        "step1Title": "Plan Your Pulls",
-        "step1Description": "Understand banner timing, milestone rewards, and pull currency before investing",
-        "step2Title": "Build Shinku Right",
-        "step2Description": "Follow proven Arc, currency, and upgrade paths for Shinku",
-        "step3Title": "Master Combat and Story",
-        "step3Description": "Develop skills for Shinku's combat tutorial, hangouts, and bond content"
+        "step1Title": "Assess Pull Value",
+        "step1Description": "See whether Shinku is a must-pull S-Class character for your account in Version 1.2",
+        "step2Title": "Preview Gameplay",
+        "step2Description": "Review her showcase and combat rhythm before spending Annulith on the Before the Dawn board",
+        "step3Title": "Plan Your Strategy",
+        "step3Description": "Use banner facts and community Reddit takeaways to time your pulls"
       },
       "featured": "Featured & Essential",
       "all": "All NTE Shinku Guides"
     },
-    "crafting": {
+    "build": {
       "title": "NTE Shinku Build",
-      "description": "Master Shinku's build with Arc setup, currency planning, upgrade paths, and pull priority for Version 1.2.",
-      "metaTitle": "NTE Shinku Build - Arc, Currency & Upgrade Paths",
-      "metaDescription": "Master the NTE Shinku build with Blushing Mirage Arc setup, Resolve Special currency, upgrade paths, and pull priority for Neverness to Everness.",
+      "description": "Best NTE Shinku build covering Arc choices, weapons, cartridges, consoles, and stat priorities for Neverness to Everness Version 1.2.",
+      "metaTitle": "NTE Shinku Build - Arc, Weapons, Cartridges & Consoles",
+      "metaDescription": "Build NTE Shinku with the best Arc setup, weapons, cartridges, and consoles. A complete Version 1.2 build guide for Neverness to Everness.",
       "categoryLabel": "BUILD & ARC",
-      "whatIs": "What is a Shinku Build?",
-      "whatIsDescription": "A Shinku build guide covers her S-Class character type, signature Arc Blushing Mirage, Arc Research currency, and the order to spend resources during Version 1.2.",
-      "why": "Why plan a Shinku build?",
+      "whatIs": "What is a NTE Shinku build?",
+      "whatIsDescription": "A NTE Shinku build covers her Arc setup, weapons, cartridges, and consoles, including how the limited S-Class Arc Blushing Mirage fits her Condensate-type kit.",
+      "why": "Why plan a NTE Shinku build?",
       "whySteps": {
         "step1Title": "Pick the Right Arc",
-        "step1Description": "Learn how Blushing Mirage fits Shinku's Condensate-type Arc setup",
-        "step2Title": "Manage Currency",
-        "step2Description": "Understand Tri-Keys and Resolve Keys for Arc Research",
-        "step3Title": "Prioritize Pulls",
-        "step3Description": "Decide between the character, Arc, and cosmetics first"
+        "step1Description": "Learn how Blushing Mirage and alternative Arcs shape Shinku's Condensate-type damage",
+        "step2Title": "Choose Weapons and Cartridges",
+        "step2Description": "Match weapons and cartridges to Shinku's combat role and rotations",
+        "step3Title": "Tune Consoles and Stats",
+        "step3Description": "Prioritize consoles and main stats that amplify her S-Class Cosmos output"
       },
       "featured": "Featured & Essential",
-      "all": "All Shinku Build Guides"
+      "all": "All NTE Shinku Build Guides"
     },
-    "items": {
-      "title": "NTE Shinku Items",
-      "description": "Detailed item and currency guides covering Annulith, Fons, Arc keys, upgrade materials, and event resources for Shinku.",
-      "metaTitle": "NTE Shinku Items - Currency, Keys & Materials",
-      "metaDescription": "Complete item and currency reference for NTE Shinku including Annulith, Fons, Tri-Keys, Resolve Keys, and event materials in Neverness to Everness.",
-      "categoryLabel": "ITEMS & CURRENCY",
-      "whatIs": "What are NTE Shinku items?",
-      "whatIsDescription": "Guides for the currencies and materials that power Shinku's pulls, Arc Research, and upgrades, including how to earn them through codes, mail, and events.",
-      "why": "Why check item guides?",
+    "kit": {
+      "title": "NTE Shinku Kit",
+      "description": "Full NTE Shinku kit breakdown covering skills, abilities, element, role, and awakening mechanics in Neverness to Everness.",
+      "metaTitle": "NTE Shinku Kit - Skills, Abilities, Element & Awakening",
+      "metaDescription": "Understand the NTE Shinku kit including skills, abilities, element, combat role, and awakening mechanics in Neverness to Everness.",
+      "categoryLabel": "SKILLS & KIT",
+      "whatIs": "What is the NTE Shinku kit?",
+      "whatIsDescription": "The NTE Shinku kit explains her skills, abilities, element, combat role, and awakening, showing how her S-Class Cosmos identity plays in battle.",
+      "why": "Why learn the NTE Shinku kit?",
       "whySteps": {
-        "step1Title": "Earn Pull Currency",
-        "step1Description": "Track Annulith from codes, mail, and login events",
-        "step2Title": "Fund Arc Research",
-        "step2Description": "Gather Tri-Keys and Resolve Keys for Blushing Mirage",
+        "step1Title": "Master Skills and Abilities",
+        "step1Description": "Break down each skill and ability to time Shinku's combat rotations",
+        "step2Title": "Understand Element and Role",
+        "step2Description": "See how Shinku's element and Cosmos role define her team function",
+        "step3Title": "Unlock Awakening",
+        "step3Description": "Plan awakening progression to push Shinku's S-Class potential"
+      },
+      "featured": "Featured & Essential",
+      "all": "All NTE Shinku Kit Guides"
+    },
+    "team": {
+      "title": "NTE Shinku Team",
+      "description": "Best NTE Shinku team comps, rotations, and synergy including the Iroi team for Neverness to Everness Version 1.2.",
+      "metaTitle": "NTE Shinku Team - Best Comps, Rotations & Synergy",
+      "metaDescription": "Build the best NTE Shinku team with recommended comps, rotations, synergy, and the Iroi team for Neverness to Everness.",
+      "categoryLabel": "TEAM COMPS",
+      "whatIs": "What is a NTE Shinku team?",
+      "whatIsDescription": "A NTE Shinku team guide covers recommended team comps, rotations, and synergy, including the Iroi team and best-team options for Version 1.2.",
+      "why": "Why build a NTE Shinku team?",
+      "whySteps": {
+        "step1Title": "Pick the Best Team",
+        "step1Description": "Compare best-team and team-comp options that fit Shinku's Cosmos role",
+        "step2Title": "Learn Rotations",
+        "step2Description": "Practice rotation timing to chain Shinku's skills with teammates",
+        "step3Title": "Maximize Synergy",
+        "step3Description": "Pair Shinku with the right units, including the Iroi team, for full synergy"
+      },
+      "featured": "Featured & Essential",
+      "all": "All NTE Shinku Team Guides"
+    },
+    "materials": {
+      "title": "NTE Shinku Materials",
+      "description": "Complete NTE Shinku materials guide covering farm routes, ascension materials, upgrade materials, and pre-farm planning for Version 1.2.",
+      "metaTitle": "NTE Shinku Materials - Farm, Ascension & Upgrade Mats",
+      "metaDescription": "Farm NTE Shinku materials efficiently with ascension, upgrade, and level material routes plus pre-farm planning for Version 1.2.",
+      "categoryLabel": "MATERIALS & FARM",
+      "whatIs": "What are NTE Shinku materials?",
+      "whatIsDescription": "NTE Shinku materials cover the ascension, upgrade, and level mats needed to raise her, plus farm and pre-farm routes to stock them before pulling.",
+      "why": "Why pre-farm NTE Shinku materials?",
+      "whySteps": {
+        "step1Title": "Pre-Farm Before Banner",
+        "step1Description": "Stock core mats before the Before the Dawn board goes live so Shinku can level on day one",
+        "step2Title": "Collect Ascension Materials",
+        "step2Description": "Gather the ascension materials needed for each Shinku ascension tier",
         "step3Title": "Stock Upgrade Materials",
-        "step3Description": "Prepare Hunter Guides, Dye, and Beetle Coins in advance"
+        "step3Description": "Prepare upgrade and level mats to push Shinku's skills and awakening"
       },
       "featured": "Featured & Essential",
-      "all": "All Shinku Items"
+      "all": "All NTE Shinku Materials"
     },
-    "biomes": {
-      "title": "NTE Shinku World",
-      "description": "Explore the locations tied to Shinku's story, including Hethereau, Eibon Antique Shop, and the new Warren Continent.",
-      "metaTitle": "NTE Shinku World - Hethereau, Eibon & Warren Continent",
-      "metaDescription": "Explore the NTE Shinku world locations including Hethereau, the Eibon Antique Shop, and the new Warren Continent unlocked in Version 1.2.",
-      "categoryLabel": "WORLD & STORY",
-      "whatIs": "What is the NTE Shinku world?",
-      "whatIsDescription": "Guides to the locations and story episodes connected to Shinku, from the anomaly-hunting city of Hethereau to the Warren Continent reached through Fighting with a Dragon.",
-      "why": "Why explore the world?",
+    "banner": {
+      "title": "NTE Shinku Banner",
+      "description": "NTE Shinku banner guide with release date, Version 1.2 schedule, pity system, and pull counts for Neverness to Everness.",
+      "metaTitle": "NTE Shinku Banner - Release Date, Pity & Pulls (1.2)",
+      "metaDescription": "Get NTE Shinku banner details including release date, Version 1.2 schedule, pity system, and pull counts for Neverness to Everness.",
+      "categoryLabel": "BANNER & RELEASE",
+      "whatIs": "What is the NTE Shinku banner?",
+      "whatIsDescription": "The NTE Shinku banner covers her Before the Dawn Limited Board release date, Version 1.2 schedule, pity system, and pull counts.",
+      "why": "Why track the NTE Shinku banner?",
       "whySteps": {
-        "step1Title": "Unlock Story Episodes",
-        "step1Description": "Complete the quests that open Shinku's banner and Arc",
-        "step2Title": "Reach New Regions",
-        "step2Description": "Travel to Warren Continent through the main story",
-        "step3Title": "Find Anomaly Commissions",
-        "step3Description": "Take on hunts connected to the Eibon Antique Shop"
+        "step1Title": "Check Release Date",
+        "step1Description": "Confirm Shinku's Version 1.2 release date and banner end on July 29, 2026",
+        "step2Title": "Understand Pity",
+        "step2Description": "Learn how the pity system protects your pulls on the Before the Dawn board",
+        "step3Title": "Plan Pull Counts",
+        "step3Description": "Calculate the pull counts needed for Shinku and her milestone cosmetics"
       },
       "featured": "Featured & Essential",
-      "all": "All World Guides"
+      "all": "All NTE Shinku Banner Guides"
     },
-    "building": {
+    "cosmetics": {
       "title": "NTE Shinku Cosmetics",
-      "description": "Collect Shinku outfits, skins, glider liveries, and vehicle liveries from the banner, shop, bond, and event sources.",
-      "metaTitle": "NTE Shinku Cosmetics - Outfits, Skins & Liveries",
-      "metaDescription": "Collect NTE Shinku cosmetics including outfits, skins, glider liveries, and vehicle liveries from the Before the Dawn banner, shop, bond, and 999 Nights event.",
-      "categoryLabel": "OUTFITS & COSMETICS",
+      "description": "NTE Shinku cosmetics guide covering skins, outfits, and the summer skin from banner milestones, shop, and bond in Version 1.2.",
+      "metaTitle": "NTE Shinku Cosmetics - Skins, Outfits & Summer Skin",
+      "metaDescription": "Collect NTE Shinku cosmetics including skins, outfits, and the summer skin from banner milestones, shop discounts, and bond in Version 1.2.",
+      "categoryLabel": "SKINS & OUTFITS",
       "whatIs": "What are NTE Shinku cosmetics?",
-      "whatIsDescription": "Guides to Shinku's outfits, skins, and liveries, covering how to unlock them through banner milestones, shop discounts, Bond Level, and the 999 Nights event shop.",
-      "why": "Why collect cosmetics?",
+      "whatIsDescription": "NTE Shinku cosmetics cover her skins, outfits, and summer skin, including how to unlock them through banner milestones, shop discounts, and Bond Level.",
+      "why": "Why collect NTE Shinku cosmetics?",
       "whySteps": {
-        "step1Title": "Claim Banner Cosmetics",
-        "step1Description": "Unlock outfits and liveries from milestone rolls",
-        "step2Title": "Grab Shop Discounts",
-        "step2Description": "Buy limited-time outfits at launch discount prices",
-        "step3Title": "Raise Bond Level",
-        "step3Description": "Unlock bond outfits by building your relationship with Shinku"
+        "step1Title": "Unlock Skins",
+        "step1Description": "Claim Shinku skins from banner milestones and event sources",
+        "step2Title": "Grab Outfits",
+        "step2Description": "Pick up limited-time outfits from the shop and Bond Level rewards",
+        "step3Title": "Get the Summer Skin",
+        "step3Description": "Secure the summer skin before the Version 1.2 window ends"
       },
       "featured": "Featured & Essential",
-      "all": "All Shinku Cosmetics"
-    },
-    "support": {
-      "title": "NTE Shinku Support",
-      "description": "Platform info, banner timing, unlock requirements, and common Version 1.2 questions for NTE Shinku players.",
-      "metaTitle": "NTE Shinku Support - Platform, Banner & FAQ",
-      "metaDescription": "Get NTE Shinku support with platform availability, banner timing, unlock requirements, code redemption, and common Version 1.2 questions.",
-      "categoryLabel": "HELP & FAQ",
-      "whatIs": "What is NTE Shinku support?",
-      "whatIsDescription": "Answers to common questions about Shinku's release date, banner window, unlock steps, code redemption, and platform availability across Steam, PlayStation 5, and mobile.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Confirm Banner Timing",
-        "step1Description": "Check Shinku's Version 1.2 release and end dates",
-        "step2Title": "Redeem Codes",
-        "step2Description": "Use active codes for free Annulith and resources",
-        "step3Title": "Pick Your Platform",
-        "step3Description": "Learn where Neverness to Everness is available"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All NTE Shinku Cosmetics"
     }
   }
 }

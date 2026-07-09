@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Habilidades de NTE Shinku: Guía completa de destrezas y mecánicas de combate",
+  description: "Domina las habilidades de NTE Shinku. Conoce sus mecánicas de Espíritu Desafiante, la transformación de Carmesí Desbordante, la prioridad de habilidades y las mejores rotaciones de combate en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=NTE+Shinku+Ability+Guide",
+  date: "2026-07-09",
+  author: "Equipo de NTE Shinku Wiki"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Enfoque de habilidades de NTE Shinku**: Shinku es una DPS principal de Cosmos de clase S especializada en artes marciales de ritmo rápido y ventanas de transformación con gran daño de ráfaga.
+- **Mecánica principal**: Acumula **Espíritu Desafiante** en su forma base, luego activa su Definitiva para entrar en el estado de **Carmesí Desbordante**.
+- **Combate mejorado**: Mientras está transformada, sus ataques básicos cambian a **Asalto de Marea** y su habilidad se mejora a **Hoja Carmesí de los Cielos**.
+- **Remate definitivo**: Concluye su ventana de transformación con **Juicio Carmesí** y una poderosa embestida de ejecución final.
+</Callout>
+
+<Section icon={Swords} title="Kit de habilidades y mecánicas de combate de NTE Shinku">
+
+Shinku es una poderosa DPS principal que domina el elemento Cosmos. Su estilo de juego se centra en un diseño de estado dual. En su estado normal, funciona como una ágil artista marcial que acumula energía. Una vez que su indicador está lleno, se transforma en un devastador espectro de destrucción de alta movilidad. 
+
+Comprender sus habilidades individuales y cómo interactúan es esencial para maximizar su daño en el campo de batalla.
+
+| Nombre de la habilidad | Tipo de entrada | Efecto en estado base | Efecto en estado Carmesí Desbordante |
+| :--- | :--- | :--- | :--- |
+| **Artes de Combate Especiales** | Ataque básico | Hasta 5 golpes consecutivos que infligen Daño de Cosmos; genera **Espíritu Desafiante**. | Reemplazado por **Asalto de Marea**, que inflige un Daño de Cosmos más rápido y pesado. |
+| **Brecha a Alta Velocidad** | Habilidad normal (E) | Se desliza hacia adelante, inflige Daño de Cosmos de múltiples golpes y otorga **Espíritu Desafiante**. | Reemplazado por **Hoja Carmesí de los Cielos**, que añade recuperación de PV basada en el ATQ. |
+| **Furia Carmesí** | Definitiva (Q) | Consume todo el **Espíritu Desafiante** para activar la transformación de 13 segundos. | Permite **Juicio Carmesí** y ataques de ejecución con embestidas rápidas. |
+| **Victoria en un Segundo** | Contraataque de esquiva | Contraataca con una patada tras una Esquiva Perfecta, reduciendo la barra de Ruptura del objetivo. | Empuje mejorado y parálisis breve en objetivos bajo la mirada de Mirada Intimidante. |
+
+**Vídeos destacados:**
+- Desglose visual detallado de las animaciones de postura dual de Shinku.
+- Demostración de la transición entre las artes marciales base y el estado Carmesí Desbordante.
+- Exhibición de su Arco característico, Espejismo Sonrojado, en combates de alto nivel.
+
+<YouTubeEmbed videoId="FVhLNdcAVyI" title="PV del personaje NTE Shinku 丨 El filo de los sueños" />
+
+<Callout type="tip" title="Consejo de transición de postura">
+Asegúrate siempre de que tu indicador de **Espíritu Desafiante** esté completamente lleno antes de activar su Definitiva. Activarla antes de tiempo desperdicia un valioso tiempo de actividad y reduce el escalado de su remate posterior a la transformación.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Prioridad de habilidades y progresión de estadísticas">
+
+Para aprovechar al máximo cada **habilidad de NTE Shinku**, debes priorizar las mejoras de tus talentos y equiparla con las estadísticas correctas. Dado que su daño se distribuye en todo su kit durante su transformación, se recomienda encarecidamente una inversión equilibrada. Sin embargo, su Definitiva sigue siendo el núcleo absoluto de sus rotaciones de ráfaga.
+
+### Prioridad de mejora de habilidades
+1. **Definitiva: Furia Carmesí** (Escala las mejoras de transformación y el daño de ejecución)
+2. **Habilidad normal: Brecha a Alta Velocidad** (Mejora su movilidad y el daño de la habilidad transformada)
+3. **Ataque básico: Artes de Combate Especiales** (Mejora su generación de recursos base)
+4. **Habilidad de apoyo** (Proporciona utilidad pero tiene un escalado de daño bruto menor)
+
+### Estadísticas y equipamiento recomendados
+
+| Ranura de equipo / Estadística | Atributo ideal | Nivel de prioridad |
+| :--- | :--- | :--- |
+| **Cartucho principal** | Resplandor Perdido (Clase S) | ★★★★★ |
+| **Estadística principal (Cartucho)** | Daño de Cosmos % | ★★★★★ |
+| **Subestadísticas** | Prob. CRIT / Daño CRIT | ★★★★★ |
+| **Subestadísticas secundarias** | ATQ % / Daño universal % | ★★★★☆ |
+
+<CardGrid cols={2}>
+  <Card title="Espejismo Sonrojado (Característico de Clase S)">
+    - **Prob. CRIT**: +24%
+    - **ATQ**: +20%
+    - **Pasiva de Definitiva**: Aumenta el Daño de Cosmos en un 32% y la DEF en un 12% después de lanzar su Definitiva.
+  </Card>
+  <Card title="Marcha Más Allá del Tiempo (Clase S alternativa)">
+    - **Prob. CRIT**: +24%
+    - **Sinergia de DEF**: Aumenta la defensa de Shinku tras activar 3 habilidades de apoyo antes de su Definitiva.
+    - **Opción F2P**: Pelusa de la Intrepidez (+22% de Prob. CRIT).
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Requisitos de energía">
+Shinku depende en gran medida de su Definitiva para infligir un daño competitivo. Si tu equipo no puede generar suficiente energía para mantener activo su bucle de transformación, considera usar una subestadística de Recarga de Energía en tu Cartucho.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación de combate de Shinku paso a paso">
+
+Para maximizar el DPS de Shinku en el campo, debes dominar la transición entre su forma base y su estado de Carmesí Desbordante. Sigue esta rotación de combate óptima para triturar los escudos enemigos y desatar un daño de Cosmos masivo.
+
+<Steps>
+  <Step num="1" title="Acumular Espíritu Desafiante">
+    Comienza la batalla en su forma base. Realiza su combo de 5 golpes de **Artes de Combate Especiales**. Mantén presionado el botón de ataque durante el 3.º, 4.º o 5.º golpe para activar sus ataques alterados y obtener energía adicional.
+  </Step>
+  <Step num="2" title="Usar Brecha a Alta Velocidad">
+    Lanza su habilidad normal, **Brecha a Alta Velocidad**, para acortar distancias. Esto inflige daño de Cosmos de múltiples golpes y llena rápidamente el resto de su indicador de **Espíritu Desafiante**.
+  </Step>
+  <Step num="3" title="Activar Carmesí Desbordante">
+    Una vez que el indicador esté completamente lleno, presiona la tecla de tu Definitiva para activar **Furia Carmesí**. Consumirá todo su Espíritu Desafiante, infligirá un daño inicial masivo en área y entrará en su estado transformado de 13 segundos.
+  </Step>
+  <Step num="4" title="Ejecutar el combo transformado">
+    Mientras esté transformada, usa repetidamente su ataque básico mejorado, **Asalto de Marea**. Usa su habilidad mejorada, **Hoja Carmesí de los Cielos**, siempre que no esté en tiempo de recarga para mantener un DPS alto y curar su vida por completo.
+  </Step>
+  <Step num="5" title="Desatar el remate">
+    Justo antes de que expire su ventana de transformación de 13 segundos, pulsa continuamente el botón de la Definitiva para ejecutar **Juicio Carmesí**. Esto activa sus ataques de ejecución con embestidas rápidas, infligiendo golpes finales devastadores.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Mecánica de Mirada Disuasoria">
+Al explorar el mundo abierto, Shinku gana acumulaciones de **Mirada Disuasoria** cada segundo que está fuera de combate o no ha atacado. Puede entrar en combate con un máximo de 8 acumulaciones, lo que permite que su primer golpe inflija un daño instantáneo masivo y recupere instantáneamente una parte de la energía de su Definitiva.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para el dominio del combate de Shinku">
+
+Para asegurarte de que tu Shinku rinda al máximo de su eficiencia, revisa esta lista de verificación de progresión para realizar un seguimiento de tus hitos de equipamiento y dominio mecánico.
+
+<Checklist
+  id="shinku-combat-goals"
+  title="Hitos de dominio de combate:"
+  items={[
+    "Llevar al máximo su Definitiva: Furia Carmesí al nivel 10 para maximizar los multiplicadores de su estado transformado",
+    "Equipar un conjunto de 4 piezas de Cartuchos de Resplandor Perdido con Daño de Cosmos % como estadística principal",
+    "Conseguir su Arco característico de Clase S, Espejismo Sonrojado, o una alternativa de alto refinamiento",
+    "Ejecutar con éxito su rotación de combate completa de 5 pasos en cacerías de Anomalías de alto nivel"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el elemento y rol principal de Shinku?",
+    answer: "Shinku es un personaje de elemento Cosmos de Clase S que funciona como DPS principal en el campo, utilizando un combate de artes marciales de estado dual."
+  },
+  {
+    question: "¿Cómo funciona la mecánica de Espíritu Desafiante de Shinku?",
+    answer: "El Espíritu Desafiante es su recurso de energía único. Se genera al asestar ataques básicos, ejecutar contraataques de esquiva y lanzar su habilidad normal. Once filled, it is entirely consumed to activate her Ultimate transformation."
+  },
+  {
+    question: "¿Puedo cambiar de personaje durante el estado de Carmesí Desbordante de Shinku?",
+    answer: "No. Cambiar de personaje finalizará inmediatamente su transformación de Carmesí Desbordante y cancelará la duración restante, por lo que siempre debes completar su rotación antes de cambiar."
+  },
+  {
+    question: "¿Cuál es su mejor opción de arma/Arco?",
+    answer: "Su mejor arma absoluta es su Arco característico de Clase S, Espejismo Sonrojado, que proporciona un aumento masivo a su Prob. CRIT, ATQ y Daño de Cosmos posterior a la Definitiva."
+  }
+]} />
+
+</Section>

@@ -1,1 +1,530 @@
-{}
+{
+  "en": {
+    "banner": [
+      {
+        "slug": "NTE-Shinku-1-2",
+        "file": "NTE-Shinku-1.2"
+      },
+      {
+        "slug": "NTE-Shinku-banner-release-date",
+        "file": "NTE-Shinku-banner-release-date"
+      },
+      {
+        "slug": "NTE-Shinku-banner",
+        "file": "NTE-Shinku-banner"
+      },
+      {
+        "slug": "NTE-Shinku-pity",
+        "file": "NTE-Shinku-pity"
+      },
+      {
+        "slug": "NTE-Shinku-pulls",
+        "file": "NTE-Shinku-pulls"
+      },
+      {
+        "slug": "NTE-Shinku-release-date",
+        "file": "NTE-Shinku-release-date"
+      }
+    ],
+    "build": [
+      {
+        "slug": "NTE-Shinku-arcs",
+        "file": "NTE-Shinku-arcs"
+      },
+      {
+        "slug": "NTE-Shinku-best-build",
+        "file": "NTE-Shinku-best-build"
+      },
+      {
+        "slug": "NTE-Shinku-build",
+        "file": "NTE-Shinku-build"
+      },
+      {
+        "slug": "NTE-Shinku-cartridges",
+        "file": "NTE-Shinku-cartridges"
+      },
+      {
+        "slug": "NTE-Shinku-consoles",
+        "file": "NTE-Shinku-consoles"
+      },
+      {
+        "slug": "NTE-Shinku-weapons",
+        "file": "NTE-Shinku-weapons"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "NTE-Shinku-outfit",
+        "file": "NTE-Shinku-outfit"
+      },
+      {
+        "slug": "NTE-Shinku-skin",
+        "file": "NTE-Shinku-skin"
+      },
+      {
+        "slug": "NTE-Shinku-summer-skin",
+        "file": "NTE-Shinku-summer-skin"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "NTE-Shinku-gameplay",
+        "file": "NTE-Shinku-gameplay"
+      },
+      {
+        "slug": "NTE-Shinku-guide",
+        "file": "NTE-Shinku-guide"
+      },
+      {
+        "slug": "NTE-Shinku-must-pull",
+        "file": "NTE-Shinku-must-pull"
+      },
+      {
+        "slug": "NTE-Shinku-pull-worth",
+        "file": "NTE-Shinku-pull-worth"
+      },
+      {
+        "slug": "NTE-Shinku-reddit",
+        "file": "NTE-Shinku-reddit"
+      },
+      {
+        "slug": "NTE-Shinku-showcase",
+        "file": "NTE-Shinku-showcase"
+      },
+      {
+        "slug": "NTE-Shinku-skip",
+        "file": "NTE-Shinku-skip"
+      }
+    ],
+    "kit": [
+      {
+        "slug": "NTE-Shinku-ability",
+        "file": "NTE-Shinku-ability"
+      },
+      {
+        "slug": "NTE-Shinku-awakening",
+        "file": "NTE-Shinku-awakening"
+      },
+      {
+        "slug": "NTE-Shinku-element",
+        "file": "NTE-Shinku-element"
+      },
+      {
+        "slug": "NTE-Shinku-kit",
+        "file": "NTE-Shinku-kit"
+      },
+      {
+        "slug": "NTE-Shinku-role",
+        "file": "NTE-Shinku-role"
+      },
+      {
+        "slug": "NTE-Shinku-skills",
+        "file": "NTE-Shinku-skills"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "NTE-Shinku-ascension-materials",
+        "file": "NTE-Shinku-ascension-materials"
+      },
+      {
+        "slug": "NTE-Shinku-farm",
+        "file": "NTE-Shinku-farm"
+      },
+      {
+        "slug": "NTE-Shinku-level-mats",
+        "file": "NTE-Shinku-level-mats"
+      },
+      {
+        "slug": "NTE-Shinku-materials",
+        "file": "NTE-Shinku-materials"
+      },
+      {
+        "slug": "NTE-Shinku-pre-farm",
+        "file": "NTE-Shinku-pre-farm"
+      },
+      {
+        "slug": "NTE-Shinku-upgrade-materials",
+        "file": "NTE-Shinku-upgrade-materials"
+      }
+    ],
+    "team": [
+      {
+        "slug": "NTE-Shinku-Iroi-team",
+        "file": "NTE-Shinku-Iroi-team"
+      },
+      {
+        "slug": "NTE-Shinku-best-team",
+        "file": "NTE-Shinku-best-team"
+      },
+      {
+        "slug": "NTE-Shinku-rotations",
+        "file": "NTE-Shinku-rotations"
+      },
+      {
+        "slug": "NTE-Shinku-synergy",
+        "file": "NTE-Shinku-synergy"
+      },
+      {
+        "slug": "NTE-Shinku-team-comp",
+        "file": "NTE-Shinku-team-comp"
+      },
+      {
+        "slug": "NTE-Shinku-team",
+        "file": "NTE-Shinku-team"
+      }
+    ]
+  },
+  "es": {
+    "banner": [
+      {
+        "slug": "NTE-Shinku-1-2",
+        "file": "NTE-Shinku-1.2"
+      },
+      {
+        "slug": "NTE-Shinku-banner-release-date",
+        "file": "NTE-Shinku-banner-release-date"
+      },
+      {
+        "slug": "NTE-Shinku-banner",
+        "file": "NTE-Shinku-banner"
+      },
+      {
+        "slug": "NTE-Shinku-pity",
+        "file": "NTE-Shinku-pity"
+      },
+      {
+        "slug": "NTE-Shinku-pulls",
+        "file": "NTE-Shinku-pulls"
+      },
+      {
+        "slug": "NTE-Shinku-release-date",
+        "file": "NTE-Shinku-release-date"
+      }
+    ],
+    "build": [
+      {
+        "slug": "NTE-Shinku-arcs",
+        "file": "NTE-Shinku-arcs"
+      },
+      {
+        "slug": "NTE-Shinku-best-build",
+        "file": "NTE-Shinku-best-build"
+      },
+      {
+        "slug": "NTE-Shinku-build",
+        "file": "NTE-Shinku-build"
+      },
+      {
+        "slug": "NTE-Shinku-cartridges",
+        "file": "NTE-Shinku-cartridges"
+      },
+      {
+        "slug": "NTE-Shinku-consoles",
+        "file": "NTE-Shinku-consoles"
+      },
+      {
+        "slug": "NTE-Shinku-weapons",
+        "file": "NTE-Shinku-weapons"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "NTE-Shinku-outfit",
+        "file": "NTE-Shinku-outfit"
+      },
+      {
+        "slug": "NTE-Shinku-skin",
+        "file": "NTE-Shinku-skin"
+      },
+      {
+        "slug": "NTE-Shinku-summer-skin",
+        "file": "NTE-Shinku-summer-skin"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "NTE-Shinku-gameplay",
+        "file": "NTE-Shinku-gameplay"
+      },
+      {
+        "slug": "NTE-Shinku-guide",
+        "file": "NTE-Shinku-guide"
+      },
+      {
+        "slug": "NTE-Shinku-must-pull",
+        "file": "NTE-Shinku-must-pull"
+      },
+      {
+        "slug": "NTE-Shinku-pull-worth",
+        "file": "NTE-Shinku-pull-worth"
+      },
+      {
+        "slug": "NTE-Shinku-reddit",
+        "file": "NTE-Shinku-reddit"
+      },
+      {
+        "slug": "NTE-Shinku-showcase",
+        "file": "NTE-Shinku-showcase"
+      },
+      {
+        "slug": "NTE-Shinku-skip",
+        "file": "NTE-Shinku-skip"
+      }
+    ],
+    "kit": [
+      {
+        "slug": "NTE-Shinku-ability",
+        "file": "NTE-Shinku-ability"
+      },
+      {
+        "slug": "NTE-Shinku-awakening",
+        "file": "NTE-Shinku-awakening"
+      },
+      {
+        "slug": "NTE-Shinku-element",
+        "file": "NTE-Shinku-element"
+      },
+      {
+        "slug": "NTE-Shinku-kit",
+        "file": "NTE-Shinku-kit"
+      },
+      {
+        "slug": "NTE-Shinku-role",
+        "file": "NTE-Shinku-role"
+      },
+      {
+        "slug": "NTE-Shinku-skills",
+        "file": "NTE-Shinku-skills"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "NTE-Shinku-ascension-materials",
+        "file": "NTE-Shinku-ascension-materials"
+      },
+      {
+        "slug": "NTE-Shinku-farm",
+        "file": "NTE-Shinku-farm"
+      },
+      {
+        "slug": "NTE-Shinku-level-mats",
+        "file": "NTE-Shinku-level-mats"
+      },
+      {
+        "slug": "NTE-Shinku-materials",
+        "file": "NTE-Shinku-materials"
+      },
+      {
+        "slug": "NTE-Shinku-pre-farm",
+        "file": "NTE-Shinku-pre-farm"
+      },
+      {
+        "slug": "NTE-Shinku-upgrade-materials",
+        "file": "NTE-Shinku-upgrade-materials"
+      }
+    ],
+    "team": [
+      {
+        "slug": "NTE-Shinku-Iroi-team",
+        "file": "NTE-Shinku-Iroi-team"
+      },
+      {
+        "slug": "NTE-Shinku-best-team",
+        "file": "NTE-Shinku-best-team"
+      },
+      {
+        "slug": "NTE-Shinku-rotations",
+        "file": "NTE-Shinku-rotations"
+      },
+      {
+        "slug": "NTE-Shinku-synergy",
+        "file": "NTE-Shinku-synergy"
+      },
+      {
+        "slug": "NTE-Shinku-team-comp",
+        "file": "NTE-Shinku-team-comp"
+      },
+      {
+        "slug": "NTE-Shinku-team",
+        "file": "NTE-Shinku-team"
+      }
+    ]
+  },
+  "ja": {
+    "banner": [
+      {
+        "slug": "NTE-Shinku-1-2",
+        "file": "NTE-Shinku-1.2"
+      },
+      {
+        "slug": "NTE-Shinku-banner-release-date",
+        "file": "NTE-Shinku-banner-release-date"
+      },
+      {
+        "slug": "NTE-Shinku-banner",
+        "file": "NTE-Shinku-banner"
+      },
+      {
+        "slug": "NTE-Shinku-pity",
+        "file": "NTE-Shinku-pity"
+      },
+      {
+        "slug": "NTE-Shinku-pulls",
+        "file": "NTE-Shinku-pulls"
+      },
+      {
+        "slug": "NTE-Shinku-release-date",
+        "file": "NTE-Shinku-release-date"
+      }
+    ],
+    "build": [
+      {
+        "slug": "NTE-Shinku-arcs",
+        "file": "NTE-Shinku-arcs"
+      },
+      {
+        "slug": "NTE-Shinku-best-build",
+        "file": "NTE-Shinku-best-build"
+      },
+      {
+        "slug": "NTE-Shinku-build",
+        "file": "NTE-Shinku-build"
+      },
+      {
+        "slug": "NTE-Shinku-cartridges",
+        "file": "NTE-Shinku-cartridges"
+      },
+      {
+        "slug": "NTE-Shinku-consoles",
+        "file": "NTE-Shinku-consoles"
+      },
+      {
+        "slug": "NTE-Shinku-weapons",
+        "file": "NTE-Shinku-weapons"
+      }
+    ],
+    "cosmetics": [
+      {
+        "slug": "NTE-Shinku-outfit",
+        "file": "NTE-Shinku-outfit"
+      },
+      {
+        "slug": "NTE-Shinku-skin",
+        "file": "NTE-Shinku-skin"
+      },
+      {
+        "slug": "NTE-Shinku-summer-skin",
+        "file": "NTE-Shinku-summer-skin"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "NTE-Shinku-gameplay",
+        "file": "NTE-Shinku-gameplay"
+      },
+      {
+        "slug": "NTE-Shinku-guide",
+        "file": "NTE-Shinku-guide"
+      },
+      {
+        "slug": "NTE-Shinku-must-pull",
+        "file": "NTE-Shinku-must-pull"
+      },
+      {
+        "slug": "NTE-Shinku-pull-worth",
+        "file": "NTE-Shinku-pull-worth"
+      },
+      {
+        "slug": "NTE-Shinku-reddit",
+        "file": "NTE-Shinku-reddit"
+      },
+      {
+        "slug": "NTE-Shinku-showcase",
+        "file": "NTE-Shinku-showcase"
+      },
+      {
+        "slug": "NTE-Shinku-skip",
+        "file": "NTE-Shinku-skip"
+      }
+    ],
+    "kit": [
+      {
+        "slug": "NTE-Shinku-ability",
+        "file": "NTE-Shinku-ability"
+      },
+      {
+        "slug": "NTE-Shinku-awakening",
+        "file": "NTE-Shinku-awakening"
+      },
+      {
+        "slug": "NTE-Shinku-element",
+        "file": "NTE-Shinku-element"
+      },
+      {
+        "slug": "NTE-Shinku-kit",
+        "file": "NTE-Shinku-kit"
+      },
+      {
+        "slug": "NTE-Shinku-role",
+        "file": "NTE-Shinku-role"
+      },
+      {
+        "slug": "NTE-Shinku-skills",
+        "file": "NTE-Shinku-skills"
+      }
+    ],
+    "materials": [
+      {
+        "slug": "NTE-Shinku-ascension-materials",
+        "file": "NTE-Shinku-ascension-materials"
+      },
+      {
+        "slug": "NTE-Shinku-farm",
+        "file": "NTE-Shinku-farm"
+      },
+      {
+        "slug": "NTE-Shinku-level-mats",
+        "file": "NTE-Shinku-level-mats"
+      },
+      {
+        "slug": "NTE-Shinku-materials",
+        "file": "NTE-Shinku-materials"
+      },
+      {
+        "slug": "NTE-Shinku-pre-farm",
+        "file": "NTE-Shinku-pre-farm"
+      },
+      {
+        "slug": "NTE-Shinku-upgrade-materials",
+        "file": "NTE-Shinku-upgrade-materials"
+      }
+    ],
+    "team": [
+      {
+        "slug": "NTE-Shinku-Iroi-team",
+        "file": "NTE-Shinku-Iroi-team"
+      },
+      {
+        "slug": "NTE-Shinku-best-team",
+        "file": "NTE-Shinku-best-team"
+      },
+      {
+        "slug": "NTE-Shinku-rotations",
+        "file": "NTE-Shinku-rotations"
+      },
+      {
+        "slug": "NTE-Shinku-synergy",
+        "file": "NTE-Shinku-synergy"
+      },
+      {
+        "slug": "NTE-Shinku-team-comp",
+        "file": "NTE-Shinku-team-comp"
+      },
+      {
+        "slug": "NTE-Shinku-team",
+        "file": "NTE-Shinku-team"
+      }
+    ]
+  }
+}

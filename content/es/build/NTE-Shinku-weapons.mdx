@@ -1,0 +1,153 @@
+import { Swords, Sparkles, Target, Trophy, Shield, Map } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Armas de NTE Shinku: Guía de mejores Arcos y equipamiento",
+  description: "Descubre las mejores armas para Shinku en NTE. Compara su Arco de Clase S insignia, Blushing Mirage, con las mejores alternativas de Arcos, estadísticas y opciones de construcción en la versión 1.2.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/991b1b/fff?text=Shinku+Weapons+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de NTE Shinku",
+  keywords: "NTE Shinku, armas, Arcos, Blushing Mirage, guía de equipamiento, Neverness to Everness"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Arma principal**: **Blushing Mirage** es el Arco de Clase S insignia de Shinku, diseñado específicamente para su ventana de Definitiva de alto estallido.
+- **Subestadística clave**: Enfócate principalmente en las estadísticas de **Probabilidad de CRÍT** y **Daño CRÍT** para maximizar el daño de Cosmos de esta Esper.
+- **Mejor alternativa**: **Camellia Society** sirve como el sustituto de Clase S más fuerte si no consigues su arma insignia.
+- **Opción F2P**: **Fluff of Ferocity** o **A Time Will Come** son Arcos muy accesibles que proporcionan estadísticas confiables.
+- **Objetivo final**: Aspira a alcanzar los umbrales de **70% de Probabilidad de CRÍT** y **150% de Daño CRÍT** a través de las subestadísticas de tu arma y configuraciones de módulos.
+</Callout>
+
+<Section icon={Swords} title="Resumen de Armas para NTE Shinku">
+
+En *Neverness to Everness* (NTE), las armas se conocen como **Arcos**. Para una Esper de Cosmos de Clase S como Shinku, elegir el Arco correcto es esencial para desbloquear su verdadero techo de daño. Shinku es una DPS en el campo que depende mucho de su construcción y que inflige un daño de estallido masivo durante el estado de Frenesí de su Definitiva.
+
+Sin un arma adecuada, su reducción de armadura y sus multiplicadores de Cosmos disminuyen significativamente. Esta guía detalla sus mejores opciones insignia, Arcos de Clase S alternativos y armas F2P económicas para asegurar que tu Shinku esté lista para destruir cualquier anomalía en Hethereau.
+
+<Callout type="tip" title="Aviso de Compatibilidad de Armas">
+Recuerda que los personajes en NTE solo pueden equipar Arcos que coincidan con su tipo elemental o de combate. Shinku utiliza un **Arco de tipo Condensado** (también conocido como tipo Síntesis en versiones anteriores), lo que significa que debes equiparla con opciones compatibles para activar los efectos pasivos del arma.
+</Callout>
+
+### Comparación de Estadísticas Base de Armas
+
+La siguiente tabla destaca las estadísticas base y los perfiles de combate principales de las mejores opciones de armas para Shinku.
+
+| Nombre del Arma | Rareza | ATQ Base (Nivel 80) | Tipo de Subestadística | Rol de Combate Principal |
+| :--- | :--- | :--- | :--- | :--- |
+| **Blushing Mirage** | Clase S | 570 | **Prob. CRÍT (24%)** | DPS Insignia (Mejor en su clase) |
+| **Camellia Society** | Clase S | 666 | **Prob. CRÍT (12%)** | Alternativa de Alto Riesgo y Recompensa |
+| **Fluff of Ferocity** | Clase A | 512 | **Daño CRÍT** | DPS de acumulación de Daño CRÍT |
+| **A Time Will Come** | Clase A | 512 | **Prob. CRÍT** | Mejora F2P condicional al equipo |
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Arcos de Clase S para Shinku">
+
+Para los jugadores que buscan maximizar el daño de Shinku, los Arcos de Clase S proporcionan el mayor escalado de ataque base y los efectos pasivos más impactantes.
+
+<CardGrid cols={2}>
+  <Card title="Blushing Mirage (Insignia)">
+    - **ATQ Base**: 570
+    - **Subestadística**: Probabilidad de CRÍT 24%
+    - **Efecto Pasivo**: Otorga un **aumento de ATQ permanente del 20%**. Al usar su Definitiva, aumenta el Daño de Cosmos en un **32%** e ignora el **12% de la DEF enemiga** durante 20 segundos.
+    - **Veredicto**: El arma indiscutiblemente mejor en su clase que se alinea perfectamente con la ventana de estallido de 13 segundos de Shinku.
+  </Card>
+  <Card title="Camellia Society (Alternativa)">
+    - **ATQ Base**: 666
+    - **Subestadística**: Probabilidad de CRÍT 12%
+    - **Efecto Pasivo**: Aumenta el Daño CRÍT en un **12%** durante 5 segundos cuando los PV se reducen sin recibir daño (hasta 4 acumulaciones). Desbloquea la habilidad de Arco *Silent Garden* para sacrificar PV a cambio de un daño en área masivo.
+    - **Veredicto**: Una opción secundaria muy fuerte si no logras obtener su arma insignia, ofreciendo estadísticas base brutas masivas.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Sinergia">
+La ignorancia de defensa de **Blushing Mirage** se acumula directamente con el conjunto de Cartuchos **Lost Radiance** (que ofrece un 25% de ignorancia de DEF tras la Definitiva), permitiendo que Shinku ignore hasta un 37% de la armadura enemiga sin esfuerzo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Opciones de Armas F2P y Económicas">
+
+Si estás ahorrando tus Anulitos para los banners de personajes y quieres saltarte el gacha de armas, existen opciones de Clase A muy viables disponibles a través del juego y las tiendas de eventos.
+
+### Rendimiento de Armas de Clase A
+
+| Nombre del Arma | Beneficios Clave | Método de Obtención | Calificación de Rendimiento |
+| :--- | :--- | :--- | :--- |
+| **Fluff of Ferocity** | Aumenta el Daño CRÍT en un **4%** por cada golpe crítico, acumulándose hasta 10 veces (**40% total**). | Pase de Batalla / Canje de Tienda | ★★★★☆ (Excelente Clase A) |
+| **A Time Will Come** | Proporciona un **18% de ATQ, DEF y PV** si el equipo tiene 3 elementos de Esper diferentes. | Gacha Estándar / Exploración del Mundo | ★★★☆☆ (Buena mejora de stats) |
+| **Raging Flames** | Alto escalado de daño basado en habilidades; un sustituto sólido para habilidades activas. | Insignia de Hathor / Banner Estándar | ★★★☆☆ (Alternativa decente) |
+
+<Callout type="warning" title="Evita Arcos de ATQ% Puro">
+Evita equipar Arcos genéricos de ATQ% sin subestadísticas de CRÍT en Shinku. Su kit de DPS depende en gran medida de asestar golpes críticos durante su breve ventana de estallido para recuperar energía y maximizar sus multiplicadores.
+</Callout>
+
+</Section>
+
+<Section icon={Steps} title="Cómo Desbloquear y Mejorar las Armas de Shinku">
+
+Mejorar tus Arcos es vital para mantener el ritmo contra las anomalías del mundo de alto nivel y las batallas contra jefes. Sigue estos pasos para desbloquear, equipar y ascender las armas de Shinku.
+
+<Steps>
+  <Step num="1" title="Accede al Programa de Arcos Limitados">
+    Completa el **Prólogo - Un nuevo destino - Dirígete a la tienda de antigüedades Eibon** para desbloquear el gacha de armas. Navega a **Tienda de Arcos > Programa de Investigación de Arcos > Resolución Especial** y usa Tri-Llaves o Llaves de Resolución para intentar obtener *Blushing Mirage*.
+  </Step>
+  <Step num="2" title="Equipa el Arco mediante el Menú de Personaje">
+    Abre el menú del juego, selecciona el perfil de personaje de Shinku y navega a la pestaña de **Arco**. Equipa el arma de tipo Condensado seleccionada para activar sus estadísticas base y efectos pasivos únicos.
+  </Step>
+  <Step num="3" title="Recolecta Tintes de Nivelación">
+    Usa **Tintes** (como Tintes Claros, Incoloros o Caóticos obtenidos de códigos y anomalías diarias) para dar experiencia a tu arma y aumentar su nivel.
+  </Step>
+  <Step num="4" title="Asciende para Aumentar el Límite de Nivel">
+    Reúne los materiales de ascensión de color correspondientes al rango de tu arma. Ten en cuenta que las ascensiones de armas están bloqueadas tras tu **Nivel de Evaluación**, que aumenta cada 10 Niveles de Cazador.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Arma y Construcción de Shinku">
+
+Para asegurar que tu Shinku esté completamente optimizada para el contenido de final de juego, completa los siguientes hitos:
+
+<Checklist
+  id="shinku-weapon-goals"
+  title="Hitos de construcción de Shinku:"
+  items={[
+    "Equipar Blushing Mirage (o Camellia Society como respaldo de Clase S)",
+    "Alcanzar el Nivel 80 en el Arco seleccionado para maximizar el ATQ Base",
+    "Equipar el conjunto de 4 piezas de Cartuchos Lost Radiance",
+    "Lograr un mínimo de 70% de Probabilidad de CRÍT en el perfil de estadísticas de Shinku",
+    "Alcanzar al menos 150% de Daño CRÍT a través de las subestadísticas del arma y los módulos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puede Shinku usar armas de otros tipos elementales?",
+    answer: "No. Los personajes en Neverness to Everness solo pueden equipar Arcos que coincidan con su tipo específico de materia/elemento. Shinku está limitada a Arcos de tipo Condensado (Síntesis)."
+  },
+  {
+    question: "¿Es obligatorio tener Blushing Mirage para jugar con Shinku?",
+    answer: "Aunque Blushing Mirage es su mejor arma y proporciona un aumento de daño masivo, Shinku sigue siendo muy funcional con alternativas F2P como Fluff of Ferocity o A Time Will Come, siempre que mantengas buenas estadísticas de CRÍT en tus módulos."
+  },
+  {
+    question: "¿Cómo obtengo los materiales para ascender las armas de Shinku?",
+    answer: "Los materiales de ascensión se obtienen completando anomalías diarias, derrotando jefes de campo y progresando en la historia principal. Las ascensiones de mayor nivel requerirán que aumentes primero tus niveles de Cazador y Evaluación."
+  },
+  {
+    question: "¿La ignorancia de defensa del arma de Shinku se acumula con otras fuentes?",
+    answer: "Sí, el 12% de ignorancia de DEF de Blushing Mirage se suma al 25% de ignorancia de DEF del conjunto de Cartuchos Lost Radiance, amplificando significativamente tu daño contra objetivos con mucha armadura."
+  }
+]} />
+
+</Section>

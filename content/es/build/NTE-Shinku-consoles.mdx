@@ -1,0 +1,152 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Consolas de NTE Shinku: Mejores Cartuchos, Módulos y Configuración",
+  description: "Optimiza a Shinku en Neverness to Everness con las mejores consolas, Cartuchos, Módulos, composiciones de equipo y configuraciones de Arcos para la Versión 1.2.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/9333ea/fff?text=NTE+Shinku+Consoles+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de NTE Shinku",
+  keywords: "NTE Shinku, consolas, cartuchos, módulos, guía de construcción"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal**: Construye a Shinku con el conjunto de Cartuchos **Resplandor Perdido** para maximizar su Ignorar Defensa tras la Habilidad Definitiva.
+- **Estrategia de Módulos**: Equipa **Módulos Tipo III** para escalar el DAÑO CRIT de Shinku directamente a través de la pasiva de especialización de su consola.
+- **Arma de Firma**: Emparéjala con su Arco de Clase S distintivo, **Espejismo Sonrojado**, para obtener un enorme DAÑO de Cosmos e ignorar defensa adicional.
+- **Ciclo de Combate**: Acumula acumulaciones de **Mirada Disuasoria** mientras estás inactivo o esquivando, luego desata un Golpe Instantáneo para cargar su Definitiva.
+</Callout>
+
+<Section icon={Shield} title="Consolas de NTE Shinku: Mejores Conjuntos de Cartuchos">
+
+Para construir a Shinku como una DPS Principal de Cosmos de primer nivel en Neverness to Everness (NTE), la configuración de su consola —específicamente su conjunto de **Cartucho (Consola)**— debe centrarse en multiplicar su daño durante su estado Definitivo. Shinku depende en gran medida de su transformación **Carmesí Oleante**, lo que hace que las bonificaciones activadas por la Definitiva sean extremadamente valiosas.
+
+El mejor conjunto de Cartuchos para Shinku es **Resplandor Perdido**. Este conjunto escala su daño elemental de Cosmos y sinergiza directamente con los ataques de alta frecuencia que realiza en su estado transformado.
+
+| Conjunto de Cartuchos | Rareza | Efectos de Conjunto y Mecánicas de Combate | Prioridad de Construcción |
+| :--- | :--- | :--- | :--- |
+| **Resplandor Perdido** | Épico / Legendario | **2 Piezas**: Aumenta el DAÑO de Cosmos en un 10%. <br/>**4 Piezas**: Ignora el 25% de la DEF de los enemigos durante 20 segundos después de lanzar la Definitiva. | **Mejor Opción (BiS)** |
+| **Pelusa de Ferocidad** | Épico / Legendario | Aumenta el DAÑO CRIT en un 4% durante 10 segundos después de asestar un golpe crítico (hasta 10 acumulaciones). Reinicia la duración al activarse. | **Alternativa** (Requiere Prob. CRIT base alta) |
+| **Un Tiempo Vendrá** | Épico / Legendario | Otorga 18% de ATQ, 18% de DEF y 18% de PV cuando el grupo contiene al menos 3 Tipos de Esper diferentes. | **Estadísticas F2P** |
+
+<Callout type="success" title="Desglose de Sinergia">
+Combinar el Arco de firma de Shinku (**Espejismo Sonrojado**) con un conjunto de Cartuchos de 4 piezas de **Resplandor Perdido** le permite ignorar hasta un **37% de la Defensa enemiga** inmediatamente después de lanzar su Definitiva. Esta configuración destroza la armadura de los jefes de alto nivel sin esfuerzo.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Optimización de Módulos y Estadísticas de Shinku">
+
+Los Módulos son componentes críticos de la configuración de la consola de Shinku, permitiéndote ajustar sus estadísticas base. La pasiva de su consola otorga una enorme bonificación especializada: Shinku gana un **16% de DAÑO CRIT por cada Módulo Tipo III** equipado. 
+
+Para maximizar su construcción, debes intentar colocar exactamente cuatro Módulos Tipo III. Esto genera un aumento pasivo permanente del **64% de DAÑO CRIT adicional**.
+
+### Prioridades de Estadísticas de Módulos
+Al farmear y mejorar Módulos para la consola de Shinku, prioriza la siguiente jerarquía de estadísticas:
+
+1. **Prob. CRIT** (Estadística Principal / Secundaria) — Crucial para asegurar que sus ataques de la Definitiva de alto daño sean críticos.
+2. **DAÑO CRIT** (Estadística Secundaria) — Escala junto con la pasiva de su consola para picos de ráfaga monumentales.
+3. **ATQ% / ATQ Plano** (Estadística Secundaria) — Aumenta su escalado base.
+4. **DAÑO Cosmos%** (Estadística Principal en ranuras especializadas) — Multiplica su producción de daño elemental general.
+
+```
+[Ranura Módulo Tipo III 1: Resplandor Perdido] ──> +16% DAÑO CRIT
+[Ranura Módulo Tipo III 2: Resplandor Perdido] ──> +16% DAÑO CRIT
+[Ranura Módulo Tipo III 3: Ranura Libre]       ──> +16% DAÑO CRIT
+[Ranura Módulo Tipo III 4: Ranura Libre]       ──> +16% DAÑO CRIT
+──────────────────────────────────────────────────────────
+Bonificación Total de Especialización de Consola:   +64% DAÑO CRIT
+```
+
+<Callout type="warning" title="Consejo de Equilibrio de CRIT">
+No descuides la Prob. CRIT en favor del DAÑO CRIT puro. Busca una proporción saludable de **1:2** (por ejemplo, 60% de Prob. CRIT para 120%+ de DAÑO CRIT) para asegurarte de que la pasiva de su consola no se desperdicie en golpes no críticos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejores Arcos (Armas) para Shinku">
+
+Shinku utiliza un Arco de tipo Condensado (anteriormente conocido como tipo Síntesis). Sus armas proporcionan las estadísticas ofensivas base que alimentan los multiplicadores de su consola.
+
+| Nombre del Arco | Rareza | Estadísticas Base y Pasivas Únicas | Compatibilidad |
+| :--- | :--- | :--- | :--- |
+| **Espejismo Sonrojado** (Transmutación Lunar) | Clase S | 570 ATQ Base, 24% Prob. CRIT. Aumenta el ATQ en un 20%. Tras la Definitiva, aumenta el DAÑO de Cosmos en un 32% e ignora el 12% de la DEF durante 20s. | **Mejor Opción (Firma)** |
+| **Pelusa de Ferocidad** | Clase S | 512 ATQ Base, 27.5% ATQ. Aumenta el DAÑO CRIT en un 4% al asestar golpes críticos (hasta 10 acumulaciones). | **Alternativa Fuerte** |
+| **Un Tiempo Vendrá** | Clase S | 475 ATQ Base, 20% Prob. CRIT. Proporciona hasta un 18% de ATQ, DEF y PV dependiendo de los elementos del equipo. | **Opción F2P** |
+
+<Callout type="tip" title="Prioridad de Obtención de Armas">
+Si estás gestionando recursos limitados, siempre prioriza obtener primero al personaje Shinku [00首页信息-1]. Su Arco de firma, Espejismo Sonrojado, es una mejora increíble, pero puede ser sustituido por Arcos de Clase A con altos niveles de refinamiento si estás ahorrando tiradas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Rotación de Combate y Mecánicas">
+
+El ciclo de combate de Shinku se divide en una fase normal de acumulación y una fase explosiva de transformación. Ella depende del **Espíritu Desafiante** en lugar de la Energía Definitiva estándar para activar su transformación, lo que significa que debes participar activamente en sus mecánicas específicas para llenar su medidor.
+
+<Steps>
+  <Step num="1" title="Acumular Mirada Disuasoria">
+    Cuando Shinku está en combate pero permanece inactiva (sin atacar) durante 2 segundos, entra en el estado de Mirada Amenazante, ganando 1 acumulación por segundo hasta un máximo de 8. Las Esquivas Perfectas también otorgan acumulaciones instantáneas.
+  </Step>
+  <Step num="2" title="Desatar Golpe Instantáneo">
+    Ejecuta un Ataque Básico para consumir las 8 acumulaciones. Esto activa un **Golpe Instantáneo** que inflige un daño masivo y llena rápidamente su medidor de Espíritu Desafiante, energía de Habilidad y Medidor de Ciclo.
+  </Step>
+  <Step num="3" title="Configuración de Soporte y Reacciones">
+    Cambia a tus unidades de soporte (como Hathor y Nanally) para activar la reacción de **Carga**. La pasiva de Shinku asegura que todos los aliados ganen energía Definitiva de las reacciones de Carga mientras ella está en el equipo.
+  </Step>
+  <Step num="4" title="Activar Carmesí Oleante">
+    Cambia de nuevo a Shinku y lanza su Definitiva para entrar en el estado **Carmesí Oleante**. Esto activa el 25% de ignorar DEF de su Cartucho y la bonificación del 32% de DAÑO de Cosmos de su Arco de firma.
+  </Step>
+  <Step num="5" title="Ejecutar Combo Transformado">
+    Realiza sus ataques básicos potenciados para acumular **Razón Desvanecida**. Usa su habilidad potenciada hasta 5 veces, seguida de sus 3 desplazamientos Definitivos, culminando en su devastador remate Definitivo.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Consolidación de Shinku">
+
+Usa esta lista para asegurarte de que tu Shinku esté completamente optimizada para el contenido de nivel alto en la Versión 1.2.
+
+<Checklist
+  id="shinku-build-goals"
+  title="Objetivos de Optimización:"
+  items={[
+    "Alcanzar el Nivel de Personaje 80 y desbloquear todos los nodos principales de Ascensión",
+    "Equipar un conjunto de Cartuchos de 4 piezas de Resplandor Perdido (rareza Legendaria)",
+    "Colocar 4 Módulos Tipo III para asegurar la bonificación de especialización de consola de +64% DAÑO CRIT",
+    "Equipar Espejismo Sonrojado o un Arco alternativo de Clase S/A refinado",
+    "Formar equipo con facilitadores de Carga fuera del campo como Hathor, Zero o Nanally"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre las Consolas de NTE Shinku">
+
+<FAQ items={[
+  {
+    question: "¿Por qué se recomienda el conjunto de Cartuchos Resplandor Perdido para la consola de Shinku?",
+    answer: "Resplandor Perdido aumenta el DAÑO de Cosmos en un 10% y permite a Shinku ignorar el 25% de la DEF enemiga durante 20 segundos después de lanzar su Definitiva. Esto encaja perfectamente con su ventana de transformación de Carmesí Oleante."
+  },
+  {
+    question: "¿Cómo activo la bonificación de especialización de Módulo de Shinku?",
+    answer: "Shinku obtiene un aumento pasivo del 16% de DAÑO CRIT por cada Módulo Tipo III equipado. Al equipar cuatro Módulos Tipo III (dos de su conjunto de Cartuchos y dos ranuras libres), desbloqueas una enorme bonificación del 64% de DAÑO CRIT."
+  },
+  {
+    question: "¿Puedo usar la forma de aumento de velocidad de Shinku en el mundo abierto?",
+    answer: "Sí. Al mantener presionado el botón de esquiva en el mundo abierto, Shinku puede entrar en su forma de Desenfreno para correr a velocidades excepcionalmente altas sin consumir estamina estándar."
+  },
+  {
+    question: "¿Cuál es la diferencia entre el Espíritu Desafiante y la Energía Definitiva regular?",
+    answer: "A diferencia de otros personajes que cargan sus Definitivas de forma pasiva, Shinku debe acumular Espíritu Desafiante usando sus Ataques Básicos, Habilidades de Redirección y Golpes Instantáneos activados mediante las acumulaciones de Mirada Amenazante."
+  }
+]} />
+
+</Section>

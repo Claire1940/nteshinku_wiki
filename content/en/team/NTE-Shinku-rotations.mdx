@@ -1,0 +1,159 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "NTE Shinku Rotations: Combat Guide & Best Team Combos",
+  description: "Master NTE Shinku rotations in Neverness to Everness 1.2. Learn her dual-form combat flow, Defiant Spirit management, and best team setups for maximum DPS.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/991b1b/fff?text=NTE+Shinku+Rotations+Guide",
+  date: "2026-07-09",
+  author: "NTE Shinku Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Mechanic**: Shinku is a Cosmos element, Condensate-type S-Class DPS whose strength relies on her dual-form mechanics.
+- **Core Loop**: Generate **Defiant Spirit** in normal form to activate her Ultimate, entering the **Surging Crimson** state for explosive burst damage.
+- **Downtime Play**: Utilize her off-field **Menacing Gaze** and **Perfect Dodges** to build massive damage multipliers for her next entry strike.
+- **Optimal Synergy**: Pair her with characters that enable **Remora**, **Blossom**, and **Charge** reactions to refund Ultimate energy rapidly.
+</Callout>
+
+<Section icon={Swords} title="Understanding Shinku's Dual-Form Combat Kit">
+
+To execute optimal **NTE Shinku rotations**, players must understand that she operates with two entirely different combat kits. In her normal form, her primary objective is to build her **Defiant Spirit** gauge. Once this gauge is fully charged, she can activate her Ultimate, **Crimson Fury**, to enter the 13-second **Surging Crimson** state (also referred to as Crimson Ascension). During this transformation window, her basic attacks and skills are replaced by significantly stronger, high-multiplier variants.
+
+| Ability Name | Form | Core Combat Function | Defiant Spirit Gain |
+| :--- | :--- | :--- | :--- |
+| **Special Combat Arts** | Normal | 5-hit basic martial arts string; holding attacks triggers altered combos | Medium-High |
+| **High-Speed Breach** | Normal | Redirect Skill; dashes forward dealing Cosmos DMG | Moderate |
+| **Menacing Gaze** | Normal | Passive; stacks up to 8 times when off-field or not attacking | None (Grants DMG buff) |
+| **Crimson Fury (Ultimate)** | Normal | Consumes Defiant Spirit to enter **Surging Crimson** state for 13s | Consumes all |
+| **Altered Basic Attacks** | Surging Crimson | High-speed claws; generates Lucid Edge energy | N/A (Consumes Fading Reason) |
+| **Crimson Judgment** | Surging Crimson | Rapid dash attacks triggered via the Ultimate button | N/A (Ultimate Finisher) |
+
+<Callout type="tip" title="Pro Tip: The Menacing Gaze Stacking Rule">
+If Shinku is on the field and does not attack for more than 2 seconds, she enters the **Menacing Gaze** state, gaining 1 stack per second (and 1 extra stack per Perfect Dodge) up to an 8-stack limit. Each stack increases her next attack's bonus damage by 100%. At base Awakening, swapping characters clears these stacks. However, at **Awakening 3**, she retains these stacks off-field and can even build them while benched, which completely changes how you structure your support setup!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Shinku Combat Rotation">
+
+Executing Shinku's rotations requires shifting smoothly between her resource-building phase and her ultimate burst window. In general, you want to spend as little time as possible on your supports to ensure Shinku doesn't lose her stacking attack buffs.
+
+<Steps>
+  <Step num="1" title="Build Defiant Spirit">
+    Begin the fight on Shinku. Spam her **Special Combat Arts** basic attack string. Weave in her **High-Speed Breach** Redirect Skill. Ensure you land the 3rd or 5th hit, or hold down the basic attack during the 3rd, 4th, or 5th hits to trigger the Altered combo variant for maximum Defiant Spirit generation.
+  </Step>
+  <Step num="2" title="Cycle Support Buffs">
+    Once Shinku's Defiant Spirit gauge is full, swap to your support characters. Trigger their elemental skills, ultimates, and off-field abilities to set up reactions like **Remora** and **Blossom**. Do not spend more than 5–6 seconds on support setups.
+  </Step>
+  <Step num="3" title="Unleash Crimson Fury">
+    Swap back to Shinku and immediately press her Ultimate to activate **Crimson Fury**. This triggers her transformation into the **Surging Crimson** state, boosting her interruption resistance, movement speed, and Cosmos damage.
+  </Step>
+  <Step num="4" title="Execute the Burst Combo">
+    While in her transformed state, execute her enhanced damage loop: spam **Enhanced Basic Attacks** to deal massive damage and generate Lucid Edge energy, then cast her **Enhanced Redirect Skill**. You should aim to get at least two enhanced skill casts off during this window.
+  </Step>
+  <Step num="5" title="Unleash the Finisher">
+    When her transformation timer is close to ending, continuously tap the Ultimate button to trigger **Crimson Judgment**. Shinku will dart between targets at blinding speed. Finish the combo with her final burst, **Ultimate Dragonflame Verdict**, to deal massive AoE Cosmos damage.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Rotation Warning">
+Avoid staying on your support characters for too long. If Shinku remains off-field for an extended duration, she may run out of her stacking attack buffs, or you may fail to fit all of her enhanced skill casts into her ultimate window.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Best Team Compositions and Reaction Cycles">
+
+Shinku's passives include **Charge Cycle Enhancement**, which allows off-field characters to gain Ultimate energy whenever the active character charges up. Therefore, her best team compositions leverage rapid elemental reactions to keep the team's energy looping smoothly.
+
+<CardGrid cols={3}>
+  <Card title="Premium Chaos Team">
+    - **Main DPS**: Shinku
+    - **Sub-DPS**: Hathor
+    - **Reaction Support**: Zero
+    - **Healer/Buffer**: Iroi
+    - *Focus*: Combines Double Cosmos with Lakshana and Anima to trigger **Remora**, **Blossom**, and **Charge** reactions.
+  </Card>
+  <Card title="Comfort Variant">
+    - **Main DPS**: Shinku
+    - **Sub-DPS**: Hathor
+    - **Healer/Cosmos**: Edgar
+    - **Grouping/Anima**: Jiuyuan
+    - *Focus*: Edgar provides a secondary Cosmos source and safe healing, making longer endgame fights highly forgiving.
+  </Card>
+  <Card title="F2P Friendly Lineup">
+    - **Main DPS**: Shinku
+    - **Sub-DPS**: Main Character (MC)
+    - **Support**: Mint
+    - **Utility**: Skia
+    - *Focus*: Uses accessible characters to maintain a high-frequency cycle, leveraging Skia's buffs and Mint's quick swaps.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Elemental Reaction Guide">
+- **Remora (Lakshana + Cosmos)**: Reduces enemy attack and movement speed.
+- **Blossom (Cosmos + Anima)**: Spawns a life bud that explodes into AoE homing projectiles.
+- **Charge (Lakshana + Cosmos + Anima)**: Grants the active character 10 Ultimate energy whenever Blossom explodes, keeping Shinku's Ultimate fully charged.
+</Callout>
+
+### The Optimal Team Rotation Sequence
+
+To maximize the synergy of Shinku's Premium Team (Shinku, Hathor, Zero, and Nanally/Iroi), utilize the following structured rotation:
+
+| Sequence | Character | Action to Perform | Reaction Triggered / Buff Granted |
+| :--- | :--- | :--- | :--- |
+| **Step 1** | **Shinku** | Land Basic Attacks and Redirect Skill | Build Defiant Spirit & fill Esper Cycle |
+| **Step 2** | **Hathor** | Swap in, cast Ultimate, then use Skill | Applies Lakshana, triggers **Remora** |
+| **Step 3** | **Zero** | Swap in, cast Ultimate, then use Skill | Generates off-field Charge energy |
+| **Step 4** | **Nanally / Iroi** | Swap in, cast Skill, Ultimate, then basic attack | Applies Anima, triggers **Blossom** & **Charge** |
+| **Step 5** | **Shinku** | Swap back, cast Ultimate, execute full burst | Enters **Surging Crimson** with max buffs |
+
+</Section>
+
+<Section icon={Trophy} title="Shinku Build & Rotation Milestones">
+
+To make Shinku's rotations feel fluid, you must equip her with the correct gear to avoid energy bottlenecks. Her signature weapon, **Blushing Mirage**, is highly recommended as it grants a massive 32% Cosmos DMG bonus and 12% DEF ignore during her Ultimate window.
+
+<Checklist
+  id="shinku-rotation-prep"
+  title="Rotation Optimization Checklist:"
+  items={[
+    "Equip Blushing Mirage (Signature Arc) or Fluff of Ferocity (Battle Pass alternative) to scale Crit and Ultimate damage [1.1.4].",
+    "Farm the 4-piece Lost Radiance Cartridge set to ignore 25% of enemy DEF after casting her Ultimate.",
+    "Prioritize stats in this order: Cosmos DMG Bonus > Crit Rate > Crit DMG > ATK% > Energy Recharge.",
+    "Level up Shinku's skills in order of priority: Basic Attack > Ultimate > Skill > Support Skill.",
+    "Practice her perfect dodge timing in the in-game combat tutorial to master instant Menacing Gaze stacking."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why is Shinku's Ultimate not ready even though my Ultimate Energy is full?",
+    answer: "Unlike other characters in Neverness to Everness, Shinku cannot activate her Ultimate solely by accumulating Ultimate Energy. She must fully charge her unique Defiant Spirit gauge by landing Basic Attacks, Perfect Dodges, or Redirect Skills first."
+  },
+  {
+    question: "What is Shinku's skill upgrade priority for maximum rotation damage?",
+    answer: "Following her post-release tuning, Shinku's skill upgrade priority is: Basic Attack > Ultimate > Skill > Support Skill. Her Basic Attacks scale her resource generation and on-field damage heavily, while her Ultimate scales her massive Surging Crimson burst multipliers."
+  },
+  {
+    question: "How do I maintain Shinku's Menacing Gaze stacks when swapping characters?",
+    answer: "At base, switching characters clears all of Shinku's Menacing Gaze stacks. To keep her stacks active off-field and allow her to generate stacks while benched, you must unlock her Awakening 3 duplicate milestone."
+  },
+  {
+    question: "What is the best free-to-play Arc for Shinku's rotation?",
+    answer: "The Raging Flames Arc (Hathor's signature weapon) works as an excellent free-to-play stat stick for Shinku, providing a solid Redirect Skill damage bonus when she triggers her Ultimate."
+  }
+]} />
+
+</Section>

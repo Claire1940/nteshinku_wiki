@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "NTE Shinku Skills: Full Combat Guide & Form Mechanics",
+  description: "Master NTE Shinku skills with our comprehensive combat guide. Learn her Surging Crimson form, Defiant Spirit, Menacing Gaze stacks, and optimal combos.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1b4b/fff?text=Shinku+Skills+Guide",
+  date: "2026-07-09",
+  author: "NTE Shinku Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Core Identity**: Shinku is an S-Class Cosmos main DPS specializing in aggressive melee combat and stance-shifting.
+- **Stance Transformation**: Her gameplay revolves around building **Defiant Spirit** to trigger her ultimate form, **Surging Crimson**.
+- **Menacing Gaze Mechanic**: Standing still or dodging builds stacks that unleash a devastating **Instant Strike** counterattack.
+- **Skill Priority**: Focus your upgrades on her **Ultimate** first, followed by her **Basic Attack** and **Redirect Skill**.
+- **Signature Synergy**: She reaches maximum potential when paired with her signature S-Class Arc, **Blushing Mirage**.
+</Callout>
+
+<Section icon={Swords} title="NTE Shinku Skills and Core Combat Mechanics">
+
+Shinku is a powerful Cosmos-attribute Esper who dominates the battlefield through a dual-form combat loop. Her baseline kit focuses on building resources through martial arts strikes before transforming into an unstoppable berserk state. 
+
+**Video Highlights:**
+- **Dual-Form Showcase**: Visualizing the transition from normal melee strikes to her transformed dragon-like state.
+- **Menacing Gaze Timing**: How to accumulate and cash out passive stacks for massive initial burst damage.
+- **Ultimate Combo String**: The exact sequence required to maximize damage during her 13-second transformation window.
+
+<YouTubeEmbed videoId="FVhLNdcAVyI" title="NTE Shinku Character PV丨The Edge of Dreams" />
+
+### Normal Form Skill Breakdown
+
+In her standard state, Shinku acts as an on-field driver, accumulating energy to fuel her transformation. Her basic attacks are fast, physical-looking martial arts strikes that deal Cosmos damage.
+
+| Skill Name | Skill Type | Combat Description | Resource Generated |
+| :--- | :--- | :--- | :--- |
+| **Special Combat Arts** | Basic Attack | Delivers up to 5 consecutive physical/martial strikes dealing Cosmos DMG. | Generates **Defiant Spirit**. |
+| **Special Combat Arts — Altered** | Branch Attack | Hold Basic Attack during the 3rd, 4th, or 5th hit of her normal string. | Generates high amount of **Defiant Spirit**. |
+| **High-Speed Breach** | Redirect Skill | Shinku rockets forward, performing a rapid multi-hit flurry of Cosmos DMG. | Generates **Defiant Spirit**. |
+| **Instant Victory** | Dodge Counter | Triggered by tapping Basic Attack after a Perfect Dodge, executing a vicious flying kick. | Grants **Defiant Spirit** and drains enemy Break Gauge. |
+
+<Callout type="tip" title="Pro Tip: The Stance Prep Loop">
+Do not just mindlessly spam normal attacks. Always trigger **Special Combat Arts — Altered** by holding down the attack button during the 3rd or 5th strike. This is the fastest way to max out your Defiant Spirit meter and ready your transformation.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Surging Crimson: The Transformation State">
+
+When Shinku consumes her accumulated Defiant Spirit, she casts **Crimson Fury** to enter the **Surging Crimson** state. This state lasts for **13 seconds** and completely replaces her normal skills with empowered, high-multiplier variants.
+
+<CardGrid cols={2}>
+  <Card title="Tidal Assault (Enhanced Basic)">
+    Replaces Special Combat Arts. Shinku attacks with an intimidating aura, executing high-intensity strikes that deal massive Cosmos damage and build **Fading Reason**.
+  </Card>
+  <Card title="Crimson Blade from the Heavens">
+    Replaces High-Speed Breach. Consumes all accumulated Fading Reason to leap into the enemy's blind spot and deliver a devastating downward claw strike.
+  </Card>
+  <Card title="Crimson Judgment (Ultimate Multi-Stage)">
+    Triggered by tapping the Ultimate button near the end of Surging Crimson. Shinku shuttles between targets at blinding speeds, dealing rapid Cosmos damage.
+  </Card>
+  <Card title="Dragon Flame Verdict (Ultimate Finisher)">
+    The final stage of her Ultimate. Tap the Ultimate button one last time to unleash a massive dragon-flame burst that covers a wide area.
+  </Card>
+</CardGrid>
+
+### Normal vs. Transformed Skill Comparison
+
+| Feature | Normal Form (Standard) | Surging Crimson Form (Transformed) |
+| :--- | :--- | :--- |
+| **Primary Resource** | Builds **Defiant Spirit** | Builds and spends **Fading Reason** |
+| **Basic Attack Style** | 5-Hit Martial Arts (Special Combat Arts) | 5-Hit Claw Infused Strikes (Tidal Assault) |
+| **Redirect Skill** | High-Speed Breach (Forward Dash Flurry) | Crimson Blade from the Heavens (Downward Claw Slam) |
+| **Interruption Resistance** | Standard | Significantly Increased |
+| **Evasion Counter** | Instant Victory (Flying Kick) | No Respite (Heavy Knockback Kick) |
+
+<Callout type="warning" title="Transformation Rules">
+Switching characters immediately ends the **Surging Crimson** state. Always complete Shinku's full 13-second burst rotation and execute her final **Dragon Flame Verdict** finisher before swapping her out.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="How to Play Shinku: Step-by-Step Rotation">
+
+To maximize Shinku's damage output, you must integrate her off-field preparation, on-field resource building, and transformation window into a seamless rotation. 
+
+<Steps>
+  <Step num="1" title="Off-Field Stacking (Menacing Gaze)">
+    Keep Shinku off-field or avoid attacking for 2 seconds to trigger **Menacing Gaze**. She will passively build up to 8 stacks (or 16 stacks with higher Awakenings).
+  </Step>
+  <Step num="2" title="Initiate with Instant Strike">
+    Swap Shinku onto the field and execute her first Basic Attack. This consumes all Menacing Gaze stacks to unleash a massive **Instant Strike**, instantly generating a huge chunk of Defiant Spirit.
+  </Step>
+  <Step num="3" title="Build Defiant Spirit">
+    Perform her standard 5-hit basic string, ensuring you hold the button on the 3rd or 5th hit to execute her **Altered** branch attack. Mix in her Redirect Skill, **High-Speed Breach**, to fill the gauge.
+  </Step>
+  <Step num="4" title="Enter Surging Crimson">
+    Once your Defiant Spirit gauge is full, cast her Ultimate, **Crimson Fury**, to transform.
+  </Step>
+  <Step num="5" title="Sustained Burst Window">
+    Spam **Tidal Assault** (Enhanced Basic Attacks) to build Fading Reason, then immediately spend it on her enhanced skill, **Crimson Blade from the Heavens**.
+  </Step>
+  <Step num="6" title="Execute the Crimson Finisher">
+    Just before her 13-second transformation ends, continuously tap her Ultimate button to execute **Crimson Judgment** and cap it off with the massive **Dragon Flame Verdict**.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Skill Upgrade and Progression Priority">
+
+Upgrading NTE Shinku skills requires a balanced approach, but prioritizing her primary damage-dealing tools will yield the highest return on investment.
+
+### Skill Leveling Priority Guide
+
+1. **Ultimate: Crimson Fury (Priority 1)**: Directly increases the multiplier of her transformation damage, Crimson Judgment, and Dragon Flame Verdict.
+2. **Basic Attack: Special Combat Arts (Priority 2)**: Boosts her standard melee attacks and her transformed Tidal Assault strikes, which make up a massive portion of her on-field uptime.
+3. **Redirect Skill: High-Speed Breach (Priority 3)**: Improves her gap closer and the downward claw slam during her transformed state.
+4. **Support Skill: Fierce Knee Strike (Priority 4)**: Can be left at lower levels as it is only used during quick-swap Esper Cycles.
+
+<Checklist
+  id="shinku-materials-checklist"
+  title="Shinku Skill Upgrade Materials (Per Skill):"
+  items={[
+    "Dress Sleeves of Vanity (Boss Material) [1.1.2]",
+    "Paradoxical Whispers / Obscure Whispers / Lost Whispers",
+    "The Olive Branch / Dove's Flutter / Nestling's Longing",
+    "Beetle Coins (Approximately 437,000 per skill to max)"
+  ]}
+/>
+
+<Callout type="success" title="Open World Utility">
+Don't forget Shinku's incredible exploration passive! Long-pressing her dodge button in the open world activates her **Rampage Sprint**. She sprouts purple energy wings, allowing her to run at extreme speeds and sprint directly up vertical walls while draining stamina.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the difference between Defiant Spirit and Fading Reason?",
+    answer: "Defiant Spirit is the resource Shinku builds in her normal form to activate her Ultimate transformation. Fading Reason is the resource she builds in her transformed Surging Crimson state to cast her enhanced claw skill."
+  },
+  {
+    question: "How do I trigger Shinku's Menacing Gaze mechanic?",
+    answer: "Menacing Gaze builds passively when Shinku is on the field in combat but not actively attacking, or when she is sitting off-field (unlocked via her A3 Awakening). It stacks up to 8 times (16 at A4) and converts her next attack into a massive Instant Strike."
+  },
+  {
+    question: "Should I level up Shinku's Support Skill?",
+    answer: "No, her Support Skill is her lowest priority. Most of Shinku's damage comes from her on-field Ultimate transformation and Basic Attacks, so you should focus your materials there first."
+  },
+  {
+    question: "Can Shinku climb walls in Neverness to Everness?",
+    answer: "Yes! By holding down her sprint/dodge button in the open world, Shinku enters her dragon form, sprouting purple wings that allow her to sprint exceptionally fast and run directly up walls."
+  }
+]} />
+
+</Section>

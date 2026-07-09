@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "NTE Shinku Consoles: Best Cartridges, Modules & Build Setup",
+  description: "Optimize Shinku in Neverness to Everness with the best consoles, Cartridges, Modules, team compositions, and signature Arc setups for Version 1.2.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/9333ea/fff?text=NTE+Shinku+Consoles+Guide",
+  date: "2026-07-09",
+  author: "NTE Shinku Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Focus**: Build Shinku with the **Lost Radiance** Cartridge set to maximize her post-Ultimate Defense Ignore.
+- **Module Strategy**: Equip **Type III Modules** to scale Shinku's CRIT DMG directly through her console specialization passive.
+- **Signature Weapon**: Pair her with her signature S-Class Arc, **Blushing Mirage**, to gain massive Cosmos DMG and extra DEF ignore.
+- **Combat Loop**: Accumulate **Deterrent Gaze** stacks while idle or dodging, then unleash an Instant Strike to charge her Ultimate.
+</Callout>
+
+<Section icon={Shield} title="NTE Shinku Consoles: Best Cartridge Sets">
+
+To build Shinku as a top-tier Cosmos Main DPS in Neverness to Everness (NTE), her console configuration—specifically her **Cartridge (Console)** set—must focus on multiplying her damage output during her Ultimate state. Shinku relies heavily on her **Surging Crimson** transformation, making Ultimate-triggered buffs extremely valuable.
+
+The absolute best Cartridge set for Shinku is **Lost Radiance**. This set scales her Cosmos elemental damage and synergizes directly with the high-frequency attacks she performs in her transformed state.
+
+| Cartridge Set | Rarity | Set Effects & Combat Mechanics | Build Priority |
+| :--- | :--- | :--- | :--- |
+| **Lost Radiance** | Epic / Legendary | **2-Piece**: Increases Cosmos DMG by 10%. <br/>**4-Piece**: Ignores 25% of enemies' DEF for 20 seconds after casting Ultimate. | **Best in Slot (BiS)** |
+| **Fluff of Ferocity** | Epic / Legendary | Increases CRIT DMG by 4% for 10 seconds after landing a critical hit (up to 10 stacks). Resets duration on trigger. | **Alternative** (Requires high base CRIT Rate) |
+| **A Time Will Come** | Epic / Legendary | Grants 18% ATK, 18% DEF, and 18% HP when the party contains at least 3 different Esper Types. | **F2P Stat Stick** |
+
+<Callout type="success" title="Synergy Breakdown">
+Combining Shinku's signature Arc (**Blushing Mirage**) with a 4-piece **Lost Radiance** Cartridge set allows her to ignore up to **37% of enemy Defense** immediately after casting her Ultimate. This setup melts high-level boss armor effortlessly.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Shinku Module Optimization & Stats">
+
+Modules are critical components of Shinku's console setup, allowing you to fine-tune her base stats. Her console passive grants a massive specialized bonus: Shinku gains **16% CRIT DMG for every Type III Module** equipped. 
+
+To min-max her build, you should aim to slot exactly four Type III Modules. This yields a permanent passive boost of **64% extra CRIT DMG**.
+
+### Module Stat Priorities
+When farming and upgrading Modules for Shinku's console, prioritize the following stat hierarchy:
+
+1. **CRIT Rate** (Main Stat / Substat) — Crucial to ensure her high-damage Ultimate strikes land critically.
+2. **CRIT DMG** (Substat) — Scales alongside her console passive for monumental burst spikes.
+3. **ATK% / Flat ATK** (Substat) — Increases her baseline scaling.
+4. **Cosmos DMG%** (Main Stat on specialized slots) — Multiplies her overall elemental damage output.
+
+```
+[Type III Module Slot 1: Lost Radiance] ──> +16% CRIT DMG
+[Type III Module Slot 2: Lost Radiance] ──> +16% CRIT DMG
+[Type III Module Slot 3: Free Slot]     ──> +16% CRIT DMG
+[Type III Module Slot 4: Free Slot]     ──> +16% CRIT DMG
+──────────────────────────────────────────────────────────
+Total Console Specialization Bonus:         +64% CRIT DMG
+```
+
+<Callout type="warning" title="CRIT Balancing Tip">
+Do not neglect CRIT Rate in favor of pure CRIT DMG. Aim for a healthy **1:2 ratio** (e.g., 60% CRIT Rate to 120%+ CRIT DMG) to make sure her console passive isn't wasted on non-critical hits.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Best Arcs (Weapons) for Shinku">
+
+Shinku utilizes a Condensate-type Arc (formerly known as Synthesis-type). Her weapons provide the baseline offensive stats that feed into her console multipliers.
+
+| Arc Name | Rarity | Base Stats & Unique Passives | Compatibility |
+| :--- | :--- | :--- | :--- |
+| **Blushing Mirage** (Lunar Transmutation) | S-Class | 570 Base ATK, 24% CRIT Rate. Increases ATK by 20%. Post-Ultimate, increases Cosmos DMG by 32% and ignores 12% DEF for 20s. | **Best in Slot (Signature)** |
+| **Fluff of Ferocity** | S-Class | 512 Base ATK, 27.5% ATK. Increases CRIT DMG by 4% on critical hits (up to 10 stacks). | **Strong Alternative** |
+| **A Time Will Come** | S-Class | 475 Base ATK, 20% CRIT Rate. Provides up to 18% ATK, DEF, and HP depending on team elements. | **F2P Option** |
+
+<Callout type="tip" title="Weapon Pull Priority">
+If you are managing limited resources, always prioritize pulling Shinku the character first [00首页信息-1]. Her signature Arc, Blushing Mirage, is an incredible upgrade but can be substituted with high-refinement A-Class Arcs if you are saving pulls.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Combat Rotation & Mechanics">
+
+Shinku's combat loop is split into a normal gathering phase and an explosive transformation phase. She relies on **Defiant Spirit** instead of standard Ultimate Energy to activate her transformation, meaning you must actively engage in her specific mechanics to build her gauge.
+
+<Steps>
+  <Step num="1" title="Build Deterrent Gaze Stacks">
+    When Shinku is in combat but remains idle (not attacking) for 2 seconds, she enters the Menacing Gaze state, gaining 1 stack per second up to a cap of 8. Perfect Dodges also award instant stacks.
+  </Step>
+  <Step num="2" title="Unleash Instant Strike">
+    Execute a Basic Attack to consume all 8 stacks. This triggers an **Instant Strike** that deals massive damage and rapidly fills her Defiant Spirit gauge, Skill energy, and Cycle Meter.
+  </Step>
+  <Step num="3" title="Support Setup & Reactions">
+    Swap to your support units (such as Hathor and Nanally) to trigger the **Charge** reaction. Shinku's passive ensures that all allies gain Ultimate energy from Charge reactions while she is in the team.
+  </Step>
+  <Step num="4" title="Trigger Surging Crimson">
+    Swap back to Shinku and cast her Ultimate to enter the **Surging Crimson** state. This activates her Cartridge's 25% DEF ignore and her signature Arc's 32% Cosmos DMG buff.
+  </Step>
+  <Step num="5" title="Execute Transformed Combo">
+    Perform her enhanced basic attacks to build **Fading Reason**. Use her enhanced skill up to 5 times, followed by her 3 Ultimate dashes, culminating in her devastating Ultimate finisher.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Trophy} title="Shinku Consolidation Checklist">
+
+Use this checklist to ensure your Shinku is fully optimized for end-game content in Version 1.2.
+
+<Checklist
+  id="shinku-build-goals"
+  title="Optimization Targets:"
+  items={[
+    "Reach Character Level 80 and unlock all major Ascension nodes",
+    "Equip a 4-Piece Lost Radiance Cartridge set (Legendary rarity)",
+    "Slot 4 Type III Modules to secure the +64% CRIT DMG console specialization bonus",
+    "Equip Blushing Mirage or a refined S-Class/A-Class alternative Arc",
+    "Partner with off-field Charge enablers like Hathor, Zero, or Nanally"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="NTE Shinku Consoles FAQ">
+
+<FAQ items={[
+  {
+    question: "Why is the Lost Radiance Cartridge set recommended for Shinku's console?",
+    answer: "Lost Radiance increases Cosmos DMG by 10% and allows Shinku to ignore 25% of enemy DEF for 20 seconds after casting her Ultimate. This matches her Surging Crimson transformation window perfectly."
+  },
+  {
+    question: "How do I activate Shinku's Module specialization bonus?",
+    answer: "Shinku gains a passive 16% CRIT DMG boost for every Type III Module equipped. By equipping four Type III Modules (two from her Cartridge set and two free slots), you unlock a massive 64% CRIT DMG bonus."
+  },
+  {
+    question: "Can I use Shinku's speed boost form in the open world?",
+    answer: "Yes. By long-pressing the dodge button in the open world, Shinku can enter her Rampage form to sprint at exceptionally high speeds without consuming standard stamina."
+  },
+  {
+    question: "What is the difference between Defiant Spirit and regular Ultimate Energy?",
+    answer: "Unlike other characters who charge their Ultimates passively, Shinku must accumulate Defiant Spirit using her Basic Attacks, Redirect Skills, and Instant Strikes triggered via Menacing Gaze stacks."
+  }
+]} />
+
+</Section>

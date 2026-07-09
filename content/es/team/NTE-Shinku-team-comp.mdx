@@ -1,0 +1,164 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Composición de equipo para NTE Shinku: Las mejores sinergias y rotaciones",
+  description: "Domina las mejores composiciones de equipo para NTE Shinku. Aprende sobre la creación de equipos óptimos, activadores de la reacción Carga, sinergias de personajes y guías de rotación para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/991b1b/fff?text=NTE+Shinku+Team+Comp+Guide",
+  date: "2026-07-09",
+  author: "Equipo de la Wiki de NTE Shinku"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Palabra clave principal**: Construir la mejor **composición de equipo para NTE Shinku** requiere emparejar a Shinku con personajes que activen y mantengan la reacción Carga.
+- **Estrategia principal**: Shinku actúa como DPS principal Cosmos en el campo que depende de las **reacciones Carga** (combinando Rémora y Florecimiento) para regenerar energía definitiva y acumular enormes bonificaciones de ATQ.
+- **Mejor compañero**: **Hathor** es obligatoria para extender la duración del debufo Rémora, manteniendo activa la reacción Carga el mayor tiempo posible.
+- **Ranura Premium**: **Nanally** (o el futuro personaje **Iroi**) sirve como soporte Anima de primer nivel para activar consistentemente Florecimiento.
+- **Ancla de utilidad**: **Zero** proporciona una rápida generación de energía de Ciclo Cosmos, lo que permite rotaciones rápidas y ofrece curación fuera del campo cuando Shinku obtiene energía definitiva.
+</Callout>
+
+<Section icon={Swords} title="Composición de equipo para NTE Shinku: Mecánicas clave de reacción">
+
+Shinku es un poderoso personaje de daño en el campo de clase S de Cosmos. Sin embargo, desbloquear su verdadero límite de daño requiere un equipo diseñado específicamente en torno a sus requisitos de energía únicos y reacciones elementales. Shinku depende en gran medida de la **reacción Carga** para alimentar su definitiva, lo que activa su devastadora transformación de **Ascensión Carmesí**. 
+
+La reacción Carga se activa cuando un personaje inflige daño Anima a un objetivo que ya está afectado por el debufo Rémora (que se crea al combinar los elementos Cosmos y Lakshana). Debido a que Shinku debe permanecer en el campo para infligir daño y mantener sus bonificaciones, sus compañeros de equipo deben poder aplicar elementos y activar reacciones desde fuera del campo.
+
+**Vídeos destacados:**
+- Aprende cómo la transformación Ascensión Carmesí de Shinku escala con las bonificaciones de reacción.
+- Guía visual sobre cómo activar las reacciones duales Rémora y Florecimiento para activar Carga.
+- Desglose paso a paso de la rotación de mayor DPS de Shinku con Hathor y Zero.
+
+<YouTubeEmbed videoId="FVhLNdcAVyI" title="Presentación de personaje de NTE Shinku | El filo de los sueños" />
+
+### La fórmula de la reacción Carga
+Para mantener el tiempo de actividad de la definitiva de Shinku cerca del 100%, tu equipo debe realizar constantemente ciclos a través de estas reacciones elementales:
+
+| Nombre de la reacción | Elementos requeridos | Efecto de combate en los enemigos |
+| :--- | :--- | :--- |
+| **Rémora** | Cosmos + Lakshana | Aplica un debufo al objetivo y permite la preparación para las reacciones Carga. |
+| **Florecimiento** | Cosmos + Anima | Inflige daño en área (AoE) y prepara la segunda mitad de Carga. |
+| **Carga** | Rémora + Florecimiento | Devuelve una gran cantidad de energía definitiva al personaje activo y activa explosiones en área. |
+
+<Callout type="tip" title="Consejo profesional">
+La pasiva de Shinku, **Paso Solitario**, inflige un 400% de ATQ como daño en área cuando se activa Carga mientras ella está activa, a la vez que acumula una bonificación de ATQ hasta 10 veces. ¡Nunca actives Carga mientras tus soportes estén en el campo!
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Las mejores composiciones de equipo para Shinku">
+
+Dependiendo de tus personajes disponibles y tu presupuesto, Shinku puede encajar en varias configuraciones de equipo altamente efectivas. A continuación se presentan las tres mejores composiciones de equipo para Shinku en la versión 1.2.
+
+<CardGrid cols={3}>
+  <Card title="Equipo Meta Premium">
+    - **DPS principal**: Shinku
+    - **Sub-DPS**: Hathor
+    - **Soporte**: Zero
+    - **Búfer Anima**: Nanally
+    - **Pros**: El límite de DPS más alto, ciclos de reacción perfectos.
+  </Card>
+  <Card title="Equipo F2P Amigable">
+    - **DPS principal**: Shinku
+    - **Sub-DPS**: Hathor
+    - **Soporte**: Zero
+    - **Búfer Anima**: Jiuyuan
+    - **Pros**: Extremadamente barato de construir; utiliza el selector estándar de clase S.
+  </Card>
+  <Card title="Configuración a prueba de futuro">
+    - **DPS principal**: Shinku
+    - **Sub-DPS**: Hathor
+    - **Soporte**: Zero
+    - **Búfer Anima**: Iroi
+    - **Pros**: La mejor sinergia en su ranura una vez que Iroi se lance en la Fase 2.
+  </Card>
+</CardGrid>
+
+### Matriz de comparación de equipos
+Para ayudarte a decidir qué equipo construir, aquí tienes un desglose detallado de cómo se desempeña cada alineación en métricas de combate críticas:
+
+| Variante de equipo | Densidad de reacción | Capacidad de agrupación | Curación y supervivencia | Amigabilidad F2P |
+| :--- | :--- | :--- | :--- | :--- |
+| **Premium (Nanally)** | Excelente (Alta frecuencia) | Moderada | Buena (A través de la pasiva de Zero) | Baja (Requiere múltiples clase S) |
+| **F2P (Jiuyuan)** | Buena (Rotaciones más lentas) | Excelente (CC de Jiuyuan) | Buena (A través de la pasiva de Zero) | Excelente (Usa personajes gratuitos) |
+| **Futuro (Iroi)** | Sobresaliente (DPS máximo) | Moderada | Sobresaliente (Curaciones de Iroi) | Media (Requiere obtener a Iroi) |
+
+<Callout type="warning" title="Importante">
+¡Si estás usando la variante F2P, puedes obtener tanto a **Jiuyuan** como a **Hathor** de forma gratuita utilizando la Caja de selección de personaje estándar de rango S proporcionada en tu correo del juego durante la versión 1.2!
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de rotación paso a paso">
+
+Para maximizar tu daño, debes ejecutar los cambios de personaje en un orden preciso. Esto asegura que todos los debufos estén activos y que Shinku sea quien se beneficie de las devoluciones de energía de Carga.
+
+<Steps>
+  <Step num="1" title="Carga el medidor inicial de Shinku">
+    Comienza el combate con **Shinku**. Realiza ataques básicos y habilidades para cargar su medidor de Ciclo Esper inicial y Espíritu Desafiante.
+  </Step>
+  <Step num="2" title="Aplica Rémora con Hathor">
+    Cambia a **Hathor**. Usa su definitiva y luego su habilidad para aplicar el debufo Rémora a los enemigos y activar su bonificación de probabilidad de CRIT.
+  </Step>
+  <Step num="3" title="Genera energía Cosmos con Zero">
+    Cambia a **Zero**. Usa su definitiva y habilidad para llenar rápidamente el indicador de Ciclo Esper Cosmos y preparar las curaciones defensivas del equipo.
+  </Step>
+  <Step num="4" title="Activa Florecimiento con Nanally">
+    Cambia a **Nanally** (o Jiuyuan). Usa su habilidad y definitiva, luego realiza ataques básicos durante 6 segundos para activar Florecimiento y agrupar a los enemigos.
+  </Step>
+  <Step num="5" title="Desata Ascensión Carmesí">
+    Cambia de nuevo a **Shinku**. Usa inmediatamente su definitiva para entrar en su estado transformado de Ascensión Carmesí, luego usa repetidamente sus habilidades potenciadas y combos marciales.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Beneficio de la rotación">
+Seguir esta rotación asegura que cuando Shinku active Carga, la habilidad **Tasador** de Zero la cure por un 50% del ATQ base de Zero, manteniéndola a salvo durante sus agresivos combos de combate a corta distancia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de preparación del equipo y construcción de Shinku">
+
+Antes de llevar a tu equipo de Shinku a contenido de alto nivel como Beyond the Rails, asegúrate de que tus personajes cumplan con estos requisitos de construcción básicos:
+
+<Checklist
+  id="shinku-team-prep"
+  title="Hitos de construcción requeridos:"
+  items={[
+    "Equipa a Shinku con el conjunto de cartuchos de 4 piezas de Resplandor Perdido, enfocándote en estadísticas principales de Daño CRIT, Prob. CRIT y Daño Cosmos.",
+    "Sube de nivel la definitiva de Hathor para maximizar la duración de su debufo Rémora.",
+    "Construye a Zero con un ATQ base alto para aumentar la curación proporcionada por su habilidad Tasador fuera del campo.",
+    "Desbloquea el primer nodo de ascensión de Shinku para permitir que sus ataques ignoren el 12% de la DEF enemiga."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué se considera a Hathor obligatoria para una composición de equipo de NTE Shinku?",
+    answer: "Hathor es esencial porque su pasiva extiende la duración del debufo Rémora. Esto permite a Shinku activar múltiples reacciones Carga durante una ventana de tiempo más larga, lo que aumenta drásticamente el tiempo de actividad de su definitiva y su daño general."
+  },
+  {
+    question: "¿Puedo jugar con Shinku sin un personaje Anima?",
+    answer: "Se desaconseja totalmente. Sin un personaje Anima (como Nanally, Jiuyuan o Iroi), no puedes activar las reacciones de Florecimiento, lo que significa que no podrás activar Carga. Esto dejará a Shinku sin energía definitiva."
+  },
+  {
+    question: "¿Vale la pena usar el selector estándar de clase S para el equipo de Shinku?",
+    answer: "¡Sí! Si obtienes a Shinku, deberías usar tu selector gratuito de rango S estándar de la versión 1.2 para conseguir a Hathor o Jiuyuan. Esto te dará instantáneamente los componentes principales de su mejor equipo F2P."
+  },
+  {
+    question: "¿Qué debo hacer si Shinku sigue muriendo durante el estado de su definitiva?",
+    answer: "Asegúrate de tener a Zero en tu equipo. La habilidad de soporte de Zero, Tasador, cura al personaje activo cada vez que obtiene energía definitiva. Dado que el equipo de Shinku activa Carga constantemente, esto proporciona una curación masiva y continua."
+  }
+]} />
+
+</Section>
