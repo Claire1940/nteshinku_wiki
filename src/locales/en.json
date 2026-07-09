@@ -52,696 +52,455 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "NTE Shinku Gameplay",
+    "description": "Master Shinku's banner pulls, Blushing Mirage Arc, combat tutorial, outfits, and story content across Neverness to Everness Version 1.2."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "NTE Shinku",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need for Shinku's banner, build, Arc, skills, outfits, and story in Neverness to Everness.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "icon": "Clock",
+        "title": "Release Date and Banner",
+        "description": "Shinku's Version 1.2 banner window and unlock steps"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Download",
+        "title": "Codes and Free Rewards",
+        "description": "Active redeem codes, mail gifts, and event rewards"
       },
       {
         "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "title": "Build and Arc Guide",
+        "description": "Blushing Mirage Arc, currency, and pull checklist"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Skills and Combat",
+        "description": "How to learn Shinku's combat style and tutorial"
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
+        "icon": "Star",
+        "title": "Pull Value and Tier",
+        "description": "Whether Shinku is worth pulling in Version 1.2"
       },
       {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
+        "icon": "Users",
+        "title": "Character Profile",
+        "description": "Shinku's personality, role, and lore context"
       },
       {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Sparkles",
+        "title": "Outfits and Cosmetics",
+        "description": "Skins, liveries, and banner milestone cosmetics"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Story and Hangout",
+        "description": "City Hangouts, Home Time, Bond, and story unlocks"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
+    "nteShinkuReleaseBanner": {
+      "title": "NTE Shinku Release Date and Banner Guide",
+      "eyebrow": "Version 1.2 Banner",
+      "intro": "Use this guide to check Shinku's banner timing, unlock requirement, featured A-Class characters, and milestone cosmetics before spending pulls in Version 1.2.",
+      "rows": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "label": "Version Update",
+          "value": "Version 1.2 \"999 Nights\"",
+          "detail": "Goes live after maintenance on July 8, 2026."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "label": "Maintenance Window",
+          "value": "July 8, 2026, 06:00–11:00 UTC+8",
+          "detail": "Login is unavailable during maintenance."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "label": "Featured Character",
+          "value": "Shinku",
+          "detail": "Exclusive S-Class character featured in Version 1.2 Phase 1."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "label": "Banner Name",
+          "value": "Before the Dawn Limited Board",
+          "detail": "Shinku's limited character board."
+        },
+        {
+          "label": "Banner Period",
+          "value": "July 8 after update – July 29, 2026, 05:59 UTC+8",
+          "detail": "The same availability window applies to Shinku's limited S-Class Arc."
+        },
+        {
+          "label": "Unlock Requirement",
+          "value": "Complete \"Prologue - A New Destination - Head to Eibon Antique Shop\"",
+          "detail": "Required before accessing Shinku's limited board."
+        },
+        {
+          "label": "Featured A-Class Characters",
+          "value": "Mint, Edgar, Adler",
+          "detail": "These A-Class characters are featured alongside Shinku."
+        },
+        {
+          "label": "Milestone Rewards",
+          "value": "50 / 120 / 200 rolls",
+          "detail": "50 rolls: Overcast Canopy glider livery. 120 rolls: Hidden Dragon Blizzard-V4 livery. 200 rolls: Student of Terrasea outfit."
         }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
+    "nteShinkuCodesRewards": {
+      "title": "NTE Shinku Codes and Free Rewards",
+      "eyebrow": "Free Pull Resources",
+      "intro": "Collect active redeem codes, Version 1.2 mail rewards, login gifts, and event rewards before pulling on Shinku's banner.",
+      "typeLabels": {
+        "redeem-code": "Redeem Code",
+        "mail-reward": "Mail Reward",
+        "event-reward": "Event Reward"
+      },
+      "codes": [
+        {
+          "type": "redeem-code",
+          "code": "DRAGONGIRL",
+          "reward": "30 Annulith, 1 Puka Chocoa Ellie Tour Special, 20,000 Fons",
+          "claim": "Redeem from the in-game phone menu after unlocking the redeem code feature."
+        },
+        {
+          "type": "redeem-code",
+          "code": "WELCOMETONTE",
+          "reward": "Celebration Fireworks avatar frame",
+          "claim": "Redeem from the in-game phone menu."
+        },
+        {
+          "type": "redeem-code",
+          "code": "DREAMWALK0603",
+          "reward": "100 Annulith, 5 Rising Hunter Guides, 5 Light Dye, 4,000 Beetle Coins",
+          "claim": "Redeem from the in-game phone menu."
+        },
+        {
+          "type": "redeem-code",
+          "code": "TOMATO100",
+          "reward": "100 Annulith, 5 Rising Hunter Guides, 5 Colorless Dye, 6,000 Beetle Coins",
+          "claim": "Redeem from the in-game phone menu."
+        },
+        {
+          "type": "redeem-code",
+          "code": "RACENOLIMIT",
+          "reward": "100 Annulith, 2 Elite Hunter Guides, 2 Chaotic Dye, 12,000 Beetle Coins",
+          "claim": "Redeem from the in-game phone menu."
+        },
+        {
+          "type": "redeem-code",
+          "code": "NTENENE",
+          "reward": "10,000 Fons, 10 DynamiK, 10 Clicky Fries",
+          "claim": "Redeem from the in-game phone menu."
+        },
+        {
+          "type": "redeem-code",
+          "code": "NTEGIFT",
+          "reward": "50 Annulith, 5 Rising Hunter Guides, 5 Colourless Dye",
+          "claim": "Redeem from the in-game phone menu."
+        },
+        {
+          "type": "mail-reward",
+          "code": "Appreciation Gift",
+          "reward": "1,600 Annulith",
+          "claim": "Create a character and unlock Mail before Version 1.2 ends."
+        },
+        {
+          "type": "mail-reward",
+          "code": "Maintenance and Bug Fix Compensation",
+          "reward": "300 Annulith maintenance compensation and 300 Annulith bug fix compensation",
+          "claim": "Sent by in-game mail after the July 8 Version 1.2 update for eligible players."
+        },
+        {
+          "type": "event-reward",
+          "code": "Circle Gifts Login Event",
+          "reward": "10 Solid Dice",
+          "claim": "Log in for a total of 7 days between July 8 after update and August 19, 05:59 UTC+8."
+        },
+        {
+          "type": "event-reward",
+          "code": "999 Nights Limited-Time Event",
+          "reward": "Annulith, Fabricated Dice, Fons, Floe Cinema Tickets, Elite Hunter Guides, Chaotic Dye, and more",
+          "claim": "Play the Version 1.2 event from July 8 after update to August 19, 05:59 UTC+8."
+        }
+      ]
+    },
+    "nteShinkuBuildArc": {
+      "title": "NTE Shinku Build and Arc Guide",
+      "eyebrow": "Build Planning",
+      "intro": "Shinku's limited S-Class Arc is Blushing Mirage, available through the Resolve Special Arc Research Program during her banner window. This module covers her character type, limited Arc, Arc Research access, currency, and what to check before spending resources.",
       "cards": [
         {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
+          "icon": "Users",
+          "title": "Shinku Profile",
+          "value": "S-Class Cosmos character",
+          "description": "Shinku is the featured limited S-Class character for Version 1.2 Phase 1."
         },
         {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
+          "icon": "Sparkles",
+          "title": "Arc Type",
+          "value": "Condensate-type Arc",
+          "description": "Shinku uses a Condensate-type Arc, the current name for Synthesis-type Arcs."
         },
         {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
+          "icon": "Star",
+          "title": "Signature Arc",
+          "value": "Blushing Mirage",
+          "description": "Blushing Mirage is Shinku's limited S-Class Arc."
         },
         {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "icon": "Clock",
+          "title": "Arc Availability",
+          "value": "July 8 after update – July 29, 2026, 05:59 UTC+8",
+          "description": "The Arc shares Shinku's Version 1.2 Phase 1 availability window."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "icon": "BookOpen",
+          "title": "Arc Unlock Requirement",
+          "value": "Complete \"Prologue - A New Destination - Head to Eibon Antique Shop\"",
+          "description": "The same main story requirement applies before accessing the limited Arc program."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "icon": "Hammer",
+          "title": "Where to Pull the Arc",
+          "value": "Arc Shop > Arc Research Program > Resolve Special",
+          "description": "Use the Resolve Special Arc Research Program to target Blushing Mirage."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "icon": "Shield",
+          "title": "Arc Research Currency",
+          "value": "Tri-Keys or Resolve Keys",
+          "description": "These are the currencies used to participate in the Resolve Special Arc Research Program."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "icon": "Eye",
+          "title": "Other S-Class Arcs in the Pool",
+          "value": "Reality Refuge, Youthful Fantasy, Good Boy's Grand Adventure, Camellia Society, Raging Flames",
+          "description": "Check the Arc Research details in-game before spending keys."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "icon": "ClipboardCheck",
+          "title": "Pull Priority Checklist",
+          "value": "Character first, Arc second",
+          "description": "Secure Shinku from Before the Dawn first if your main goal is the character, then decide whether to spend Arc keys on Blushing Mirage."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
-        {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
-        },
-        {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
-        },
-        {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
-        },
-        {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
-        },
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
-        },
-        {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
+    "nteShinkuSkillsCombat": {
+      "title": "NTE Shinku Skills and Combat Guide",
+      "eyebrow": "Combat Guide",
+      "intro": "Version 1.2 adds Shinku, her official character trailer, and a dedicated in-game combat tutorial. Use this step-by-step guide to learn Shinku safely through official video previews, the in-game combat tutorial, and her Version 1.2 character content.",
       "steps": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "title": "Unlock Shinku's Banner Access",
+          "description": "Complete \"Prologue - A New Destination - Head to Eibon Antique Shop\" to access the Before the Dawn Limited Board."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "title": "Check Her Character Role",
+          "description": "Shinku is an exclusive S-Class Cosmos character featured in Version 1.2 Phase 1."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "title": "Review Her Arc Setup",
+          "description": "Shinku uses a Condensate-type Arc, with Blushing Mirage as her limited S-Class Arc through Resolve Special Arc Research."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "title": "Watch the Official Character Trailer",
+          "description": "Use the Version 1.2 Shinku character trailer to preview her animations, combat rhythm, and showcase scenes before pulling."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "title": "Play the In-Game Combat Tutorial",
+          "description": "Version 1.2 adds a dedicated combat tutorial for Shinku, making it the best place to learn her timing and controls."
+        },
+        {
+          "title": "Open Shinku Character Content",
+          "description": "After the update, Shinku receives City Hangouts, Home Time, Bond quests, Bond interactions, and text message conversations."
+        },
+        {
+          "title": "Test Before Heavy Investment",
+          "description": "Practice Shinku's tutorial and early combat content before committing extra resources to her Arc, outfits, or deeper upgrades."
+        }
+      ]
+    },
+    "nteShinkuPullValueTier": {
+      "title": "NTE Shinku Pull Value and Tier Context",
+      "eyebrow": "Pull Guide",
+      "intro": "Shinku's pull value comes from official banner facts: she is an exclusive S-Class character, her Limited Board runs from July 8 after the Version 1.2 update until July 29, 2026 at 05:59 UTC+8, and her banner includes Mint, Edgar, and Adler as featured A-Class characters, plus cosmetic milestones at 50, 120, and 200 rolls.",
+      "tiers": [
+        {
+          "tier": "High Priority",
+          "label": "Pull for Shinku",
+          "summary": "Best for players who want the new exclusive S-Class character during Version 1.2 Phase 1.",
+          "details": [
+            "Featured on the Before the Dawn Limited Board",
+            "Available from July 8 after update to July 29, 2026 at 05:59 UTC+8",
+            "Unlocks after completing Prologue - A New Destination - Head to Eibon Antique Shop",
+            "Featured A-Class characters: Mint, Edgar, and Adler"
+          ]
+        },
+        {
+          "tier": "Medium Priority",
+          "label": "Pull for Banner Cosmetics",
+          "summary": "Useful for players who care about Shinku cosmetics and limited banner rewards, not just the character.",
+          "details": [
+            "Overcast Canopy glider livery at 50-roll milestone",
+            "Hidden Dragon Blizzard-V4 livery at 120-roll milestone",
+            "Student of Terrasea outfit at 200-roll milestone",
+            "Banner cosmetics can also be obtained randomly through rolls before reaching milestones"
+          ]
+        },
+        {
+          "tier": "Optional",
+          "label": "Pull for Blushing Mirage",
+          "summary": "Consider the signature S-Class Arc if you are building Shinku deeply and want her limited Arc option.",
+          "details": [
+            "Blushing Mirage is the new limited S-Class Arc",
+            "Available during the same July 8 to July 29 Phase 1 window",
+            "Obtained through the Resolve Special Arc Research Program",
+            "Uses Tri-Keys or Resolve Keys in Arc Research"
+          ]
+        },
+        {
+          "tier": "Save Pulls",
+          "label": "Skip if You Only Want Free Rewards",
+          "summary": "Players focused on account growth can still claim Version 1.2 rewards without chasing Shinku.",
+          "details": [
+            "Version 1.2 gives an S-Class Standard Character Selection Box to eligible players",
+            "Appreciation Gift includes Annulith x1,600",
+            "Maintenance Compensation includes Annulith x300",
+            "Bug Fix Compensation includes Annulith x300"
+          ]
+        }
+      ]
+    },
+    "nteShinkuCharacterProfile": {
+      "title": "NTE Shinku Character Profile",
+      "eyebrow": "Character Profile",
+      "intro": "Shinku is a new exclusive S-Class character introduced in Version 1.2. Her official profile presents her as an awkward but dependable dragon girl who protects her teammates when missions become dangerous.",
+      "cards": [
+        {
+          "icon": "MessageCircle",
+          "title": "Official Character Line",
+          "value": "\"I'm not a good person to kill time with.\"",
+          "description": "Shinku's profile opens with a reserved, distant tone, matching her official description as someone who can feel hard to approach in everyday life."
+        },
+        {
+          "icon": "Users",
+          "title": "Personality",
+          "value": "Awkward but dependable",
+          "description": "Shinku is not shown as naturally social, but she becomes reliable once a mission begins. Her profile emphasizes that she is first to step into danger when teammates need protection."
+        },
+        {
+          "icon": "Star",
+          "title": "Character Role",
+          "value": "Exclusive S-Class character",
+          "description": "She is the headline S-Class character of the Before the Dawn Limited Board in Version 1.2 Phase 1."
+        },
+        {
+          "icon": "Gamepad2",
+          "title": "Combat Identity",
+          "value": "Cosmos Esper with Condensate-type Arc",
+          "description": "Media banner coverage lists Shinku as an S-Class Cosmos character, while her signature limited S-Class Arc is Blushing Mirage."
+        },
+        {
+          "icon": "Eye",
+          "title": "World Context",
+          "value": "Anomaly-hunting urban fantasy",
+          "description": "NTE is set in Hethereau, where the player works as an unlicensed Anomaly Hunter connected to Eibon, an antique shop that takes Anomaly commissions."
+        },
+        {
+          "icon": "Sparkles",
+          "title": "Version 1.2 Focus",
+          "value": "999 Nights update character",
+          "description": "Shinku is tied to Version 1.2 content, including her Limited Board, character trailer, City Hangout, Home Time, Bond quests, and new outfits."
+        }
+      ]
+    },
+    "nteShinkuOutfitsCosmetics": {
+      "title": "NTE Shinku Outfits and Cosmetics",
+      "eyebrow": "Cosmetics",
+      "intro": "Version 1.2 adds multiple Shinku outfits, banner milestone cosmetics, and vehicle or glider livery rewards. Some are shop purchases, while others are tied to the Before the Dawn Limited Board, Bond Level, or the 999 Nights event shop.",
+      "outfits": [
+        {
+          "title": "Student of Terrasea",
+          "category": "Banner Outfit",
+          "content": "Available through the Before the Dawn Limited Board. Players can obtain it randomly by landing on the matching tile or claim it from Resolve Perks after accumulating enough rolls. It is part of the 200-roll banner cosmetic milestone set."
+        },
+        {
+          "title": "Dragonhunter",
+          "category": "Shop Outfit",
+          "content": "Available in the Shop permanently. Discount period runs from July 8 after update to August 19, 2026 at 05:59 UTC+8. Discount price is Riftcrystal x2,680, with original price listed as Riftcrystal x3,280."
+        },
+        {
+          "title": "Dawn Patrol",
+          "category": "Shop Outfit",
+          "content": "Available in the Shop permanently. Discount period runs from July 8 after update to August 19, 2026 at 05:59 UTC+8. Discount price is Riftcrystal x1,680, with original price listed as Riftcrystal x2,480."
+        },
+        {
+          "title": "Labyrinth Lily",
+          "category": "Bond Outfit",
+          "content": "Unlocked after obtaining Shinku and reaching Bond Level 10."
+        },
+        {
+          "title": "Normie Heroine",
+          "category": "Event Shop Outfit",
+          "content": "Purchased from the 999 Nights Button Shop using event progression from the 999 Nights Mini-Game."
+        },
+        {
+          "title": "Overcast Canopy",
+          "category": "Glider Livery",
+          "content": "Featured on the Before the Dawn Limited Board and claimable from Resolve Perks at the 50-roll milestone, or obtainable randomly through rolls before the milestone."
+        },
+        {
+          "title": "Hidden Dragon",
+          "category": "Blizzard-V4 Livery",
+          "content": "Featured on the Before the Dawn Limited Board and claimable from Resolve Perks at the 120-roll milestone, or obtainable randomly through rolls before the milestone."
+        },
+        {
+          "title": "Tomato Dash and Rose & Violet",
+          "category": "Porsche 918 Spyder Liveries",
+          "content": "Available in the Shop after the July 8 Version 1.2 update. Each purchase uses either Riftcrystal x980 or Fons x3,000,000."
+        }
+      ]
+    },
+    "nteShinkuStoryHangout": {
+      "title": "NTE Shinku Story and Hangout Guide",
+      "eyebrow": "Story Guide",
+      "intro": "Version 1.2 adds Shinku-related story and interaction content, including City Hangouts, Home Time, Bond quests, text conversations, a combat tutorial, the new main story episode Fighting with a Dragon, and the Warren Continent location.",
+      "steps": [
+        {
+          "title": "Start Version 1.2: 999 Nights",
+          "description": "Update the game after the July 8 maintenance. The Version 1.2 update unlocks Shinku's banner, new story content, new outfits, and new interaction features."
+        },
+        {
+          "title": "Unlock Shinku's Limited Board",
+          "description": "Complete the main story quest \"Prologue - A New Destination - Head to Eibon Antique Shop\" to access Shinku's Before the Dawn Limited Board and Blushing Mirage Arc Research."
+        },
+        {
+          "title": "Play Fighting with a Dragon",
+          "description": "The new main story episode becomes available after Version 1.2. It requires completing Dreamwalk Corridor and reaching Hunter Level 26."
+        },
+        {
+          "title": "Reach Warren Continent",
+          "description": "Warren Continent is the new location connected to the Fighting with a Dragon story episode, adding fantasy-themed adventure content to the update."
+        },
+        {
+          "title": "Unlock Shinku City Hangouts",
+          "description": "Shinku's City Hangouts story becomes available after the Version 1.2 update. It unlocks by obtaining Shinku or completing Fighting with a Dragon."
+        },
+        {
+          "title": "Unlock Shinku Home Time",
+          "description": "Shinku's Home Time Invitation mode unlocks after obtaining Shinku and reaching the required Bond Level."
+        },
+        {
+          "title": "Build Bond with Shinku",
+          "description": "Version 1.2 adds Bond quests, Bond interactions, passenger seat ride-along interaction, and text message conversations for Shinku."
+        },
+        {
+          "title": "Use the Shinku Combat Tutorial",
+          "description": "A dedicated combat tutorial for Shinku is added in Version 1.2, helping players learn her playstyle after unlocking or trying the character."
         }
       ]
     }
@@ -749,31 +508,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about NTE Shinku in Neverness to Everness",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "When does NTE Shinku release in Version 1.2?",
+        "answer": "NTE Shinku releases after maintenance on July 8, 2026, as the featured S-Class character on the Before the Dawn Limited Board. Her banner runs until July 29, 2026, 05:59 UTC+8."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "What is NTE Shinku's signature Arc?",
+        "answer": "NTE Shinku's signature limited S-Class Arc is Blushing Mirage, a Condensate-type Arc available through the Resolve Special Arc Research Program during her Version 1.2 Phase 1 window."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "How do I unlock NTE Shinku's banner?",
+        "answer": "To unlock NTE Shinku's banner, complete the main story quest \"Prologue - A New Destination - Head to Eibon Antique Shop.\" This unlocks Shinku's Before the Dawn Limited Board and her Blushing Mirage Arc Research."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "Which NTE Shinku codes are active?",
+        "answer": "Active NTE Shinku codes include DRAGONGIRL, WELCOMETONTE, DREAMWALK0603, TOMATO100, RACENOLIMIT, NTENENE, and NTEGIFT. Redeem them from the in-game phone menu."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Are there free NTE Shinku cosmetics?",
+        "answer": "Yes, NTE Shinku offers free cosmetics. The Student of Terrasea outfit is a 200-roll milestone reward, while the Overcast Canopy glider livery and Hidden Dragon Blizzard-V4 livery unlock at the 50 and 120-roll milestones on Shinku's Before the Dawn Limited Board."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What platforms is NTE Shinku available on?",
+        "answer": "NTE Shinku is part of Neverness to Everness, available on PC via Steam, PlayStation 5, and mobile through the App Store and Google Play."
       }
     ]
   },
@@ -802,121 +561,121 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "title": "NTE Shinku Guides",
+      "description": "Complete NTE Shinku guides covering banner timing, build basics, Arc choices, skills, and story content for Neverness to Everness players.",
+      "metaTitle": "NTE Shinku Guides - Build, Banner & Arc Strategies",
+      "metaDescription": "Browse NTE Shinku guides for banner dates, build basics, Blushing Mirage Arc, combat skills, outfits, and story walkthroughs in Neverness to Everness.",
+      "categoryLabel": "SHINKU GUIDES",
+      "whatIs": "What are NTE Shinku Guides?",
+      "whatIsDescription": "Comprehensive guides covering Shinku's banner, build, Arc, skills, outfits, and story. Learn everything from pull planning to combat mastery.",
+      "why": "Why read NTE Shinku guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Plan Your Pulls",
+        "step1Description": "Understand banner timing, milestone rewards, and pull currency before investing",
+        "step2Title": "Build Shinku Right",
+        "step2Description": "Follow proven Arc, currency, and upgrade paths for Shinku",
+        "step3Title": "Master Combat and Story",
+        "step3Description": "Develop skills for Shinku's combat tutorial, hangouts, and bond content"
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All NTE Shinku Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "NTE Shinku Build",
+      "description": "Master Shinku's build with Arc setup, currency planning, upgrade paths, and pull priority for Version 1.2.",
+      "metaTitle": "NTE Shinku Build - Arc, Currency & Upgrade Paths",
+      "metaDescription": "Master the NTE Shinku build with Blushing Mirage Arc setup, Resolve Special currency, upgrade paths, and pull priority for Neverness to Everness.",
+      "categoryLabel": "BUILD & ARC",
+      "whatIs": "What is a Shinku Build?",
+      "whatIsDescription": "A Shinku build guide covers her S-Class character type, signature Arc Blushing Mirage, Arc Research currency, and the order to spend resources during Version 1.2.",
+      "why": "Why plan a Shinku build?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Pick the Right Arc",
+        "step1Description": "Learn how Blushing Mirage fits Shinku's Condensate-type Arc setup",
+        "step2Title": "Manage Currency",
+        "step2Description": "Understand Tri-Keys and Resolve Keys for Arc Research",
+        "step3Title": "Prioritize Pulls",
+        "step3Description": "Decide between the character, Arc, and cosmetics first"
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Shinku Build Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
+      "title": "NTE Shinku Items",
+      "description": "Detailed item and currency guides covering Annulith, Fons, Arc keys, upgrade materials, and event resources for Shinku.",
+      "metaTitle": "NTE Shinku Items - Currency, Keys & Materials",
+      "metaDescription": "Complete item and currency reference for NTE Shinku including Annulith, Fons, Tri-Keys, Resolve Keys, and event materials in Neverness to Everness.",
+      "categoryLabel": "ITEMS & CURRENCY",
+      "whatIs": "What are NTE Shinku items?",
+      "whatIsDescription": "Guides for the currencies and materials that power Shinku's pulls, Arc Research, and upgrades, including how to earn them through codes, mail, and events.",
       "why": "Why check item guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Earn Pull Currency",
+        "step1Description": "Track Annulith from codes, mail, and login events",
+        "step2Title": "Fund Arc Research",
+        "step2Description": "Gather Tri-Keys and Resolve Keys for Blushing Mirage",
+        "step3Title": "Stock Upgrade Materials",
+        "step3Description": "Prepare Hunter Guides, Dye, and Beetle Coins in advance"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Shinku Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "NTE Shinku World",
+      "description": "Explore the locations tied to Shinku's story, including Hethereau, Eibon Antique Shop, and the new Warren Continent.",
+      "metaTitle": "NTE Shinku World - Hethereau, Eibon & Warren Continent",
+      "metaDescription": "Explore the NTE Shinku world locations including Hethereau, the Eibon Antique Shop, and the new Warren Continent unlocked in Version 1.2.",
+      "categoryLabel": "WORLD & STORY",
+      "whatIs": "What is the NTE Shinku world?",
+      "whatIsDescription": "Guides to the locations and story episodes connected to Shinku, from the anomaly-hunting city of Hethereau to the Warren Continent reached through Fighting with a Dragon.",
+      "why": "Why explore the world?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Unlock Story Episodes",
+        "step1Description": "Complete the quests that open Shinku's banner and Arc",
+        "step2Title": "Reach New Regions",
+        "step2Description": "Travel to Warren Continent through the main story",
+        "step3Title": "Find Anomaly Commissions",
+        "step3Description": "Take on hunts connected to the Eibon Antique Shop"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All World Guides"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "NTE Shinku Cosmetics",
+      "description": "Collect Shinku outfits, skins, glider liveries, and vehicle liveries from the banner, shop, bond, and event sources.",
+      "metaTitle": "NTE Shinku Cosmetics - Outfits, Skins & Liveries",
+      "metaDescription": "Collect NTE Shinku cosmetics including outfits, skins, glider liveries, and vehicle liveries from the Before the Dawn banner, shop, bond, and 999 Nights event.",
+      "categoryLabel": "OUTFITS & COSMETICS",
+      "whatIs": "What are NTE Shinku cosmetics?",
+      "whatIsDescription": "Guides to Shinku's outfits, skins, and liveries, covering how to unlock them through banner milestones, shop discounts, Bond Level, and the 999 Nights event shop.",
+      "why": "Why collect cosmetics?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Claim Banner Cosmetics",
+        "step1Description": "Unlock outfits and liveries from milestone rolls",
+        "step2Title": "Grab Shop Discounts",
+        "step2Description": "Buy limited-time outfits at launch discount prices",
+        "step3Title": "Raise Bond Level",
+        "step3Description": "Unlock bond outfits by building your relationship with Shinku"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Shinku Cosmetics"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "title": "NTE Shinku Support",
+      "description": "Platform info, banner timing, unlock requirements, and common Version 1.2 questions for NTE Shinku players.",
+      "metaTitle": "NTE Shinku Support - Platform, Banner & FAQ",
+      "metaDescription": "Get NTE Shinku support with platform availability, banner timing, unlock requirements, code redemption, and common Version 1.2 questions.",
+      "categoryLabel": "HELP & FAQ",
+      "whatIs": "What is NTE Shinku support?",
+      "whatIsDescription": "Answers to common questions about Shinku's release date, banner window, unlock steps, code redemption, and platform availability across Steam, PlayStation 5, and mobile.",
       "why": "Why check support?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Confirm Banner Timing",
+        "step1Description": "Check Shinku's Version 1.2 release and end dates",
+        "step2Title": "Redeem Codes",
+        "step2Description": "Use active codes for free Annulith and resources",
+        "step3Title": "Pick Your Platform",
+        "step3Description": "Learn where Neverness to Everness is available"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"
